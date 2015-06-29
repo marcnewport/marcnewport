@@ -32,18 +32,17 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
           </button>
-          <!--<a class="navbar-brand" href="#">Project name</a>-->
+          <a class="navbar-brand" href="#"><img src="media/logo-tiny-stylized.png" alt="" /></a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -75,7 +74,7 @@
   <section id="about" class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title">About</h2>
       </div>
       <div class="col-md-3"> </div>
       <div class="col-md-6">
@@ -134,9 +133,77 @@
     </div>
   </section>
 
+  <section id="contact" class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="section-title">Contact</h2>
+        </div>
+        <div class="col-md-3"> </div>
+        <div class="col-md-6">
+          <p class="intro-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut ligula dui. Maecenas in sapien cursus, condimentum nulla vitae, pellentesque metus. Sed accumsan tellus et molestie volutpat. Maecenas feugiat, mi.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <!-- <div class="input-group"> -->
+                <input type="text" class="form-control" placeholder="Name" name="input-name" id="input-name" />
+                <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> -->
+              <!-- </div> -->
+            </div>
+            <div class="form-group">
+              <!-- <div class="input-group"> -->
+                <input type="mail" class="form-control" placeholder="Email" name="input-email" id="input-email" />
+                <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span> -->
+              <!-- </div> -->
+            </div>
+            <div class="form-group">
+              <!-- <div class="input-group"> -->
+                <input type="text" class="form-control" placeholder="Subject" name="input-subject" id="input-subject" />
+                <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-exclamation-sign"></span></span> -->
+              <!-- </div> -->
+            </div>
+            <div class="form-group">
+              <!-- <div class="input-group"> -->
+                <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-comment"></span></span> -->
+                <textarea class="form-control" placeholder="Message..." name="input-message" id="input-message" rows="6"></textarea>
+              <!-- </div> -->
+            </div>
+            <div class="form-group">
+              <div class="checkbox pull-left">
+                <label><input type="checkbox" value="">I am not a robot</label>
+              </div>
+              <button type="button" class="btn btn-primary pull-right">Send email</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="map" class="container-fluid">
+    <div id="map-canvas" class="no-pointer-events"></div>
+  </section>
+
+  <footer class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          Footer
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.0/backbone-min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.0/backbone-min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
