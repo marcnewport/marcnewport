@@ -50,6 +50,9 @@
 
   <section id="home">
     <img src="media/melbourne-night.jpg" alt="" class="img-responsive img-bg" />
+    <!-- <video autoplay loop poster="media/melbourne-night.jpg" class="img-bg" >
+      <source src="media/test-video.mp4" type="video/mp4">
+    </video> -->
 
     <div class="container">
       <div class="row">
@@ -98,7 +101,7 @@
         <h4 class="">Frameworks</h4>
         <ul>
           <li><i class="devicon-jquery-plain colored"></i>jQuery</li>
-          <li><i class="devicon-angularjs-plain colored"></i>Angular.js</li>
+          <!-- <li><i class="devicon-angularjs-plain colored"></i>Angular.js</li> -->
           <li><i class="devicon-sass-plain colored"></i>Sass</li>
           <li><i class="devicon-bootstrap-plain colored"></i>Bootstrap</li>
           <li><i class="devicon-wordpress-plain colored"></i>Wordpress</li>
@@ -130,6 +133,56 @@
           </p>
         </div>
       </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="window">
+            <div class="window-header">
+              <span class="window-button window-button-red"></span>
+              <span class="window-button window-button-orange"></span>
+              <span class="window-button window-button-green"></span>
+            </div>
+            <div class="window-view">
+              <a href="#" data-toggle="modal" data-target="#project-0-modal">
+                <img src="media/yoannahelyse-screenshot.png" alt="" class="img-responsive" />
+              </a>
+            </div>
+          </div>
+
+          <div id="project-0-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <!-- <div class="modal-header"> -->
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <!-- <h4 class="modal-title">Modal title</h4> -->
+                <!-- </div> -->
+                <!-- <div class="modal-body"> -->
+                <img src="media/yoannahelyse-screenshot.png" alt="" class="img-responsive" />
+                <h4>Yoannah Dieudonne</h4>
+                <p>A custom website build for New Zealand artist Yoannah Elyse</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="window">
+            <div class="window-header">
+              <span class="window-button window-button-red"></span>
+              <span class="window-button window-button-orange"></span>
+              <span class="window-button window-button-green"></span>
+            </div>
+            <div class="window-view">
+              <img src="media/ninelanterns-screenshot.png" alt="" class="img-responsive" />
+            </div>
+          </div>
+          <div class="info">
+            <h4>Nine Lanterns</h4>
+            <p>A deployed theme</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -151,28 +204,16 @@
         <div class="col-md-6">
           <form class="form-horizontal">
             <div class="form-group">
-              <!-- <div class="input-group"> -->
-                <input type="text" class="form-control" placeholder="Name" name="input-name" id="input-name" />
-                <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> -->
-              <!-- </div> -->
+              <input type="text" class="form-control" placeholder="Name" name="input-name" id="input-name" />
             </div>
             <div class="form-group">
-              <!-- <div class="input-group"> -->
-                <input type="mail" class="form-control" placeholder="Email" name="input-email" id="input-email" />
-                <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span> -->
-              <!-- </div> -->
+              <input type="mail" class="form-control" placeholder="Email" name="input-email" id="input-email" />
             </div>
             <div class="form-group">
-              <!-- <div class="input-group"> -->
-                <input type="text" class="form-control" placeholder="Subject" name="input-subject" id="input-subject" />
-                <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-exclamation-sign"></span></span> -->
-              <!-- </div> -->
+              <input type="text" class="form-control" placeholder="Subject" name="input-subject" id="input-subject" />
             </div>
             <div class="form-group">
-              <!-- <div class="input-group"> -->
-                <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-comment"></span></span> -->
-                <textarea class="form-control" placeholder="Message..." name="input-message" id="input-message" rows="6"></textarea>
-              <!-- </div> -->
+              <textarea class="form-control" placeholder="Message..." name="input-message" id="input-message" rows="6"></textarea>
             </div>
             <div class="form-group">
               <div class="checkbox pull-left">

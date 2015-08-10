@@ -60,7 +60,7 @@
             marker = new google.maps.Marker({
               position: kensington,
               map: map,
-              icon: 'media/logo-shadowed.png',
+              //icon: 'media/logo-shadowed.png',
               animation: google.maps.Animation.DROP,
             });
           }, 1000);
@@ -77,13 +77,11 @@
      */
     function buildMap() {
 
-      var parkville = {};
-
-      parkville = new google.maps.LatLng(-37.796802, 144.951059);
+      var northMelbourne = new google.maps.LatLng(-37.801992, 144.949747);
 
       map = new google.maps.Map($canvas.get(0), {
-        zoom: 14,
-        center: parkville,
+        zoom: 13,
+        center: northMelbourne,
         disableDefaultUI: true
       });
 
