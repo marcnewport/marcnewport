@@ -25,3 +25,31 @@ $pages = get_pages(array('sort_column' => 'menu_order'));
     </div>
   </div>
 </nav>
+
+<?php query_posts(array('post_type' => 'page')); ?>
+
+<?php
+
+while (have_posts()) {
+  the_post();
+
+  get_template_part($post->post_name, 'index');
+}
+
+
+
+
+// global $wp_query;
+// print '<pre>';
+// print print_r($wp_query->query_vars, 1);
+//
+// print '</pre>';
+// foreach ($pages as $page) {
+//   // print '<section id="'. $page->post_name .'">';
+//   $template_path = get_template_directory() .'/page-'. $page->post_name .'.php';
+//   get_template_part('page', $page->post_name);
+//   // if (file_exists($template_path)) {
+//   //   include get_template_directory() .'/page-'. $page->post_name .'.php';
+//   // }
+//   // print '</section>';
+// }

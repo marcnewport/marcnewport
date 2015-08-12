@@ -11,3 +11,13 @@ function mn_scripts() {
   wp_enqueue_script('typekit-init', get_template_directory_uri() .'/js/typekit-init.js', array('typekit'), '1.0');
 }
 add_action('wp_enqueue_scripts', 'mn_scripts');
+
+
+function trace($log) {
+  if (is_object($log) || is_array($log)) {
+    print '<pre>'. print_r($log, 1) .'</pre>';
+  }
+  else {
+    print '<pre>'. $log .'</pre>';
+  }
+}
