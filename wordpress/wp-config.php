@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         ':&N9)Z7o643KVe%DVCGV-|jt|SF0t,~8O%:hmSKt^,%&:M*ft1,l<?.~DqEEv_o5');
-define('SECURE_AUTH_KEY',  '%dtjm(*Y<u>L(3!+59C~RyhYb- mELqs;}w&|pb?C_ENuu7+i;Us6,<BwWLzqi>H');
-define('LOGGED_IN_KEY',    'ow?+jP^,{j:A4`6`0-i%7cOwd]z:3&ncb+)LD.!w0b(nOrr07Lb[03R3:B>#}L3^');
-define('NONCE_KEY',        '9e|m0tIc6}+w_l-+J[C[DYmUzXONtDFbqqaW,02&S7%KW1sVKzJ-m%&h6H|%-Bv[');
-define('AUTH_SALT',        '_7B@}J%.r1j9ytOlT^;XTc]5G6W1kMZm-O,@@U$f/5*LQYVCJf6R,?wh4pdv@sQ ');
-define('SECURE_AUTH_SALT', 'Dp(;p#K;_4Y$X&vYpEf^xQ#-)(`&,%s&)!{cnJ!l?;@W#*%~-_I{,f)>nghn[|QR');
-define('LOGGED_IN_SALT',   ']m]nfgfAy8|HQ;`vTnGc&wFJ;!D+,:P<Segz<8P+Pmw|83Eg#}HI&(Pz~G]B2e.N');
-define('NONCE_SALT',       '{1s~-d&Ez2)]2Nll~Q:61P XDL:SWt}k:V+cH]@EA+&%H%d;kM?|[Ie>d-Udz}P)');
+define('AUTH_KEY',         'F0;rx%ka_3qz83):&|jA+F2_-.yT+I7Bpy6i,-<GIuq<)|$D$t5e]IsL)b_z#flc');
+define('SECURE_AUTH_KEY',  '-X>6Vp]BB26L_L[+PcmZjza|!h_sh]4aLb4/md>%Tzwik5 C{Him44XogP!B#E1^');
+define('LOGGED_IN_KEY',    '{$;&{h:008~IlZw/z9:[C|0q*-R!TWkqA]3cg`|f!D 9oqb<MHS9aZrH<Wn1{yH|');
+define('NONCE_KEY',        'P|8V`T6CKhi^-2qLc/VXjlNcl5.==HX6~ cd~_pP/YOL8<cAi{!2v.9Roz@GF1.P');
+define('AUTH_SALT',        '_tkPO|>?QJ<I1j?Heb*&-m/&zHuSJibm-mh[NTm[WePFseZ6@?KmKmW&9~]vZ^CO');
+define('SECURE_AUTH_SALT', 'So2PW7H(dx7+y=G4,Bc)XNGd9aKb>4W)NYrh VijnRDoZ>Dzdt#6}ta4&I,w]r31');
+define('LOGGED_IN_SALT',   '?n<3:ToS:o$w-Grh>]&!F-^olUY~PX^@0Uu4_,KemNR@LN1p0X|RA<?Ut<*]yuWR');
+define('NONCE_SALT',       '?5{)]lm=!JYufjx)T-b6_y[m%T@9&[nB|s 1`VIUOZK)VY0<-0Kou%xeO?u,|Psz');
 
 /**#@-*/
 
@@ -59,7 +59,7 @@ define('NONCE_SALT',       '{1s~-d&Ez2)]2Nll~Q:61P XDL:SWt}k:V+cH]@EA+&%H%d;kM?|
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wpmn_';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -68,15 +68,7 @@ $table_prefix  = 'wpmn_';
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
-
-/**
- * Increase file upload limit
- */
-@ini_set('upload_max_filesize', '32M');
-@ini_set('post_max_size', '32M');
-@ini_set('memory_limit', '64M');
-@ini_set('max_execution_time', '300');
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
