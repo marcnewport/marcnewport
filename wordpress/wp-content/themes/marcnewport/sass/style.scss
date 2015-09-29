@@ -75,8 +75,8 @@ section {
 		padding-bottom: 0.5em;
 
 		span {
-			display: inline;
-			border-bottom: 1px dotted $text-color-light;
+			// display: inline;
+			// border-bottom: 1px dotted $text-color-light;
 		}
 	}
 
@@ -160,7 +160,7 @@ section {
 #about {
 
 	.about-list {
-		text-align: center;
+		//text-align: center;
 
 		h4 {
 			font-family: 'acuta', serif;
@@ -307,19 +307,27 @@ footer {
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		float: left;
+		width: 100%;
 
 		li {
-			float: left;
-			margin-left: 1em;
+			display: inline;
+			margin: 0 0.5em;
 
 			a {
 				color: #ffffff;
 
 				&:hover {
 
-					.fa-facebook-square {
-						color: #3b5998;
+					.fa-lastfm {
+						color: #d51007;
+					}
+
+					.fa-instagram {
+						color: #3f729b;
+					}
+
+					.fa-stack-overflow {
+						color: #ff9900;
 					}
 
 					.fa-linkedin-square {

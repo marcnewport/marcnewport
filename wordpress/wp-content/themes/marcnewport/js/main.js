@@ -39,7 +39,7 @@
 
       //TODO only if the content is less than the window size
       $home.height(winHeight);
-      $container.css({ marginTop:margin });
+      //$container.css({ marginTop:margin });
 
       //make the map 1/3 the size of the screen
       // $map.find('iframe').height(Math.round(winHeight * 0.4));
