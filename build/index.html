@@ -5,18 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Title of page</title>
+  <title>Marc Newport | Front End Developer</title>
 
-  <meta name="application-name" content="Name of the site" />
+  <meta name="application-name" content="Marc Newport" />
   <meta name="author" content="marcnewport@gmail.com" />
   <meta name="description" content="Description of the page" />
   <meta name="keywords" content="Comma separated keywords" />
   <meta name="rating" content="General" />
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="http://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css" />
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:700,400" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,400" rel="stylesheet" type="text/css" />
   <!-- http://devicon.fr/ -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
   <link href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css" rel="stylesheet" />
   <link href="css/main.css" rel="stylesheet" type="text/css" />
 
@@ -27,47 +29,36 @@
 
 <body>
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="glyphicon glyphicon-menu-hamburger"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="media/logo-tiny-stylized.png" alt="" /></a>
-        </div>
+  <div id="navigation-toggle">
+    <i class="fa fa-navicon"></i>
+  </div>
 
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+  <section id="navigation">
+    <nav class="">
+      <ul class="">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
+  </section>
 
   <section id="home">
-    <img src="media/melbourne-night.jpg" alt="" class="img-responsive img-bg" />
-    <!-- <video autoplay loop poster="media/melbourne-night.jpg" class="img-bg" >
-      <source src="media/test-video.mp4" type="video/mp4">
+    <!-- <img src="media/city-lights-night-street.jpg" alt="" class="img-responsive img-bg" /> -->
+    <!-- <video autoplay loop muted poster="media/melbourne-night.jpg" id="video-bg" class="img-bg" >
+      <source src="media/test-video.mp4" type="video/mp4"></source>
     </video> -->
 
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-4">
-          <p class="profile-pic">
-            <img src="media/profile-pic-2.jpg" alt="" class="img-circle" />
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-8">
+        <div class="col-sm-12">
           <!-- <h1 class="tk-nimbus-sans">Marc Newport</h1> -->
           <h1>Marc Newport</h1>
           <!-- <h2 class="tk-velino-poster">Front-end developer</h2> -->
-          <h2>Front-end developer</h2>
+          <h2>Front End Developer</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut ligula dui. Maecenas in sapien cursus, condimentum nulla vitae, pellentesque metus. Sed accumsan tellus et molestie volutpat. Maecenas feugiat, mi.
+            I am passionate about the web! I build semantically sound and accessible web applications using the best practices to enable cross browser compatibility on all screen sizes.
           </p>
         </div>
       </div>
@@ -76,45 +67,108 @@
 
   <section id="about" class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <h2 class="section-title">About</h2>
+      <div class="col-sm-12">
+        <h2 class="section-title">Skills</h2>
       </div>
-      <div class="col-md-3"> </div>
-      <div class="col-md-6">
-        <p class="intro-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut ligula dui. Maecenas in sapien cursus, condimentum nulla vitae, pellentesque metus. Sed accumsan tellus et molestie volutpat. Maecenas feugiat, mi.
-        </p>
+    </div>
+
+    <!-- <div class="row"> -->
+        <div class="row skill-list">
+          <div class="col-sm-3"><i class="devicon-html5-plain colored"></i><span>html5</span></div>
+          <div class="col-sm-3"><i class="devicon-css3-plain colored"></i><span>css3</span></div>
+          <div class="col-sm-3"><i class="devicon-javascript-plain colored"></i><span>javascript</span></div>
+          <div class="col-sm-3"><i class="devicon-php-plain colored"></i><span>php</span></div>
+          <div class="col-sm-3"><i class="devicon-mysql-plain colored"></i><span>mysql</span></div>
+          <div class="col-sm-3"><i class="devicon-jquery-plain colored"></i><span>jquery</span></div>
+          <div class="col-sm-3"><i class="devicon-angularjs-plain colored"></i><span>angular</span></div>
+          <div class="col-sm-3"><i class="devicon-sass-plain colored"></i><span>sass</span></div>
+          <div class="col-sm-3"><i class="devicon-bootstrap-plain colored"></i><span>bootstrap</span></div>
+          <div class="col-sm-3"><i class="devicon-wordpress-plain colored"></i><span>wordpress</span></div>
+          <div class="col-sm-3"><i class="devicon-drupal-plain colored"></i><span>drupal</span></div>
+          <div class="col-sm-3"><i class="devicon-git-plain colored"></i><span>git</span></div>
+          <div class="col-sm-3"><i class="devicon-linux-plain colored"></i><span>linux</span></div>
+          <div class="col-sm-3"><i class="devicon-apache-plain colored"></i><span>apache</span></div>
+          <div class="col-sm-3"><i class="devicon-atom-original colored"></i><span>atom</span></div>
+          <div class="col-sm-3"><i class="devicon-photoshop-plain colored"></i><span>photoshop</span></div>
+        </div>
+      <!-- </div> -->
+  </section>
+
+
+
+  <section id="awards" class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="section-title">Awards</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-4">
-        <h4 class="">Languages</h4>
+      <div class="col-sm-6 about-list">
+        <!-- <h4>Project Awards</h4> -->
         <ul>
-          <li><i class="devicon-html5-plain colored"></i>HTML5</li>
-          <li><i class="devicon-css3-plain colored"></i>CSS3</li>
-          <li><i class="devicon-javascript-plain colored"></i>JavaScript</li>
-          <li><i class="devicon-php-plain colored"></i>PHP</li>
-          <li><i class="devicon-mysql-plain colored"></i>MySQL</li>
+          <li>
+            <i class="fa fa-trophy"></i>
+            <span>Finalist, Best Interactive Scenario</span>
+            <span>LearnX Asia Pacific 2015</span>
+          </li>
+          <li>
+            <i class="fa fa-trophy"></i>
+            <span>Finalist, eLearning Sector Award – Higher Education</span>
+            <span>eLearning Excellence Awards 2014</span>
+          </li>
+          <li>
+            <i class="fa fa-trophy gold"></i>
+            <span>Gold Medal, Best Custom Content</span>
+            <span>Brandon Hall Group Excellence in Learning Awards 2013</span>
+          </li>
+          <li>
+            <i class="fa fa-trophy gold"></i>
+            <span>Category Winner, TAFE and Educational Student Resource</span>
+            <span>Australian Educational Publishing Awards 2013</span>
+          </li>
+          <li>
+            <i class="fa fa-trophy gold"></i>
+            <span>First Place, Best Learning Program</span>
+            <span>LearnX Asia Pacific 2012</span>
+          </li>
+          <li>
+            <i class="fa fa-trophy silver"></i>
+            <span>Second Place, Best eLearning Design Best Interactive Scenario</span>
+            <span>LearnX Asia Pacific 2012</span>
+          </li>
+          <li>
+            <i class="fa fa-trophy gold"></i>
+            <span>Gold Winner, Best Employee Induction Training Program</span>
+            <span>LearnX Asia Pacific 2011</span>
+          </li>
         </ul>
       </div>
-      <div class="col-xs-12 col-sm-4">
-        <h4 class="">Frameworks</h4>
-        <ul>
-          <li><i class="devicon-jquery-plain colored"></i>jQuery</li>
-          <!-- <li><i class="devicon-angularjs-plain colored"></i>Angular.js</li> -->
-          <li><i class="devicon-sass-plain colored"></i>Sass</li>
-          <li><i class="devicon-bootstrap-plain colored"></i>Bootstrap</li>
-          <li><i class="devicon-wordpress-plain colored"></i>Wordpress</li>
-          <li><i class="devicon-drupal-plain colored"></i>Drupal</li>
-        </ul>
+    </div>
+  </section>
+
+
+
+  <section id="clients" class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="section-title">Clients</h2>
       </div>
-      <div class="col-xs-12 col-sm-4">
-        <h4 class="">Skills</h4>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 about-list">
+        <!-- <h4>Previous CLients</h4> -->
         <ul>
-          <li><i class="devicon-git-plain colored"></i>Git</li>
-          <li><i class="devicon-linux-plain colored"></i>Linux</li>
-          <li><i class="devicon-photoshop-plain colored"></i>Photoshop</li>
-          <li><i class="devicon-illustrator-plain colored"></i>Illustrator</li>
+          <li>Ausgrid</li>
+          <li>Advanced Paediatric Life Support</li>
+          <li>Beyond Blue</li>
+          <li>LG</li>
+          <li>M2 Group</li>
+          <li>Mercedes</li>
+          <li>Mitsubishi</li>
+          <li>Nutrition Australia</li>
+          <li>Orygen</li>
+          <li>QBE</li>
+          <li>Vodafone</li>
         </ul>
       </div>
     </div>
@@ -123,69 +177,13 @@
   <section id="projects" class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-sm-12">
           <h2 class="section-title">Projects</h2>
         </div>
-        <div class="col-md-3"> </div>
-        <div class="col-md-6">
-          <p class="intro-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut ligula dui. Maecenas in sapien cursus, condimentum nulla vitae, pellentesque metus. Sed accumsan tellus et molestie volutpat. Maecenas feugiat, mi.
-          </p>
-        </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="window">
-            <div class="window-header">
-              <span class="window-button window-button-red"></span>
-              <span class="window-button window-button-orange"></span>
-              <span class="window-button window-button-green"></span>
-            </div>
-            <div class="window-view">
-              <a href="#" data-toggle="modal" data-target="#project-0-modal">
-                <img src="media/yoannahelyse-screenshot.png" alt="" class="img-responsive" />
-              </a>
-            </div>
-          </div>
 
-          <div id="project-0-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <!-- <div class="modal-header"> -->
-                <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <!-- <h4 class="modal-title">Modal title</h4> -->
-                <!-- </div> -->
-                <!-- <div class="modal-body"> -->
-                <img src="media/yoannahelyse-screenshot.png" alt="" class="img-responsive" />
-                <h4>Yoannah Dieudonne</h4>
-                <p>A custom website build for New Zealand artist Yoannah Elyse</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6">
-          <div class="window">
-            <div class="window-header">
-              <span class="window-button window-button-red"></span>
-              <span class="window-button window-button-orange"></span>
-              <span class="window-button window-button-green"></span>
-            </div>
-            <div class="window-view">
-              <img src="media/ninelanterns-screenshot.png" alt="" class="img-responsive" />
-            </div>
-          </div>
-          <div class="info">
-            <h4>Nine Lanterns</h4>
-            <p>A deployed theme</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col-sm-6">
+      <!-- <div class="row">
+        <div class="col-sm-4"> -->
           <div class="project-item">
             <div class="project-item-image">
               <img src="media/yoannahelyse-screenshot.png" alt="" class="img-responsive" />
@@ -195,9 +193,9 @@
               <p>A deployed theme.</p>
             </div>
           </div>
-        </div>
+        <!-- </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-4"> -->
           <div class="project-item">
             <div class="project-item-image">
               <img src="media/ninelanterns-screenshot.png" alt="" class="img-responsive" />
@@ -207,70 +205,26 @@
               <p>Another deployed theme.</p>
             </div>
           </div>
-        </div>
-      </div>
+        <!-- </div>
+      </div> -->
     </div>
   </section>
 
   <section id="contact" class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-sm-12">
           <h2 class="section-title">Contact</h2>
         </div>
-        <div class="col-md-3"> </div>
-        <div class="col-md-6">
-          <p class="intro-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut ligula dui. Maecenas in sapien cursus, condimentum nulla vitae, pellentesque metus. Sed accumsan tellus et molestie volutpat. Maecenas feugiat, mi.
-          </p>
-        </div>
       </div>
       <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-          <form class="form-horizontal">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Name" name="input-name" id="input-name" />
-            </div>
-            <div class="form-group">
-              <input type="mail" class="form-control" placeholder="Email" name="input-email" id="input-email" />
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject" name="input-subject" id="input-subject" />
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" placeholder="Message..." name="input-message" id="input-message" rows="6"></textarea>
-            </div>
-            <div class="form-group">
-              <div class="checkbox pull-left">
-                <label><input type="checkbox" value="">I am not a robot</label>
-              </div>
-              <button type="button" class="btn btn-primary pull-right">Send email</button>
-            </div>
-          </form>
-        </div>
+
       </div>
     </div>
   </section>
-
-  <section id="map" class="container-fluid">
-    <div id="map-canvas" class="no-pointer-events"></div>
-  </section>
-
-  <footer class="container-fluid">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          Footer
-        </div>
-      </div>
-    </div>
-  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.0/backbone-min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

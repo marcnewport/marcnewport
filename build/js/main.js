@@ -1,11 +1,14 @@
 (function($) {
   $(document).ready(function() {
 
+    'use strict';
+
     var $window = $(window),
-        $home = $('#home'),
-        $map = $('#map'),
-        $canvas = $map.find('#map-canvas'),
-        map = {};
+        winHeight = 0,
+        winWidth = 0,
+        $toggle = $('#navigation-toggle'),
+        $navigation = $('#navigation'),
+        $home = $('#home');
 
     //add some listeners to the window
     $window.bind('resize', windowResizeHandler)
@@ -13,8 +16,9 @@
     //call the resize listener immediately
     .trigger('resize');
 
-    //insert the google map
-    buildMap();
+    $toggle.on('click', function() {
+      $navigation.css({ left:0 })
+    });
 
 
 
@@ -23,17 +27,16 @@
      */
     function windowResizeHandler() {
 
-      var winHeight = $window.height(),
-          $container = $home.find('.container'),
-          margin = (winHeight - $container.height()) / 2;
+      winWidth = $window.width();
+      winHeight = $window.height();
+
+      var $container = $home.find('.container'),
+          margin = (winHeight - $container.height()) - 30;
 
       //TODO only if the content is less than the window size
-      $home.height(winHeight);
+      $navigation.css({ left:'-'+ winWidth +'px' });
+      $('section').height(winHeight);
       $container.css({ marginTop:margin });
-
-      //make the map 1/3 the size of the screen
-      // $map.find('iframe').height(Math.round(winHeight * 0.4));
-      $canvas.height(Math.round(winHeight * 0.5));
     }
 
 
@@ -44,60 +47,15 @@
     function windowScrollHandler() {
 
       var position = $window.scrollTop(),
-          parallax = 0.4,
-          top = Math.round(position * parallax),
-          winHeight = $window.height(),
-          kensington = {},
-          marker = {};
+          bgParallax = 0.3,
+          bgTop = Math.round(position * bgParallax),
+          fgParallax = 0.6,
+          fgTop = Math.round(position * fgParallax),
+          percent = (position / (winHeight - 100)) * 100,
+          opacity = (100 - percent) / 100;
 
-      $('.img-bg').css({ marginTop:top +'px' });
-
-      if (! map.animated) {
-        if (position + winHeight >= document.body.scrollHeight - (winHeight / 2)) {
-          kensington = new google.maps.LatLng(-37.794317, 144.929107);
-
-          setTimeout(function() {
-            marker = new google.maps.Marker({
-              position: kensington,
-              map: map,
-              //icon: 'media/logo-shadowed.png',
-              animation: google.maps.Animation.DROP,
-            });
-          }, 1000);
-
-            map.animated = true;
-        }
-      }
+      $('#home').css({ backgroundPosition:'50% '+ bgTop +'px' })
+      .find('.row').eq(0).css({ marginTop:fgTop +'px', opacity:opacity });
     }
-
-
-
-    /**
-     * Builds the google map
-     */
-    function buildMap() {
-
-      var northMelbourne = new google.maps.LatLng(-37.801992, 144.949747);
-
-      map = new google.maps.Map($canvas.get(0), {
-        zoom: 13,
-        center: northMelbourne,
-        disableDefaultUI: true
-      });
-
-      map.animated = false;
-
-      //give the map back its functionality on click
-      $map.bind('click', function() {
-        $canvas.removeClass('no-pointer-events');
-
-        //remove the functionality again
-        $map.unbind('mouseleave').bind('mouseleave', function() {
-          $canvas.addClass('no-pointer-events');
-          $map.unbind('mouseleave');
-        });
-      });
-    }
-
   });
 }(jQuery));
