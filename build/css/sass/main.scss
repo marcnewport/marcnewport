@@ -7,21 +7,18 @@
 @media(min-width:768px) {
 	body {
 		font-size: 20px;
-		line-height: 1.2em;
 	}
 }
 
 @media(min-width:992px) {
 	body {
 		font-size: 24px;
-		line-height: 1.2em;
 	}
 }
 
 @media(min-width:1200px) {
 	body {
 		font-size: 28px;
-		line-height: 1.2em;
 	}
 }
 
@@ -29,6 +26,7 @@
 body {
 	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 	font-weight: 400;
+	line-height: 1.2em;
 	-webkit-font-smoothing: antialiased;
 	color: #494746;
 }
@@ -50,9 +48,10 @@ section {
 	}
 
 	.section-title {
-		font-size: 1.5em;
+		font-size: 1.6em;
 		text-align: center;
 		margin: 1.5em 0 1em 0;
+		text-decoration: underline;
 	}
 }
 
@@ -106,8 +105,7 @@ section {
 	.container {
 
 		.row {
-			position: relative;
-			z-index: 1;
+			margin-bottom: 2em;
 
 			.profile-pic {
 				text-align: center;
@@ -127,7 +125,7 @@ section {
 				word-spacing: 9999px;
 				word-break: break-all;
 				text-transform: uppercase;
-				margin-bottom: 75px;
+				margin: 0.66em 0 0.33em 0;
 			}
 
 			h2 {
@@ -139,38 +137,87 @@ section {
 	}
 }
 
-#about {
-	border-bottom: 1px solid #efefef;
+#skills {
 
 	.skill-list {
 
 		div {
 			text-align: center;
+			margin-bottom: 1em;
 
 			i {
 				font-size: 3em;
 				display: block;
-
-				// &:hover {
-				// 	background: #efefef;
-				// }
 			}
 
 			span {
 				display: inline-block;
-				//border-top: 1px solid #efefef;
 				font-size: 0.8em;
 				font-weight: 700;
-				//margin-top: 0.333em;
 				margin-bottom: 2em;
-				//padding-top: 0.333em;
 			}
 		}
 	}
 }
 
 #awards {
+	font-size: 0.85em;
+	background-color: #EFEFEF;
 
+	.award-list {
+		text-align: center;
+
+		.award-item {
+			margin-bottom: 2em;
+
+			i {
+				display: block;
+				font-size: 3em;
+
+				&.gold {
+					color: #D3AF37;
+				}
+
+				&.silver {
+					color: #C0C0C0;
+				}
+			}
+
+			span {
+				display: block;
+
+				&.award,
+				&.title {
+					font-weight: bold;
+					display: inline;
+					font-size: 0.85em;
+				}
+
+				&.year {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+#clients {
+
+	.client-list {
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-content: space-around;
+			align-items: center;
+
+			li {
+				list-style: none;
+				margin: 10px 10px 3em 10px;
+			}
+		}
+	}
 }
 
 #projects {
@@ -194,4 +241,12 @@ section {
 	    }
 		}
   }
+}
+
+#contact {
+
+
+	a {
+
+	}
 }
