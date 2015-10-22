@@ -22,6 +22,7 @@
 	}
 }
 
+
 $text-color: #494746;
 
 
@@ -83,10 +84,8 @@ section {
 	overflow: hidden;
 	text-shadow:rgba(0, 0, 0, 0.1) 1px 1px 10px,
 							rgba(0, 0, 0, 0.3) 0px 1px 20px;
-	//background-image: url("../media/city-lights-night-street.jpg");
-	background-image: url("../media/abstract-blur-green-blurred-dark.jpg");
+	background-image: url("../assets/abstract-blur-green-blurred-dark.jpg");
 	background-color: #000000;
-	//background-color: tan;
 	background-position: 50% 0;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -287,6 +286,16 @@ section {
 
 #contact {
 	padding-bottom: 50px;
+
+	#map-canvas {
+		width: 100%;
+		height: 100px;
+		transition: opacity 0.2s;
+
+		&.no-pointer-events {
+			opacity: 0.8;
+		}
+	}
 
 	a {
 		display: inline-block;

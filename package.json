@@ -1,0 +1,39 @@
+{
+  "name": "marcnewport",
+  "version": "0.1.0",
+  "description": "Portfolio website for marcnewport.com",
+  "devDependencies": {
+    "browserify": "latest",
+    "node-sass": "latest",
+    "jade": "latest",
+    "npm-run-all": "latest",
+    "parallelshell": "latest",
+    "livereload": "latest",
+    "rerun-script": "latest",
+    "imagemin": "latest"
+  },
+  "scripts": {
+    "js": "browserify source/js/main.js -o build/js/main.js",
+    "sass": "node-sass source/sass/ -o build/css/ --quiet --output-style compressed",
+    "jade": "jade source/ -o build/ --pretty",
+    "assets": "imagemin source/assets/ build/assets/",
+    "predev": "mkdir -p build/js && npm-run-all js sass jade assets --parallel",
+    "dev": "rerun-script & livereload build"
+  },
+  "watches": {
+    "js": "source/js/**/*.js",
+    "sass": "source/sass/**/*.scss",
+    "jade": "source/*.jade",
+    "assets": ["source/assets/*.jpg", "source/assets/*.gif", "source/assets/*.png"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcnewport/marcnewport.git"
+  },
+  "author": "marcnewport@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcnewport/marcnewport/issues"
+  },
+  "homepage": "https://github.com/marcnewport/marcnewport#readme"
+}
