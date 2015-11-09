@@ -14,15 +14,16 @@ html.no-js(lang='en')
     link(href='http://fonts.googleapis.com/css?family=Lato:900', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Open+Sans:700,400', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,400', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Lato:300,700,100italic,300italic', rel='stylesheet', type='text/css')
     link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css', rel='stylesheet')
     // http://devicon.fr
     link(href='https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css', rel='stylesheet')
     link(href='css/main.css', rel='stylesheet', type='text/css')
     script(src='//localhost:35729/livereload.js?snipver=1')
-    script(src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js')
-    script(src='//use.typekit.net/fsl5mgj.js')
-    script.
-      try{Typekit.load();}catch(e){}
+    //script(src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js')
+    //- script(src='//use.typekit.net/fsl5mgj.js')
+    //- script.
+    //-   try{Typekit.load();}catch(e){}
   body
     #navigation-toggle
       i.fa.fa-navicon
@@ -46,11 +47,12 @@ html.no-js(lang='en')
         .row
           .col-xs-12
             h1 Marc Newport
-            h2 Front End Developer
+            h2.subheading Front End Developer
+            hr
             p
-              | I am
-              strong passionate
-              |  about the web! I build semantically sound and accessible web applications using the best practices to enable cross browser compatibility on all screen sizes.
+              | I am 
+              strong passionate 
+              | about the web! I build semantically sound and accessible web applications using the best practices to enable cross browser compatibility on all screen sizes.
     
     
     section#skills.container
@@ -59,7 +61,7 @@ html.no-js(lang='en')
           h2.section-title Skills
         .col-xs-12
           p
-            | I've been honing my skills for the past six years. YOUR FACES
+            | I've been honing my skills for the past six years 
       .row.skill-list
         .col-xs-4.col-sm-3
           i.devicon-html5-plain.colored
@@ -109,6 +111,15 @@ html.no-js(lang='en')
         .col-xs-4.col-sm-3
           i.devicon-photoshop-plain.colored
           span photoshop
+        .col-xs-4.col-sm-3
+          i.fa.fa-wheelchair
+          span wcag
+        .col-xs-4.col-sm-3
+          i.devicon-nodejs-plain.colored
+          span jade
+        .col-xs-4.col-sm-3
+          i.devicon-nodejs-plain-wordmark.colored
+          span npm
           
     section#awards
       .container
@@ -118,43 +129,43 @@ html.no-js(lang='en')
         .row.award-list
           .award-item.col-xs-6.col-sm-4
             i.fa.fa-certificate
-            span.award Finalist,
+            span.award Finalist, 
             span.title Best Interactive Scenario
             span.provider LearnX Asia Pacific
             span.year 2015
           .award-item.col-xs-6.col-sm-4
             i.fa.fa-certificate
-            span.award Finalist,
+            span.award Finalist, 
             span.title eLearning Sector – Higher Education
             span.provider eLearning Excellence Awards
             span.year 2014
           .award-item.col-xs-6.col-sm-4
             i.fa.fa-trophy.gold
-            span.award Gold Medal,
+            span.award Gold Medal, 
             span.title Best Custom Content
             span.provider Brandon Hall Group Excellence in Learning Awards
             span.year 2013
           .award-item.col-xs-6.col-sm-4
             i.fa.fa-trophy.gold
-            span.award Category Winner,
+            span.award Category Winner, 
             span.title TAFE and Educational Student Resource
             span.provider Australian Educational Publishing Awards
             span.year 2013
           .award-item.col-xs-6.col-sm-4
             i.fa.fa-trophy.gold
-            span.award First Place,
+            span.award First Place, 
             span.title Best Learning Program
             span.provider LearnX Asia Pacific
             span.year 2012
           .award-item.col-xs-6.col-sm-4
             i.fa.fa-trophy.silver
-            span.award Second Place,
+            span.award Second Place, 
             span.title Best eLearning Design Best Interactive Scenario
             span.provider LearnX Asia Pacific
             span.year 2012
           .award-item.col-xs-6.col-sm-4
             i.fa.fa-trophy.gold
-            span.award Gold Winner,
+            span.award Gold Winner, 
             span.title Best Employee Induction Training Program
             span.provider LearnX Asia Pacific
             span.year 2011
@@ -164,29 +175,30 @@ html.no-js(lang='en')
       .row
         .col-xs-12
           h2.section-title Clients
-      .row
-        .col-xs-12.client-list
-          ul
-            li
-              img(src='assets/apls-logo.png', alt='Advanced Paediatric Life Support')
-            li
-              img(src='assets/m2-logo.png', alt='M2 Group')
-            li
-              img(src='assets/vodafone-logo.png', alt='Vodafone')
-            li
-              img(src='assets/mitsubishi-logo.png', alt='Mitsubishi')
-            li
-              img(src='assets/ausgrid-logo.png', alt='Ausgrid')
-            li
-              img(src='assets/qbe-logo.png', alt='QBE')
-            li
-              img(src='assets/nutrition-australia-logo.png', alt='Nutrition Australia')
-            li
-              img(src='assets/lg-logo.png', alt='LG')
-            li
-              img(src='assets/beyond-blue-logo.png', alt='Beyond Blue')
-            li
-              img(src='assets/orygen-logo.png', alt='Orygen')
+          p I've worked with varios local and global brands; here are some that you may recognise:
+      .row.row-client
+        .col-xs-4
+          img.img-responsive.center-block(src='assets/ausgrid-logo.png', alt='Ausgrid')
+        .col-xs-4
+          img.img-responsive.center-block(src='assets/qbe-logo.png', alt='QBE')
+        .col-xs-4
+          img.img-responsive.center-block(src='assets/nutrition-australia-logo.png', alt='Nutrition Australia')
+      .row.row-client
+        .col-xs-3
+          img.img-responsive.center-block(src='assets/apls-logo.png', alt='Advanced Paediatric Life Support')
+        .col-xs-3
+          img.img-responsive.center-block(src='assets/m2-logo.png', alt='M2 Group')
+        .col-xs-3
+          img.img-responsive.center-block(src='assets/vodafone-logo.png', alt='Vodafone')
+        .col-xs-3
+          img.img-responsive.center-block(src='assets/mitsubishi-logo.png', alt='Mitsubishi')
+      .row.row-client
+        .col-xs-4
+          img.img-responsive.center-block(src='assets/lg-logo.png', alt='LG')
+        .col-xs-4
+          img.img-responsive.center-block(src='assets/beyond-blue-logo.png', alt='Beyond Blue')
+        .col-xs-4
+          img.img-responsive.center-block(src='assets/orygen-logo.png', alt='Orygen')
               
               
     section#projects.container-fluid
@@ -226,7 +238,29 @@ html.no-js(lang='en')
             h2.section-title Contact
         .row
           .col-xs-12
-            #map-canvas.no-pointer-events
+            .contact
+              i.fa.fa-envelope
+              p
+                a(href='mailto=marcnewport@gmail.com') marcnewport@gmail.com
+          .col-xs-12
+            .contact
+              i.fa.fa-phone
+              p 04 1666 8689
+          .col-xs-12
+            .contact
+              i.fa.fa-map-marker
+              p Kensington
+              p Melbourne
+        .row      
+          .col-xs-6
+            .social
+              i.fa.fa-linkedin-square
+              a(href='http://au.linkedin.com/in/marcnewport') linkedin.com/marcnewport
+          .col-xs-6
+            .social
+              i.fa.fa-github-alt
+              a(href='http://github.com/marcnewport') github.com/marcnewport
+            
             
         //- .row
         //-   .col-xs-6

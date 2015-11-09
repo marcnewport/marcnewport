@@ -3,28 +3,29 @@
   "version": "0.1.0",
   "description": "Portfolio website for marcnewport.com",
   "devDependencies": {
-    "browserify": "latest",
-    "node-sass": "latest",
+    "autoprefixer": "^6.0.3",
+    "imagemin": "latest",
     "jade": "latest",
-    "npm-run-all": "latest",
-    "parallelshell": "latest",
     "livereload": "latest",
-    "rerun-script": "latest",
-    "imagemin": "latest"
+    "node-sass": "latest",
+    "npm-run-all": "latest",
+    "postcss": "^5.0.10",
+    "postcss-cli": "^2.3.2",
+    "uglify-js": "^2.5.0",
+    "watch-run": "^1.2.2"
   },
   "scripts": {
-    "js": "browserify source/js/main.js -o build/js/main.js",
-    "sass": "node-sass source/sass/ -o build/css/ --quiet --output-style compressed",
+    "js": "uglifyjs source/js/main.js -o build/js/main.js --compress --mangle",
+    "sass": "node-sass source/sass/ -o build/css/ --output-style compressed",
+    "postsass": "postcss --use autoprefixer build/css/*.css --replace",
     "jade": "jade source/ -o build/ --pretty",
     "assets": "imagemin source/assets/ build/assets/",
-    "predev": "mkdir -p build/js && npm-run-all js sass jade assets --parallel",
-    "dev": "rerun-script & livereload build"
-  },
-  "watches": {
-    "js": "source/js/**/*.js",
-    "sass": "source/sass/**/*.scss",
-    "jade": "source/*.jade",
-    "assets": ["source/assets/*.jpg", "source/assets/*.gif", "source/assets/*.png"]
+    "watch:jade": "watch-run -p 'source/*.jade' npm run jade",
+    "watch:sass": "watch-run -p 'source/sass/*.scss' npm run sass",
+    "watch:js": "watch-run -p 'source/js/*.js' npm run js",
+    "watch:assets": "watch-run -p 'source/assets/*' npm run assets",
+    "reload": "livereload build",
+    "dev": "npm-run-all --parallel watch:* reload"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 (function($) {
   $(document).ready(function() {
-    
+
     'use strict';
 
     var $window = $(window),
@@ -14,6 +14,7 @@
         $awards = $('#awards').find('.award-item'),
         $projectContainer = $('#project-container'),
         $projects = $projectContainer.find('.project-item'),
+        projectIndex = 0,
         $contacts = $('#contact').find('.contact-list');
 
     //add some listeners to the window
@@ -134,42 +135,37 @@
      */
     function resizeProjects() {
 
-      // var count = $projects.length;
-      //
-      // $projects.width(containerWidth);
-      // $projectContainer.width(containerWidth * (count + 300));
-
       $projectContainer.height($projects.height() + 50);
 
       $projects.each(function(i) {
-        //this.style.left = containerWidth * i + 30;
         $(this).css({
           width: containerWidth +'px',
-          left: Number((containerWidth + 50) * i) +'px'
+          left: Number((containerWidth + 50) * (i - projectIndex)) +'px'
         });
       });
     }
 
 
-
+    /**
+     *
+     */
     function setupProjects() {
 
       var $left = $('#slide-left'),
           $right = $('#slide-right'),
-          index = 0,
           count = $projects.length;
 
       $left.bind('click', function(e) {
-        if (index > 0) {
+        if (projectIndex > 0) {
           $projects.css({
             left: '+='+ Number(containerWidth + 50) +'px'
           });
 
           $right.removeClass('disabled');
-          index--;
+          projectIndex--;
         }
 
-        if (index === 0) {
+        if (projectIndex === 0) {
           $left.addClass('disabled');
         }
 
@@ -177,16 +173,16 @@
       });
 
       $right.bind('click', function(e) {
-        if (index < count - 1) {
+        if (projectIndex < count - 1) {
           $projects.css({
             left: '-='+ Number(containerWidth + 50) +'px'
           });
 
           $left.removeClass('disabled');
-          index++;
+          projectIndex++;
         }
 
-        if (index === count - 1) {
+        if (projectIndex === count - 1) {
           $right.addClass('disabled');
         }
 
