@@ -49,77 +49,104 @@ html.no-js(lang='en')
             h1 Marc Newport
             h2.subheading Front End Developer
             hr
-            p
-              | I am 
-              strong passionate 
-              | about the web! I build semantically sound and accessible web applications using the best practices to enable cross browser compatibility on all screen sizes.
+            p I build semantically sound and accessible web applications using the best practices to enable cross browser compatibility on all screen sizes.
     
     
-    section#skills.container
-      .row
-        .col-xs-12
-          h2.section-title Skills
-        .col-xs-12
-          p
-            | I've been honing my skills for the past six years 
-      .row.skill-list
-        .col-xs-4.col-sm-3
-          i.devicon-html5-plain.colored
-          span html5
-        .col-xs-4.col-sm-3
-          i.devicon-css3-plain.colored
-          span css3
-        .col-xs-4.col-sm-3
-          i.devicon-javascript-plain.colored
-          span javascript
-        .col-xs-4.col-sm-3
-          i.devicon-php-plain.colored
-          span php
-        .col-xs-4.col-sm-3
-          i.devicon-mysql-plain.colored
-          span mysql
-        .col-xs-4.col-sm-3
-          i.devicon-jquery-plain.colored
-          span jquery
-        .col-xs-4.col-sm-3
-          i.devicon-angularjs-plain.colored
-          span angular
-        .col-xs-4.col-sm-3
-          i.devicon-sass-plain.colored
-          span sass
-        .col-xs-4.col-sm-3
-          i.devicon-bootstrap-plain.colored
-          span bootstrap
-        .col-xs-4.col-sm-3
-          i.devicon-wordpress-plain.colored
-          span wordpress
-        .col-xs-4.col-sm-3
-          i.devicon-drupal-plain.colored
-          span drupal
-        .col-xs-4.col-sm-3
-          i.devicon-git-plain.colored
-          span git
-        .col-xs-4.col-sm-3
-          i.devicon-linux-plain.colored
-          span linux
-        .col-xs-4.col-sm-3
-          i.devicon-apache-plain.colored
-          span apache
-        .col-xs-4.col-sm-3
-          i.devicon-atom-original.colored
-          span atom
-        .col-xs-4.col-sm-3
-          i.devicon-photoshop-plain.colored
-          span photoshop
-        .col-xs-4.col-sm-3
-          i.fa.fa-wheelchair
-          span wcag
-        .col-xs-4.col-sm-3
-          i.devicon-nodejs-plain.colored
-          span jade
-        .col-xs-4.col-sm-3
-          i.devicon-nodejs-plain-wordmark.colored
-          span npm
+    section#skills
+      .container
+        .row
+          .col-xs-12
+            h2.section-title Skills
+          .col-xs-12
+            p I've been honing my skills for the past six years 
+            hr
+        .row.skill-list
+          .col-xs-4.col-sm-3
+            i.devicon-html5-plain.colored
+            span html5
+          .col-xs-4.col-sm-3
+            i.devicon-css3-plain.colored
+            span css3
+          .col-xs-4.col-sm-3
+            i.devicon-javascript-plain.colored
+            span javascript
+          .col-xs-4.col-sm-3
+            i.devicon-php-plain.colored
+            span php
+          .col-xs-4.col-sm-3
+            i.devicon-mysql-plain.colored
+            span mysql
+          .col-xs-4.col-sm-3
+            i.devicon-jquery-plain.colored
+            span jquery
+          .col-xs-4.col-sm-3
+            i.devicon-angularjs-plain.colored
+            span angular
+          .col-xs-4.col-sm-3
+            i.devicon-sass-plain.colored
+            span sass
+          .col-xs-4.col-sm-3
+            i.devicon-bootstrap-plain.colored
+            span bootstrap
+          .col-xs-4.col-sm-3
+            i.devicon-wordpress-plain.colored
+            span wordpress
+          .col-xs-4.col-sm-3
+            i.devicon-drupal-plain.colored
+            span drupal
+          .col-xs-4.col-sm-3
+            i.devicon-git-plain.colored
+            span git
+          .col-xs-4.col-sm-3
+            i.devicon-linux-plain.colored
+            span linux
+          .col-xs-4.col-sm-3
+            i.devicon-apache-plain.colored
+            span apache
+          .col-xs-4.col-sm-3
+            i.devicon-atom-original.colored
+            span atom
+          .col-xs-4.col-sm-3
+            i.devicon-photoshop-plain.colored
+            span photoshop
+          .col-xs-4.col-sm-3
+            i.fa.fa-wheelchair
+            span wcag
+          .col-xs-4.col-sm-3
+            i.devicon-nodejs-plain.colored
+            span jade
+          .col-xs-4.col-sm-3
+            i.devicon-nodejs-plain-wordmark.colored
+            span npm
+    
+    
+    section#projects
+      .container
+        .row
+          .col-xs-12
+            h2.section-title Projects
+        .row
+          .col-xs-12.col-sm-6.col-md-4
+            img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='', data-toggle='modal', data-target='#project-1')
+          .col-xs-12.col-sm-6.col-md-4
+            img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='')
+          .col-xs-12.col-sm-6.col-md-4
+            img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='')
+        
+        .modals
+          #project-1.modal.fade(tabindex='-1', role='dialog', aria-labelledby='project-1-label')
+            .modal-dialog(role='document')
+              .modal-content
+                .modal-header
+                  button.close(type='button', data-dismiss='modal', aria-label='Close')
+                    span(aria-hidden='true') ×
+                  h4#project-1-label.modal-title Modal title
+                .modal-body
+                  p this is some text
+                .modal-footer
+                  button.btn.btn-default(type='button', data-dismiss='modal') Close
+                  button.btn.btn-primary(type='button') Save changes
+    
           
     section#awards
       .container
@@ -171,114 +198,89 @@ html.no-js(lang='en')
             span.year 2011
             
             
-    section#clients.container
-      .row
-        .col-xs-12
-          h2.section-title Clients
-          p I've worked with varios local and global brands; here are some that you may recognise:
-      .row.row-client
-        .col-xs-4
-          img.img-responsive.center-block(src='assets/ausgrid-logo.png', alt='Ausgrid')
-        .col-xs-4
-          img.img-responsive.center-block(src='assets/qbe-logo.png', alt='QBE')
-        .col-xs-4
-          img.img-responsive.center-block(src='assets/nutrition-australia-logo.png', alt='Nutrition Australia')
-      .row.row-client
-        .col-xs-3
-          img.img-responsive.center-block(src='assets/apls-logo.png', alt='Advanced Paediatric Life Support')
-        .col-xs-3
-          img.img-responsive.center-block(src='assets/m2-logo.png', alt='M2 Group')
-        .col-xs-3
-          img.img-responsive.center-block(src='assets/vodafone-logo.png', alt='Vodafone')
-        .col-xs-3
-          img.img-responsive.center-block(src='assets/mitsubishi-logo.png', alt='Mitsubishi')
-      .row.row-client
-        .col-xs-4
-          img.img-responsive.center-block(src='assets/lg-logo.png', alt='LG')
-        .col-xs-4
-          img.img-responsive.center-block(src='assets/beyond-blue-logo.png', alt='Beyond Blue')
-        .col-xs-4
-          img.img-responsive.center-block(src='assets/orygen-logo.png', alt='Orygen')
-              
-              
-    section#projects.container-fluid
-      #slide-left.slide-control.disabled
-        i.fa.fa-chevron-left
+    section#clients
       .container
         .row
           .col-xs-12
-            h2.section-title Projects
-        #project-container
-          .project-item
-            .project-item-image
-              img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='')
-            .project-item-info
-              h4 Yoannah Elyse
-              p A deployed theme.
-          .project-item
-            .project-item-image
-              img.img-responsive(src='assets/ninelanterns-screenshot.png', alt='')
-            .project-item-info
-              h4 Nine Lanterns
-              p Another deployed theme.
-          .project-item
-            .project-item-image
-              img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='')
-            .project-item-info
-              h4 Yoannah Elyse
-              p A deployed theme.
-      #slide-right.slide-control
-        i.fa.fa-chevron-right
+            h2.section-title Clients
+            p I've worked with varios local and global brands; here are some that you may recognise:
+        .row.row-client
+          .col-xs-4
+            img.img-responsive.center-block(src='assets/ausgrid-logo.png', alt='Ausgrid')
+          .col-xs-4
+            img.img-responsive.center-block(src='assets/qbe-logo.png', alt='QBE')
+          .col-xs-4
+            img.img-responsive.center-block(src='assets/nutrition-australia-logo.png', alt='Nutrition Australia')
+        .row.row-client
+          .col-xs-3
+            img.img-responsive.center-block(src='assets/apls-logo.png', alt='Advanced Paediatric Life Support')
+          .col-xs-3
+            img.img-responsive.center-block(src='assets/m2-logo.png', alt='M2 Group')
+          .col-xs-3
+            img.img-responsive.center-block(src='assets/vodafone-logo.png', alt='Vodafone')
+          .col-xs-3
+            img.img-responsive.center-block(src='assets/mitsubishi-logo.png', alt='Mitsubishi')
+        .row.row-client
+          .col-xs-4
+            img.img-responsive.center-block(src='assets/lg-logo.png', alt='LG')
+          .col-xs-4
+            img.img-responsive.center-block(src='assets/beyond-blue-logo.png', alt='Beyond Blue')
+          .col-xs-4
+            img.img-responsive.center-block(src='assets/orygen-logo.png', alt='Orygen')
+              
+              
+    //- section#projects.container-fluid
+    //-   #slide-left.slide-control.disabled
+    //-     i.fa.fa-chevron-left
+    //-   .container
+    //-     .row
+    //-       .col-xs-12
+    //-         h2.section-title Projects
+    //-     #project-container
+    //-       .project-item
+    //-         .project-item-image
+    //-           img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='')
+    //-         .project-item-info
+    //-           h4 Yoannah Elyse
+    //-           p A deployed theme.
+    //-       .project-item
+    //-         .project-item-image
+    //-           img.img-responsive(src='assets/ninelanterns-screenshot.png', alt='')
+    //-         .project-item-info
+    //-           h4 Nine Lanterns
+    //-           p Another deployed theme.
+    //-       .project-item
+    //-         .project-item-image
+    //-           img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='')
+    //-         .project-item-info
+    //-           h4 Yoannah Elyse
+    //-           p A deployed theme.
+    //-   #slide-right.slide-control
+    //-     i.fa.fa-chevron-right
         
         
-    section#contact.container-fluid
+    section#contact
       .container
         .row
           .col-xs-12
             h2.section-title Contact
+            p Some text about contacting me.
+            hr
         .row
           .col-xs-12
-            .contact
+            a(href='mailto:marcnewport@gmail.com')
               i.fa.fa-envelope
-              p
-                a(href='mailto=marcnewport@gmail.com') marcnewport@gmail.com
-          .col-xs-12
-            .contact
-              i.fa.fa-phone
-              p 04 1666 8689
-          .col-xs-12
-            .contact
-              i.fa.fa-map-marker
-              p Kensington
-              p Melbourne
-        .row      
-          .col-xs-6
-            .social
-              i.fa.fa-linkedin-square
-              a(href='http://au.linkedin.com/in/marcnewport') linkedin.com/marcnewport
-          .col-xs-6
-            .social
+            a(href='skype:marc.newport?chat')
+              i.fa.fa-skype
+            a(href='http://au.linkedin.com/in/marcnewport', target='_blank')
+              i.fa.fa-linkedin
+            a(href='http://github.com/marcnewport', target='_blank')
               i.fa.fa-github-alt
-              a(href='http://github.com/marcnewport') github.com/marcnewport
-            
-            
-        //- .row
-        //-   .col-xs-6
-        //-     form
-        //-       .form-group
-        //-         label(for='name') Name
-        //-         input#name.form-control(type='text', placeholder='Name')
-        //-       .form-group
-        //-         label(for='email') Email
-        //-         input#email.form-control(type='email', placeholder='Email')
-        //-       .form-group
-        //-         label(for='email') Subject
-        //-         input#subject.form-control(type='text', placeholder='Subject')
-        //-       .form-group
-        //-         label(for='message') Message
-        //-         textarea#message.form-control(rows='5') Message
-        //-       button.btn.btn-primary.btn-big(type='submit') Submit
-        //-   .col-xs-6
+            a(href='http://github.com/marcnewport', target='_blank')
+              i.fa.fa-instagram
+            a(href='http://www.last.fm/user/marcnewport', target='_blank')
+              i.fa.fa-lastfm
+            p http://codepen.io/marcnewport/
           
           
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')

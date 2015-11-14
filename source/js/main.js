@@ -41,8 +41,8 @@
     function windowScrollHandler() {
 
       var position = $window.scrollTop(),
-          bgParallax = 0.4,
-          bgTop = Math.round(position * bgParallax),
+          //bgParallax = 0.4,
+          //bgTop = Math.round(position * bgParallax),
           fgParallax = 0.6,
           fgTop = Math.round(position * fgParallax),
           percent = (position / (winHeight - 100)) * 100,
@@ -51,7 +51,7 @@
       opacity = opacity.toFixed(5);
       if (opacity < 0) opacity = 0;
 
-      $home.css({ backgroundPosition:'50% '+ bgTop +'px' })
+      $home//.css({ backgroundPosition:'50% '+ bgTop +'px' })
         .find('.row').eq(0).css({ position:'relative', top:fgTop +'px', opacity:opacity });
     }
 
