@@ -47,8 +47,8 @@ html.no-js(lang='en')
         .row
           .col-xs-12
             h1 Marc Newport
-            h2.subheading Front End Developer
             hr
+            h2.subheading Front End Developer
             p I build semantically sound and accessible web applications using the best practices to enable cross browser compatibility on all screen sizes.
     
     
@@ -57,67 +57,67 @@ html.no-js(lang='en')
         .row
           .col-xs-12
             h2.section-title Skills
+            hr
           .col-xs-12
             p I've been honing my skills for the past six years 
-            hr
         .row.skill-list
-          .col-xs-4.col-sm-3
-            i.devicon-html5-plain.colored
-            span html5
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
+            //- i.devicon-html5-plain.colored
+            | <svg viewBox="0 0 128 128">
+            |   <path fill="#E44D26" d="M19.037 113.876l-10.005-112.215h109.936l-10.016 112.198-45.019 12.48z"></path> 
+            |   <path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878h-44.937z"></path>
+            |   <path fill="#EBEBEB" d="M64 52.455h-18.212l-1.258-14.094h19.47v-13.762h-34.511l.33 3.692 3.382 37.927h30.799zM64 88.198l-.061.017-15.327-4.14-.979-10.975h-13.817l1.928 21.609 28.193 7.826.063-.017z"></path>
+            |   <path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zM63.952 24.599v13.762h33.244l.276-3.092.628-6.978.329-3.692z"></path>
+            | </svg>
+            p html
+          .skill.col-xs-4.col-sm-3
             i.devicon-css3-plain.colored
-            span css3
-          .col-xs-4.col-sm-3
+            span css
+          .skill.col-xs-4.col-sm-3
             i.devicon-javascript-plain.colored
             span javascript
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-php-plain.colored
             span php
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-mysql-plain.colored
             span mysql
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-jquery-plain.colored
             span jquery
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-angularjs-plain.colored
             span angular
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-sass-plain.colored
             span sass
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-bootstrap-plain.colored
             span bootstrap
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-wordpress-plain.colored
             span wordpress
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-drupal-plain.colored
             span drupal
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-git-plain.colored
             span git
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-linux-plain.colored
             span linux
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-apache-plain.colored
             span apache
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-atom-original.colored
             span atom
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.devicon-photoshop-plain.colored
             span photoshop
-          .col-xs-4.col-sm-3
+          .skill.col-xs-4.col-sm-3
             i.fa.fa-wheelchair
             span wcag
-          .col-xs-4.col-sm-3
-            i.devicon-nodejs-plain.colored
-            span jade
-          .col-xs-4.col-sm-3
-            i.devicon-nodejs-plain-wordmark.colored
-            span npm
     
     
     section#projects
@@ -125,6 +125,7 @@ html.no-js(lang='en')
         .row
           .col-xs-12
             h2.section-title Projects
+            hr
         .row
           .col-xs-12.col-sm-6.col-md-4
             img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='', data-toggle='modal', data-target='#project-1')
@@ -153,6 +154,7 @@ html.no-js(lang='en')
         .row
           .col-xs-12
             h2.section-title Awards
+            hr
         .row.award-list
           .award-item.col-xs-6.col-sm-4
             i.fa.fa-certificate
@@ -203,6 +205,7 @@ html.no-js(lang='en')
         .row
           .col-xs-12
             h2.section-title Clients
+            hr
             p I've worked with varios local and global brands; here are some that you may recognise:
         .row.row-client
           .col-xs-4
@@ -264,8 +267,8 @@ html.no-js(lang='en')
         .row
           .col-xs-12
             h2.section-title Contact
-            p Get in touch! My preferred contact method is via email. But you can also reach me on any of the services below.
             hr
+            p Get in touch! My preferred contact method is via email. But you can also reach me on any of the services below.
             p
               a.btn.btn-default.btn-lg(href='mailto:marcnewport@gmail.com')
                 i.fa.fa-send 
@@ -290,5 +293,6 @@ html.no-js(lang='en')
           
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js')
-    script(src='https://maps.googleapis.com/maps/api/js?v=3.exp')
+    script(src='//cdn.jsdelivr.net/scrollreveal.js/3.0.3/scrollreveal.min.js')
+    //script(src='https://maps.googleapis.com/maps/api/js?v=3.exp')
     script(src='js/main.js')

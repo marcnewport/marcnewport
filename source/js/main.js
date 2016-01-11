@@ -32,7 +32,7 @@
     //$('[data-toggle="tooltip"]').tooltip();
 
     setupProjects();
-    buildMap();
+    //buildMap();
 
 
     /**
@@ -86,6 +86,8 @@
       //   fontSize: (conatctSize * 0.5) +'px'
       // });
 
+
+      //ScrollReveal().reveal('.skill');
 
 
       //hide the nav
@@ -187,41 +189,6 @@
         }
 
         e.preventDefault();
-      });
-
-    }
-
-
-
-    /**
-     * Builds the google map
-     */
-    function buildMap() {
-
-      var parkville = {},
-          $map = $('#map'),
-          $canvas = $map.find('#map-canvas'),
-          map = {};
-
-      parkville = new google.maps.LatLng(-37.796802, 144.951059);
-
-      map = new google.maps.Map($canvas.get(0), {
-        zoom: 14,
-        center: parkville,
-        disableDefaultUI: true
-      });
-
-      map.animated = false;
-
-      //give the map back its functionality on click
-      $map.bind('click', function() {
-        $canvas.removeClass('no-pointer-events');
-
-        //remove the functionality again
-        $map.unbind('mouseleave').bind('mouseleave', function() {
-          $canvas.addClass('no-pointer-events');
-          $map.unbind('mouseleave');
-        });
       });
     }
 
