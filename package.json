@@ -4,11 +4,11 @@
   "description": "Portfolio website for marcnewport.com",
   "devDependencies": {
     "autoprefixer": "^6.0.3",
-    "imagemin": "latest",
-    "jade": "latest",
-    "livereload": "latest",
-    "node-sass": "latest",
-    "npm-run-all": "latest",
+    "browser-sync": "^2.11.1",
+    "imagemin": "^4.0.0",
+    "jade": "^1.11.0",
+    "node-sass": "^.4.2",
+    "npm-run-all": "^1.5.1",
     "postcss": "^5.0.10",
     "postcss-cli": "^2.3.2",
     "uglify-js": "^2.5.0",
@@ -19,13 +19,17 @@
     "sass": "node-sass source/sass/ -o build/css/ --output-style compressed",
     "postsass": "postcss --use autoprefixer build/css/*.css --replace",
     "jade": "jade source/ -o build/ --pretty",
-    "assets": "imagemin source/assets/ build/assets/",
+
     "watch:jade": "watch-run -p 'source/*.jade' npm run jade",
     "watch:sass": "watch-run -p 'source/sass/*.scss' npm run sass",
     "watch:js": "watch-run -p 'source/js/*.js' npm run js",
-    "watch:assets": "watch-run -p 'source/assets/*' npm run assets",
-    "reload": "livereload build",
-    "dev": "npm-run-all --parallel watch:* reload"
+
+    "preassets": "rm -rf build/assets && mkdir build/assets",
+    "assets": "imagemin source/assets build/assets",
+    "postassets": "chmod -Rf 777 build/assets",
+
+    "serve": "browser-sync start --server --startPath \"build/index.html\" --files \"build/**\"",
+    "dev": "npm-run-all --parallel serve watch:*"
   },
   "repository": {
     "type": "git",

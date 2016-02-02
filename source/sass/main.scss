@@ -83,10 +83,6 @@ section {
 		text-align: center;
 		margin: 1.5em 0 1em 0;
 	}
-
-	&:nth-child(even) {
-		background-color: #EFEFEF;
-	}
 }
 
 #navigation-toggle {
@@ -113,8 +109,8 @@ section {
 	padding: 0;
 	color: #FFFFFF;
 	overflow: hidden;
-	// background-image: url("../assets/abstract-blur-green-blurred-dark.jpg");
-	// background-color: #000000;
+	background-image: url("../assets/abstract-blur-green-blurred-dark.jpg");
+	background-color: #000000;
 	background: $bg-color;
 	background-position: 50% 0;
   background-size: cover;
@@ -195,58 +191,11 @@ section {
 	}
 }
 
-#awards {
-	font-size: 0.85em;
+#projects {
+	background-color: #f2e7da;
+	position: relative;
+	padding: 0 25px;
 
-	.award-list {
-		text-align: center;
-
-		.award-item {
-			margin-bottom: 2em;
-
-			i {
-				display: block;
-				font-size: 3em;
-
-				&.gold {
-					color: #D3AF37;
-				}
-
-				&.silver {
-					color: #C0C0C0;
-				}
-			}
-
-			span {
-				display: block;
-
-				&.award,
-				&.title {
-					font-weight: bold;
-					display: inline;
-					font-size: 0.85em;
-				}
-
-				&.year {
-					font-weight: bold;
-				}
-			}
-		}
-	}
-}
-
-#clients {
-
-	.row-client {
-		margin-bottom: 30px;
-	}
-}
-
-// #projects {
-// 	background: #EFEFEF;
-// 	position: relative;
-// 	padding: 0 25px;
-//
 // 	.slide-control {
 // 		position: absolute;
 // 		top: 50%;
@@ -303,7 +252,55 @@ section {
 // 			}
 // 		}
 // 	}
-// }
+}
+
+#awards {
+	font-size: 0.85em;
+
+	.award-list {
+		text-align: center;
+
+		.award-item {
+			margin-bottom: 2em;
+
+			i {
+				display: block;
+				font-size: 3em;
+
+				&.gold {
+					color: #D3AF37;
+				}
+
+				&.silver {
+					color: #C0C0C0;
+				}
+			}
+
+			span {
+				display: block;
+
+				&.award,
+				&.title {
+					font-weight: bold;
+					display: inline;
+					font-size: 0.85em;
+				}
+
+				&.year {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+#clients {
+	background-color: #EFEFEF;
+
+	.row-client {
+		margin-bottom: 30px;
+	}
+}
 
 #contact {
 	background: #333333;
@@ -314,46 +311,41 @@ section {
 		border-color: #FFFFFF;
 	}
 
-	.contact-links {
+	.contact-method {
+		margin: 2em 0;
 
 		a {
-			font-size: 1.2em;
 			color: #FFFFFF;
-			margin: 0 0.5em;
-			width: 2.2em;
-			height: 2.2em;
-			line-height: 2.2em;
-			border: 1px solid #DDDDDD;
-			border-radius: 50%;
-			text-align: center;
-			display: inline-block;
 
 			i {
-				width: inherit;
-			  height: inherit;
-			  line-height: inherit;
-			  float: left;
-				margin-top: -0.05em;
+				font-size: 2em;
+			}
 
-				&.fa-envelope {
-					font-size: 0.9em;
-					// color: #0077b5;
+			&:hover {
+				text-decoration: none;
+
+				.fa-phone {
+					color: #aaaaaa;
 				}
 
-				&.fa-linkedin {
-					// color: #0077b5;
+				.fa-envelope {
+					color: #FABA62;
 				}
 
-				&.fa-github-alt {
-					// color: #333333;
+				.fa-map-marker {
+					color: #dc4e41;
 				}
 
-				&.fa-instagram {
-					// color: #3f729b;
+				.fa-linkedin-square {
+					color: #0077b5;
 				}
 
-				&.fa-lastfm {
-					// color: #d51007;
+				.fa-github-alt {
+					color: #4183c4;
+				}
+
+				.fa-codepen {
+					color: #47CF73;
 				}
 			}
 		}
