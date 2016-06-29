@@ -1,0 +1,27 @@
+#about {
+  position: relative;
+  z-index: 2;
+  background-color: $white;
+  text-align: center;
+
+  .subheading .glyphicon {
+    color: $red;
+    font-size: 0.9em;
+    margin-right: 0.3em;
+  }
+
+  img {
+    margin: 50px 0 30px 0;
+  }
+
+  .btn-teal {
+    margin: 50px 0 20px 0;
+  }
+
+  .btn-navigate-down {
+    &:hover,
+    &:active {
+      color: darken($teal, 15%);
+    }
+  }
+}

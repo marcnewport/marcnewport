@@ -5,9 +5,13 @@
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "browser-sync": "^2.11.1",
+    "browserify": "^13.0.1",
+    "cssnano": "^3.6.2",
+    "exorcist": "^0.4.0",
     "imagemin": "^4.0.0",
     "jade": "^1.11.0",
-    "node-sass": "^.4.2",
+    "node-sass": "",
+    "npm-build-tools": "^2.2.5",
     "npm-run-all": "^1.5.1",
     "postcss": "^5.0.10",
     "postcss-cli": "^2.3.2",
@@ -15,19 +19,15 @@
     "watch-run": "^1.2.2"
   },
   "scripts": {
-    "js": "uglifyjs source/js/main.js -o build/js/main.js --compress --mangle",
-    "sass": "node-sass source/sass/ -o build/css/ --output-style compressed",
-    "postsass": "postcss --use autoprefixer build/css/*.css --replace",
-    "jade": "jade source/ -o build/ --pretty",
-
-    "watch:jade": "watch-run -p 'source/*.jade' npm run jade",
-    "watch:sass": "watch-run -p 'source/sass/*.scss' npm run sass",
+    "js": "browserify source/js/main.js -d -p [minifyify --map build/js/main.js.map --output build/js/main.js.map --uglify] > build/js/main.js",
     "watch:js": "watch-run -p 'source/js/*.js' npm run js",
-
-    "preassets": "rm -rf build/assets && mkdir build/assets",
-    "assets": "imagemin source/assets build/assets",
+    "sass": "node-sass source/sass/main.scss --compress --mangle | postcss --use autoprefixer --use cssnano --map | exorcist build/css/main.css.map > build/css/main.css",
+    "watch:sass": "watch-run -p 'source/sass/*.scss' npm run sass",
+    "jade": "jade source/ -o build/ --pretty",
+    "watch:jade": "watch-run -p 'source/*.jade' npm run jade",
+    "preassets": "n-clean build/assets/**",
+    "assets": "n-copy --source source/assets --destination build/assets \"*\"",
     "postassets": "chmod -Rf 777 build/assets",
-
     "serve": "browser-sync start --server --startPath \"build/index.html\" --files \"build/**\"",
     "dev": "npm-run-all --parallel serve watch:*"
   },

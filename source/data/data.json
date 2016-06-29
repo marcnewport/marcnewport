@@ -1,0 +1,26 @@
+{
+  "home": {
+    
+  },
+  "projects": [
+    {
+      "title": "Window Rescue",
+      "description": "",
+      "url": "http://windowrescue.co.nz",
+      "image": {
+        "src": "assets/projects-windowrescue.png",
+        "alt": ""
+      }
+    },
+    {
+      "title": "",
+      "description": "",
+      "url": "",
+      "image": {
+        "src": "assets/projects-yoannahelyse.png",
+        "alt": ""
+      }
+    }
+  ],
+
+}

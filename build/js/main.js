@@ -1,1 +1,13 @@
-!function(i){i(document).ready(function(){"use strict";function t(){var i=a.scrollTop(),t=.6,e=Math.round(i*t),n=i/(d-100)*100,c=(100-n)/100;c=c.toFixed(5),0>c&&(c=0),u.find(".row").eq(0).css({position:"relative",top:e+"px",opacity:c})}function e(){r=a.width(),d=a.height(),l=g.width(),h.css({left:"-"+r+"px"}),n(),c(),o(),t()}function n(){var i=d-g.height();g.css({marginTop:i})}function c(){var t=0;p.each(function(){t=Math.max(t,i(this).height())}),p.height(t)}function o(){v.height(b.height()+50),b.each(function(t){i(this).css({width:l+"px",left:Number((l+50)*(t-m))+"px"})})}function s(){var t=i("#slide-left"),e=i("#slide-right"),n=b.length;t.bind("click",function(i){m>0&&(b.css({left:"+="+Number(l+50)+"px"}),e.removeClass("disabled"),m--),0===m&&t.addClass("disabled"),i.preventDefault()}),e.bind("click",function(i){n-1>m&&(b.css({left:"-="+Number(l+50)+"px"}),t.removeClass("disabled"),m++),m===n-1&&e.addClass("disabled"),i.preventDefault()})}var a=i(window),d=0,r=0,l=0,f=i("#navigation-toggle"),h=i("#navigation"),u=i("#home"),g=u.find(".container"),p=i("#awards").find(".award-item"),v=i("#project-container"),b=v.find(".project-item"),m=0;i("#contact").find(".contact-list");a.bind("resize",e).bind("scroll",t).trigger("resize"),f.on("click",function(){h.css({left:0})}),s()})}(jQuery);
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+module.exports=function(){function o(o){var t=i.find("a"),n=66;o?t.each(function(o){var t=this;setTimeout(function(){t.style.transform="scale(1)"},n*o)}):t.removeAttr("style")}var t,n,e=$(window),c=e.height(),i=$document.find("footer"),r=i.height(),u=!1;$document.on("scroll",function(){t=$document.scrollTop()+c,n=(document.body.scrollHeight-t)/r,1>n?.5>n&&!u&&(o(!0),u=!0):u&&(o(!1),u=!1)})};
+},{}],2:[function(require,module,exports){
+(function (global){
+var utils=require("./utils"),footer=require("./footer");utils(),function(e){global.$document=e(document),$document.ready(function(){"use strict";footer()})}(jQuery);
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+
+},{"./footer":1,"./utils":3}],3:[function(require,module,exports){
+module.exports=function(){_.mixin({randomFloat:function(n,o){return Math.max(Math.random()*o,n).toFixed(1)}})};
+},{}]},{},[2])
+
+
+//# sourceMappingURL=build/js/main.js.map

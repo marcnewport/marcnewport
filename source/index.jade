@@ -10,264 +10,85 @@ html.no-js(lang='en')
     meta(name='description', content='Description of the page')
     meta(name='keywords', content='Comma separated keywords')
     meta(name='rating', content='General')
-    link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css', rel='stylesheet', type='text/css')
-    link(href='http://fonts.googleapis.com/css?family=Lato:900', rel='stylesheet', type='text/css')
-    link(href='http://fonts.googleapis.com/css?family=Open+Sans:700,400', rel='stylesheet', type='text/css')
-    link(href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:900,700,400', rel='stylesheet', type='text/css')
-    link(href='http://fonts.googleapis.com/css?family=Lato:300,700,100italic,300italic', rel='stylesheet', type='text/css')
+    
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css', rel='stylesheet')
     link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css', rel='stylesheet')
     // http://devicon.fr
-    link(href='https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css', rel='stylesheet')
+    //- link(href='https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css', rel='stylesheet')
     link(href='css/main.css', rel='stylesheet', type='text/css')
-    script(src='//localhost:35729/livereload.js?snipver=1')
-    //script(src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js')
-    //- script(src='//use.typekit.net/fsl5mgj.js')
-    //- script.
-    //-   try{Typekit.load();}catch(e){}
   body
-    #navigation-toggle
-      i.fa.fa-navicon
-      
-      
-    section#navigation
-      nav
-        ul
-          li
-            a(href='#home') Home
-          li
-            a(href='#about') About
-          li
-            a(href='#projects') Projects
-          li
-            a(href='#contact') Contact
-            
-            
+    
+    
     section#home
       .container
-        .row
-          .col-xs-12
-            h1 Marc Newport
-            hr
-            h2.subheading Front End Developer
-            p I build semantically sound and accessible web applications using the best practices to enable cross browser compatibility on all screen sizes.
-    
-    
-    section#skills
+        | <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>256</title><defs><path d="M133.333 136.275l29.826 14.913c1.928.965 5.02.847 6.87-.264l22.686-13.61c1.85-1.11 3.417-3.783 3.486-5.938l3.673-115.69c.068-2.157-1.55-4.478-3.597-5.16L168.425 1.24c-2.047-.683-5.345-.552-7.33.29l-33.48 14.205L100 27.45 72.61 15.83 38.904 1.53c-1.986-.842-5.284-.973-7.33-.29L3.72 10.524c-2.045.68-3.665 3.002-3.596 5.16l3.672 115.69c.07 2.156 1.637 4.827 3.486 5.937l22.687 13.61c1.848 1.11 4.94 1.23 6.87.264l29.827-14.913v28.433c0 2.157 1.596 4.672 3.55 5.592l26.236 12.347c1.95.92 5.145.92 7.096 0l26.236-12.347c1.95-.92 3.547-3.435 3.547-5.592v-28.43zm-3.3-53.506c.068.037.134.075.198.114-.065-.04-.132-.078-.198-.115z" id="a"/></defs><g transform="translate(0 8)" fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use xlink:href="#a"/><g mask="url(#b)"><path d="M166.667 152.94V68.628L133.333 84.33v52.17l33.334 16.44zM100 27.45v41.177l33.333 15.687V41.176L100 27.45z"/><path d="M33.333 152.94V68.628L66.667 84.33v52.17l-33.334 16.44z" fill-opacity=".5" fill="#000"/><path d="M100 27.45v41.177L66.667 84.314V41.176L100 27.45z" fill-opacity=".5" fill="#FFF"/><path d="M100 27.45l33.333 13.726L200 11.766 164.706 0 100 27.45zM100 27.45L66.667 41.177 0 11.766 35.294 0 100 27.45z" fill-opacity=".5" fill="#000"/><path d="M166.667 152.94l29.41-17.646L200 11.764l-66.667 29.412v43.138l33.334-15.687v84.314z" fill-opacity=".5" fill="#FFF"/><path d="M33.333 152.94l-29.41-17.646L0 11.764l66.667 29.412v43.138L33.333 68.627v84.314z"/><path d="M100 100l33.333-15.686L100 68.627V100zm0 0L66.667 84.314 100 68.627V100z" fill-opacity=".5" fill="#000"/><path d="M100 184.314V100l33.333-15.686v84.313L100 184.314z" fill-opacity=".5" fill="#FFF"/><path d="M100 184.314V100L66.667 84.314v84.313L100 184.314z"/></g></g></svg>
+        
+        h1
+          span.title-small Hello I'm 
+          span.title-big Marc 
+          span.title-big Newport
+          
+        a.btn.btn-navigate-down(href='#about', aria-hidden='true')
+          span.glyphicon.glyphicon-chevron-down
+      
+            
+            
+    section#about
       .container
         .row
+          .col-xs-2.col-sm-4
+          .col-xs-8.col-sm-4
+            img.img-responsive.img-circle(src='assets/profilepic.jpg')
+        .row
           .col-xs-12
-            h2.section-title Skills
-            hr
-          .col-xs-12
-            p I've been honing my skills for the past six years 
-        .row.skill-list
-          .skill.col-xs-4.col-sm-3
-            i.devicon-html5-plain.colored
-            span html
-          .skill.col-xs-4.col-sm-3
-            i.devicon-css3-plain.colored
-            span css
-          .skill.col-xs-4.col-sm-3
-            i.devicon-javascript-plain.colored
-            span javascript
-          .skill.col-xs-4.col-sm-3
-            i.devicon-php-plain.colored
-            span php
-          .skill.col-xs-4.col-sm-3
-            i.devicon-mysql-plain.colored
-            span mysql
-          .skill.col-xs-4.col-sm-3
-            i.devicon-jquery-plain.colored
-            span jquery
-          //- .skill.col-xs-4.col-sm-3
-          //-   i.devicon-angularjs-plain.colored
-          //-   span angular
-          .skill.col-xs-4.col-sm-3
-            i.devicon-sass-plain.colored
-            span sass
-          .skill.col-xs-4.col-sm-3
-            i.devicon-bootstrap-plain.colored
-            span bootstrap
-          .skill.col-xs-4.col-sm-3
-            i.devicon-wordpress-plain.colored
-            span wordpress
-          .skill.col-xs-4.col-sm-3
-            i.devicon-drupal-plain.colored
-            span drupal
-          .skill.col-xs-4.col-sm-3
-            i.devicon-git-plain.colored
-            span git
-          .skill.col-xs-4.col-sm-3
-            i.devicon-linux-plain.colored
-            span linux
-          .skill.col-xs-4.col-sm-3
-            i.devicon-apache-plain.colored
-            span apache
-          .skill.col-xs-4.col-sm-3
-            i.devicon-atom-original.colored
-            span atom
-          .skill.col-xs-4.col-sm-3
-            i.devicon-photoshop-plain.colored
-            span photoshop
-          .skill.col-xs-4.col-sm-3
-            i.fa.fa-wheelchair
-            span wcag
-          .skill.col-xs-4.col-sm-3
-            i.fa.fa-npm
-            span npm
+            h2 Front-end Developer
+              span.subheading
+                span.glyphicon.glyphicon-map-marker(aria-hidden="true")
+                | Melbourne, Australia
+            p I am a creative and versatile front-end developer with over six years' experience. My eye for design and attention to detail compliment my enthusiasm for usability, accessibility, and UX. I have collaborated with major Australian and international brands on award winning projects and I'm 
+              strong for hire!
+            a.btn.btn-default.btn-teal.btn-lg(href="#") Download Resume
+      
+        a.btn.btn-navigate-down(href='#projects', aria-hidden='true')
+          span.glyphicon.glyphicon-chevron-down
+    
     
     
     section#projects
-      .container
+      .container-fluid
         .row
-          .col-xs-12
-            h2.section-title Projects
-            hr
-        .row
-          .col-xs-12.col-sm-6.col-md-4
-            img.img-responsive.img-thumbnail(src='assets/yoannahelyse-screenshot.png', alt='', data-toggle='modal', data-target='#project-1')
-          .col-xs-12.col-sm-6.col-md-4
-            img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='')
-          .col-xs-12.col-sm-6.col-md-4
-            img.img-responsive(src='assets/yoannahelyse-screenshot.png', alt='')
-        
-        .modals
-          #project-1.modal.fade(tabindex='-1', role='dialog', aria-labelledby='project-1-label')
-            .modal-dialog(role='document')
-              .modal-content
-                .modal-header
-                  button.close(type='button', data-dismiss='modal', aria-label='Close')
-                    span(aria-hidden='true') ×
-                  h4#project-1-label.modal-title Modal title
-                .modal-body
-                  p this is some text
-                .modal-footer
-                  button.btn.btn-default(type='button', data-dismiss='modal') Close
-                  button.btn.btn-primary(type='button') Save changes
+          .project.col-xs-12.col-sm-6
+            img.img-responsive(src='assets/projects-windowrescue.png', alt='')
+          .project.col-xs-12.col-sm-6
+            img.img-responsive(src='assets/projects-yoannahelyse.png', alt='')
+          .project.col-xs-12.col-sm-6
+            img.img-responsive(src='assets/projects-nebula.png', alt='', data-toggle="modal" data-target="#project-nebula")
     
-          
-    section#awards
+    #project-nebula.modal(tabindex='-1', role='dialog')
+      .modal-dialog
+        .modal-content
+          .modal-body
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+            p One fine body…
+    
+    footer
       .container
         .row
-          .col-xs-12
-            h2.section-title Awards
-            hr
-        .row.award-list
-          .award-item.col-xs-6.col-sm-4
-            i.fa.fa-certificate
-            span.award Finalist, 
-            span.title Best Interactive Scenario
-            span.provider LearnX Asia Pacific
-            span.year 2015
-          .award-item.col-xs-6.col-sm-4
-            i.fa.fa-certificate
-            span.award Finalist, 
-            span.title eLearning Sector – Higher Education
-            span.provider eLearning Excellence Awards
-            span.year 2014
-          .award-item.col-xs-6.col-sm-4
-            i.fa.fa-trophy.gold
-            span.award Gold Medal, 
-            span.title Best Custom Content
-            span.provider Brandon Hall Group Excellence in Learning Awards
-            span.year 2013
-          .award-item.col-xs-6.col-sm-4
-            i.fa.fa-trophy.gold
-            span.award Category Winner, 
-            span.title TAFE and Educational Student Resource
-            span.provider Australian Educational Publishing Awards
-            span.year 2013
-          .award-item.col-xs-6.col-sm-4
-            i.fa.fa-trophy.gold
-            span.award First Place, 
-            span.title Best Learning Program
-            span.provider LearnX Asia Pacific
-            span.year 2012
-          .award-item.col-xs-6.col-sm-4
-            i.fa.fa-trophy.silver
-            span.award Second Place, 
-            span.title Best eLearning Design Best Interactive Scenario
-            span.provider LearnX Asia Pacific
-            span.year 2012
-          .award-item.col-xs-6.col-sm-4
-            i.fa.fa-trophy.gold
-            span.award Gold Winner, 
-            span.title Best Employee Induction Training Program
-            span.provider LearnX Asia Pacific
-            span.year 2011
+          a(href='mailto:marcnewport@gmail.com')
+            i.fa.fa-envelope
+          a(href='https://www.linkedin.com/in/marcnewport', target='_blank')
+            i.fa.fa-linkedin-square
+          a(href='https://github.com/marcnewport', target='_blank')
+            i.fa.fa-github-alt
+          a(href='http://codepen.io/marcnewport/', target='_blank')
+            i.fa.fa-codepen
+          a(href='https://www.instagram.com/marcnewport/', target='_blank')
+            i.fa.fa-instagram
             
-            
-    section#clients
-      .container
-        .row
-          .col-xs-12
-            h2.section-title Clients
-            hr
-            p I've worked with varios local and global brands; here are some that you may recognise:
-        .row.row-client
-          .col-xs-4
-            img.img-responsive.center-block(src='assets/ausgrid-logo.png', alt='Ausgrid')
-          .col-xs-4
-            img.img-responsive.center-block(src='assets/qbe-logo.png', alt='QBE')
-          .col-xs-4
-            img.img-responsive.center-block(src='assets/nutrition-australia-logo.png', alt='Nutrition Australia')
-        .row.row-client
-          .col-xs-3
-            img.img-responsive.center-block(src='assets/apls-logo.png', alt='Advanced Paediatric Life Support')
-          .col-xs-3
-            img.img-responsive.center-block(src='assets/m2-logo.png', alt='M2 Group')
-          .col-xs-3
-            img.img-responsive.center-block(src='assets/vodafone-logo.png', alt='Vodafone')
-          .col-xs-3
-            img.img-responsive.center-block(src='assets/mitsubishi-logo.png', alt='Mitsubishi')
-        .row.row-client
-          .col-xs-4
-            img.img-responsive.center-block(src='assets/lg-logo.png', alt='LG')
-          .col-xs-4
-            img.img-responsive.center-block(src='assets/beyond-blue-logo.png', alt='Beyond Blue')
-          .col-xs-4
-            img.img-responsive.center-block(src='assets/orygen-logo.png', alt='Orygen')
-        
-        
-    section#contact
-      .container
-        .row
-          .col-xs-12
-            h2.section-title Contact
-            hr
-          .contact-method.col-xs-12.col-sm-4
-            a(href='tel:0416668689')
-              p
-                i.fa.fa-phone
-              p 04 1666 8689
-          .contact-method.col-xs-12.col-sm-4
-            a(href='mailto:marcnewport@gmail.com')
-              p
-                i.fa.fa-envelope
-              p marcnewport@gmail.com
-          .contact-method.col-xs-12.col-sm-4
-            a(href='https://goo.gl/maps/5hm6w7EtHwT2', target='_blank')
-              p 
-                i.fa.fa-map-marker
-              p Melbourne, Australia
-          .contact-method.col-xs-12.col-sm-4
-            a(href='http://au.linkedin.com/in/marcnewport', target='_blank')
-              p 
-                i.fa.fa-linkedin-square
-              p LinkedIn
-          .contact-method.col-xs-12.col-sm-4
-            a(href='http://github.com/marcnewport', target='_blank')
-              p 
-                i.fa.fa-github-alt
-              p GitHub
-          .contact-method.col-xs-12.col-sm-4
-            a(href='http://codepen.io/marcnewport', target='_blank')
-              p 
-                i.fa.fa-codepen
-              p Codepen
-          
-          
+    
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js')
-    script(src='//cdn.jsdelivr.net/scrollreveal.js/3.0.3/scrollreveal.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js')
+    //- script(src='//cdn.jsdelivr.net/scrollreveal.js/3.0.3/scrollreveal.min.js')
     script(src='js/main.js')

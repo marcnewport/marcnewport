@@ -1,0 +1,22 @@
+#projects {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 200px;
+  background-color: $white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+
+  .project {
+		padding: 0 !important;
+    overflow: hidden;
+
+    img {
+      transition: all 400ms;
+      transition-timing-function: ease-in-out;
+
+      &:hover {
+        filter: grayscale(66%) brightness(33%);
+        transform: scale(1.1);
+      }
+    }
+	}
+}
