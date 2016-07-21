@@ -14,7 +14,7 @@ html.no-js(lang='en')
     link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css', rel='stylesheet')
     link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css', rel='stylesheet')
     // http://devicon.fr
-    //- link(href='https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css', rel='stylesheet')
+    link(href='https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css', rel='stylesheet')
     link(href='css/main.css', rel='stylesheet', type='text/css')
   body
     
@@ -58,19 +58,18 @@ html.no-js(lang='en')
       .container-fluid
         .row
           .project.col-xs-12.col-sm-6
-            img.img-responsive(src='assets/projects-windowrescue.png', alt='')
+            a(href="#", data-toggle="modal", data-target="#project-nebula")
+              img.img-responsive(src='assets/projects-nebula.png', alt='')
           .project.col-xs-12.col-sm-6
-            img.img-responsive(src='assets/projects-yoannahelyse.png', alt='')
+            a(href="#", data-toggle="project", data-target="#project-nebula")
+              img.img-responsive(src='assets/projects-windowrescue.png', alt='')
           .project.col-xs-12.col-sm-6
-            img.img-responsive(src='assets/projects-nebula.png', alt='', data-toggle="modal" data-target="#project-nebula")
+            a(href="#", data-toggle="project", data-target="#project-nebula")
+              img.img-responsive(src='assets/projects-yoannahelyse.png', alt='')
+          
     
-    #project-nebula.modal(tabindex='-1', role='dialog')
-      .modal-dialog
-        .modal-content
-          .modal-body
-            button.close(type='button', data-dismiss='modal', aria-label='Close')
-              span(aria-hidden='true') ×
-            p One fine body…
+    include templates/project-nebula
+          
     
     footer
       .container

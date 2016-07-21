@@ -2,7 +2,7 @@
   position: relative;
   z-index: 2;
   margin-bottom: 200px;
-  background-color: $white;
+  background-color: $light-grey;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 
   .project {
@@ -19,4 +19,33 @@
       }
     }
 	}
+
+  &.no-hover .project img:hover {
+    filter: none;
+    transform: none;
+  }
+}
+
+
+
+
+.project-modal {
+
+  &.fade {
+    transition: all 0.3s;
+
+    .modal-dialog {
+      transform: translate(0, 0);
+    }
+  }
+
+  .modal-dialog {
+    width: auto;
+    margin: 30px;
+  }
+}
+
+.modal-backdrop {
+  background-color: rgba($white, 0.5);
+  // background-color: transparent;
 }
