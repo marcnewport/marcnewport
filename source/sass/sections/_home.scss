@@ -6,18 +6,15 @@
 	overflow: hidden;
 	width: 100%;
 
-	.container-fluid {
-		position: relative;
-		z-index: 2;
-	}
-
 	svg {
 		margin: 30px;
 	}
 
 	h1 {
-		font-size: 8vw;
-		margin: 0 0 20px 0;
+		font-size: 9.3vw;
+    position: absolute;
+    bottom: 90px;
+    text-shadow: 0 0 20px rgba($primary-color, 0.5);
 
 		.title-small {
 			color: $light-teal;
@@ -32,19 +29,31 @@
 			display: block;
 			font-weight: 900;
 			line-height: 0.95em;
-
-			// &:last-child {
-			// 	color: $dark-teal;
-			// }
 		}
+
+    @media($screen-xs) {
+    	font-size: 17vw !important;
+    }
+
+    @media($screen-sm) {
+    	//font-size: 10vw !important;
+    }
 	}
+
+  .anchor-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 
   .btn-navigate-down {
 		color: $white;
 
     &:hover,
-    &:active {
-      color: $dark-teal;
+    &:active,
+    &:focus {
+      color: darken($primary-color, 15%);
     }
   }
 }

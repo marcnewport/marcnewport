@@ -1,10 +1,7 @@
-var utils = require('./utils');
-// var home = require('./home');
+var home = require('./home');
 var projects = require('./projects');
-
 var footer = require('./footer');
 
-utils();
 
 (function($) {
 
@@ -17,25 +14,19 @@ utils();
 
     var $body = $('body');
 
-    // Animate scrolling to the anchor target
-    $body.on('click.navigate', '.btn-navigate-down', smoothScroll);
-    $(window).on('hashchange', smoothScroll);
-
-    // $body.on('click.project', 'a[data-toggle="project"]', function(e) {
-    //   console.log(e);
-    //
-    //   $body.toggleClass('show-project')
-    //
-    //   e.preventDefault();
-    // })
+    // // Animate scrolling to the anchor target
+    // $body.on('click.navigate', '.btn-navigate-down', smoothScroll);
+    // $(window).on('hashchange', smoothScroll);
 
 
 
-    // home();
+    home();
 
     projects();
 
     footer();
+
+    ScrollReveal({ reset: true }).reveal('.img-circle', { duration: 1000 });
   });
 
 

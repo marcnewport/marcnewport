@@ -2,7 +2,7 @@ module.exports = function() {
 
   var $projects = $('#projects');
 
-  $('body').on('click.project', function(e) {
+  $('body').on('click.project', '.project-link', function(e) {
     $projects.addClass('no-hover');
   });
 

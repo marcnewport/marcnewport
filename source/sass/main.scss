@@ -1,7 +1,6 @@
 // Variables and mixins
-@import "typography";
-@import "color";
-// @import "mixins";
+@import "variables";
+@import "mixins";
 
 // Global styles
 @import "global";
@@ -10,5 +9,4 @@
 @import "sections/home";
 @import "sections/about";
 @import "sections/projects";
-@import "sections/project";
 @import "sections/footer";
