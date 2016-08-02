@@ -83,18 +83,22 @@ a {
 	@include button-variant($background-color, $primary-color, $primary-color);
 }
 
-section,
-footer {
-	position: relative;
-	left: 0;
-  transition: left 600ms ease-in-out;
+.label-default {
+	background-color: $panel-background-color;
 }
 
-.show-project {
-	overflow: hidden;
-
-  section,
-	footer {
-		left: -100%;
-	}
-}
+// section,
+// footer {
+// 	position: relative;
+// 	left: 0;
+//   transition: left 600ms ease-in-out;
+// }
+//
+// .show-project {
+// 	overflow: hidden;
+//
+//   section,
+// 	footer {
+// 		left: -100%;
+// 	}
+// }

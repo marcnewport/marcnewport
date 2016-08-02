@@ -1,7 +1,7 @@
 #home {
   position: relative;
   z-index: 2;
-	color: $white;
+	color: $primary-color-inverse;
 	background: $primary-color;
 	overflow: hidden;
 	width: 100%;
@@ -17,7 +17,7 @@
     text-shadow: 0 0 20px rgba($primary-color, 0.5);
 
 		.title-small {
-			color: $light-teal;
+			color: desaturate(lighten($primary-color, 30%), 40%);
 			display: block;
 			font-size: 0.55em;
 			font-weight: 300;
@@ -25,7 +25,7 @@
 		}
 
 		.title-big {
-			color: $white;
+			color: $primary-color-inverse;
 			display: block;
 			font-weight: 900;
 			line-height: 0.95em;
@@ -48,12 +48,12 @@
   }
 
   .btn-navigate-down {
-		color: $white;
+		color: darken($primary-color, 20%);
 
     &:hover,
     &:active,
     &:focus {
-      color: darken($primary-color, 15%);
+      color: darken($primary-color, 30%);
     }
   }
 }

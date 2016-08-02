@@ -14,17 +14,17 @@ module.exports = function() {
     $titleSmall.css({
       position: 'relative',
       top: (scrollTop / 2) +'px',
-      opacity: opacity
+      opacity: opacity //* 0.6
     });
     $titleBig.eq(0).css({
         position: 'relative',
         top: (scrollTop / 3.5) +'px',
-        opacity: opacity * 1.5
+        opacity: opacity
     });
     $titleBig.eq(1).css({
         position: 'relative',
         top: (scrollTop / 15) +'px',
-        opacity: opacity * 2
+        opacity: opacity //* 2.6
     });
   });
 }

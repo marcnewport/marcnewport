@@ -1,11 +1,11 @@
 #about {
   position: relative;
   z-index: 2;
-  background-color: $white;
+  background-color: $background-color;
   text-align: center;
 
   .subheading .glyphicon {
-    color: $red;
+    color: $pin-icon-color;
     font-size: 0.9em;
     margin-right: 0.3em;
   }
@@ -20,7 +20,8 @@
 
   .btn-navigate-down {
     &:hover,
-    &:active {
+    &:active,
+    &:focus {
       color: darken($teal, 15%);
     }
   }

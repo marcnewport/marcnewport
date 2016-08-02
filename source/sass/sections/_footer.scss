@@ -1,5 +1,5 @@
 footer {
-  background-color: $dark-grey;
+  background-color: $secondary-color;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -10,15 +10,16 @@ footer {
   a {
     font-size: 4vw;
     display: inline-block;
-    color: $white;
+    color: $secondary-color-inverse;
     margin: 0 1em;
     transform: scale(0.5);
     transition: all 250ms;
     transition-timing-function: ease-in-out;
 
     &:hover,
-    &:active {
-      color: $teal;
+    &:active,
+    &:focus {
+      color: $primary-color;
     }
 
     @media($screen-xs) {
