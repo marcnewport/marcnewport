@@ -43,7 +43,7 @@
 
   .modal-dialog {
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     margin: 0;
   }
 
@@ -65,16 +65,93 @@
 
   .modal-body {
 
-    img {
-      margin-top: 25px;
-    }
-
     .label {
       margin: 2px;
     }
 
     .btn {
-      margin: 30px 5px;
+      margin: 50px 5px;
+    }
+  }
+
+  .laptop {
+    width: 100%;
+    margin: 20px auto;
+
+    // The bottom of the laptop
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 20px;
+      background: darken($laptop-grey, 15%);
+      border-radius: 30px/10px;
+      position: relative;
+      top: -12px;
+
+      @media($screen-xxs) {
+        height: 15px;
+        border-radius: 23px/7.5px;
+        top: -9px;
+      }
+    }
+  }
+
+  .laptop-screen {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 15px 30px 15px;
+    background: $laptop-black;
+    border-radius: 18px;
+    overflow: hidden;
+
+    @media($screen-xxs) {
+      padding: 13px 10px 23px 10px;
+      border-radius: 13px;
+    }
+  }
+
+  .laptop-base {
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    height: 20px;
+    background: $laptop-grey;
+    z-index: 2;
+
+    @media($screen-xxs) {
+      height: 13px;
+      margin-top: -7px;
+    }
+
+    // The hand groove bit
+    &:before {
+      content: '';
+      display: block;
+      width: 17.5%;
+      height: 10px;
+      background: darken($laptop-grey, 15%);
+      margin: 0 auto;
+      border-radius: 0 0 10px 10px;
+
+      @media($screen-xxs) {
+        height: 7.5px;
+        border-radius: 0 0 7.5px 7.5px;
+      }
+    }
+
+    // The little slot thing
+    &:after {
+      content: '';
+      display: block;
+      width: 5%;
+      height: 3px;
+      background: darken($laptop-grey, 15%);
+      float: right;
+      margin: -1px 35px 0 0;
+      border-radius: 2.5px;
     }
   }
 

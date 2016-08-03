@@ -8,6 +8,8 @@ $teal: #01B2AA;
 $light-teal: #A8E5E2;
 $dark-teal: #003D3A;
 $red: #db6081;
+$laptop-black: #202227;
+$laptop-grey: #d2d3d4;
 
 $primary-color: $teal;
 $primary-color-inverse: $white;
@@ -44,6 +46,7 @@ $subheading-font-weight: 400;
 
 
 // Screen sizes ///////////////////////
+$screen-xxs: 'max-width:550px';
 $screen-xs: 'max-width:767px';
 $screen-sm: 'min-width:768px';
 $screen-md: 'min-width:992px';

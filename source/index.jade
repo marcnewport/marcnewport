@@ -78,17 +78,26 @@ html.no-js(lang='en')
       .container-fluid
         .row
           .project.col-xs-12.col-sm-6
+            a(href="#", data-toggle="modal", data-target="#project-yoyoboco", class="project-link")
+              img.img-responsive(src='assets/project-yoyoboco.png', alt='')
+          .project.col-xs-12.col-sm-6
             a(href="#", data-toggle="modal", data-target="#project-nebula", class="project-link")
-              img.img-responsive(src='assets/projects-nebula.png', alt='')
+              img.img-responsive(src='assets/project-nebula.png', alt='')
+        .row
           .project.col-xs-12.col-sm-6
             a(href="#", data-toggle="modal", data-target="#project-windowrescue", class="project-link")
-              img.img-responsive(src='assets/projects-windowrescue.png', alt='')
+              img.img-responsive(src='assets/project-windowrescue.png', alt='')
           .project.col-xs-12.col-sm-6
             a(href="#", data-toggle="modal", data-target="#project-yoannahelyse", class="project-link")
-              img.img-responsive(src='assets/projects-yoannahelyse.png', alt='')
+              img.img-responsive(src='assets/project-yoannahelyse.png', alt='')
+        .row
+          .project.col-xs-12.col-sm-6
+            a(href="http://codepen.io/marcnewport/pens/popular/", target="_blank")
+              img.img-responsive(src='assets/project-codepen.png', alt='')
           
               
       
+    include templates/project-yoyoboco
     include templates/project-nebula
     include templates/project-windowrescue
     include templates/project-yoannahelyse
@@ -104,7 +113,7 @@ html.no-js(lang='en')
             i.fa.fa-linkedin-square
           a(href='https://github.com/marcnewport', target='_blank')
             i.fa.fa-github-alt
-          a(href='http://codepen.io/marcnewport/', target='_blank')
+          a(href='http://codepen.io/marcnewport/pens/popular/', target='_blank')
             i.fa.fa-codepen
           a(href='https://www.instagram.com/marcnewport/', target='_blank')
             i.fa.fa-instagram

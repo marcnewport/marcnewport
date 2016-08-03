@@ -41,12 +41,45 @@
     <section id="projects">
       <div class="container-fluid">
         <div class="row">
-          <div class="project col-xs-12 col-sm-6"><a href="#" data-toggle="modal" data-target="#project-nebula" class="project-link"><img src="assets/projects-nebula.png" alt="" class="img-responsive"></a></div>
-          <div class="project col-xs-12 col-sm-6"><a href="#" data-toggle="modal" data-target="#project-windowrescue" class="project-link"><img src="assets/projects-windowrescue.png" alt="" class="img-responsive"></a></div>
-          <div class="project col-xs-12 col-sm-6"><a href="#" data-toggle="modal" data-target="#project-yoannahelyse" class="project-link"><img src="assets/projects-yoannahelyse.png" alt="" class="img-responsive"></a></div>
+          <div class="project col-xs-12 col-sm-6"><a href="#" data-toggle="modal" data-target="#project-yoyoboco" class="project-link"><img src="assets/project-yoyoboco.png" alt="" class="img-responsive"></a></div>
+          <div class="project col-xs-12 col-sm-6"><a href="#" data-toggle="modal" data-target="#project-nebula" class="project-link"><img src="assets/project-nebula.png" alt="" class="img-responsive"></a></div>
+        </div>
+        <div class="row">
+          <div class="project col-xs-12 col-sm-6"><a href="#" data-toggle="modal" data-target="#project-windowrescue" class="project-link"><img src="assets/project-windowrescue.png" alt="" class="img-responsive"></a></div>
+          <div class="project col-xs-12 col-sm-6"><a href="#" data-toggle="modal" data-target="#project-yoannahelyse" class="project-link"><img src="assets/project-yoannahelyse.png" alt="" class="img-responsive"></a></div>
+        </div>
+        <div class="row">
+          <div class="project col-xs-12 col-sm-6"><a href="http://codepen.io/marcnewport/pens/popular/" target="_blank"><img src="assets/project-codepen.png" alt="" class="img-responsive"></a></div>
         </div>
       </div>
     </section>
+    <div id="project-yoyoboco" tabindex="-1" role="dialog" class="modal fade project-modal modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close btn-close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                  <div class="laptop">
+                    <div class="laptop-screen"><img src="assets/project-yoyoboco.png" class="img-responsive"></div>
+                    <div class="laptop-base"></div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-5">
+                  <h3>yoyoboco<span class="subheading">Landing Page</span></h3>
+                  <p>A simple one pager to establish a web presence for a local florist. Minalist design with two buttons: a mailto link, and a link to their instagram page.</p>
+                  <p>The challenge here was to get the diagonal colour split to work at all sizes across all browsers. This was overcome using javascript to draw inline svg.</p><span class="label label-default">NPM</span><span class="label label-default">HTML</span><span class="label label-default">CSS</span><span class="label label-default">JavaScript</span><span class="label label-default">jQuery</span><br><a href="https://github.com/marcnewport/yoyoboco" target="_blank" class="btn btn-default btn-lg">View source</a><a href="http://yoyoboco.com/" target="_blank" class="btn btn-default btn-primary btn-lg">Visit site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
     <div id="project-nebula" tabindex="-1" role="dialog" class="modal fade project-modal modal fade">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -56,15 +89,18 @@
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-xs-12 col-sm-6"><img src="assets/project-nebula-mac.png" alt="" class="img-responsive"></div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="laptop">
+                    <div class="laptop-screen"><img src="assets/project-nebula.png" class="img-responsive"></div>
+                    <div class="laptop-base"></div>
+                  </div>
+                </div>
                 <div class="col-xs-12 col-sm-6">
                   <h3>Nebula CAS<span class="subheading">Web Application</span></h3>
                   <p>This is a web application with two parts; a Drupal authoring tool for maintaining content and media which produces a web application (SCO) for online learning systems (LMS).</p>
                   <p>The web application is used for delivering material, and then assessing on that material with a variety of interactions.</p>
-                  <p>I have been the lead developer on this product for the past four years, guiding it from a bespoke tool into a SaaS application.</p><span class="label label-default">PHP</span><span class="label label-default">HTML</span><span class="label label-default">CSS</span><span class="label label-default">Drupal</span><span class="label label-default">JavaScript</span><span class="label label-default">jQuery</span><span class="label label-default">SCORM</span>
+                  <p>I have been the lead developer on this product for the past four years, guiding it from a bespoke tool into a SaaS application.</p><span class="label label-default">MySQL</span><span class="label label-default">PHP</span><span class="label label-default">HTML</span><span class="label label-default">CSS</span><span class="label label-default">Drupal</span><span class="label label-default">JavaScript</span><span class="label label-default">jQuery</span><span class="label label-default">SCORM</span><br><a href="#" class="btn btn-default btn-lg disabled">Source unavailable</a><a href="demos/nebula/" target="_blank" class="btn btn-default btn-primary btn-lg">View demo</a>
                 </div>
-                <div class="col-xs-12 col-sm-6"></div>
-                <div class="col-xs-12 col-sm-6"><a href="#" class="btn btn-default btn-default btn-lg disabled">Source unavailable</a><a href="demos/nebula/" target="_blank" class="btn btn-default btn-primary btn-lg">View demo</a></div>
               </div>
             </div>
           </div>
@@ -81,14 +117,17 @@
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-xs-12 col-sm-6"><img src="assets/project-windowrescue-mac.png" alt="" class="img-responsive"></div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="laptop">
+                    <div class="laptop-screen"><img src="assets/project-windowrescue.png" class="img-responsive"></div>
+                    <div class="laptop-base"></div>
+                  </div>
+                </div>
                 <div class="col-xs-12 col-sm-6">
                   <h3>Window Rescue<span class="subheading">Brochure Website</span></h3>
                   <p>A single page website for a local small business in Wellington, New Zealand.</p>
-                  <p>I used NPM as a build tool and static site generator with the use of tools such as jade and sass. This setup was an experiment in rapid development for single page sites, which I deemed a success - in fact, it is the same setup used to build this portfolio site.</p><span class="label label-default">NPM</span><span class="label label-default">HTML</span><span class="label label-default">CSS</span><span class="label label-default">Bootstrap</span><span class="label label-default">JavaScript</span><span class="label label-default">jQuery</span>
+                  <p>I used NPM as a build tool and static site generator with the use of tools such as jade and sass. This setup was an experiment in rapid development for single page sites, which went extremely well. In fact, I used the same setup to build this portfolio site.</p><span class="label label-default">NPM</span><span class="label label-default">HTML</span><span class="label label-default">CSS</span><span class="label label-default">Bootstrap</span><span class="label label-default">JavaScript</span><span class="label label-default">jQuery</span><br><a href="https://github.com/marcnewport/windowrescue" target="_blank" class="btn btn-default btn-lg">View source</a><a href="http://windowrescue.co.nz" target="_blank" class="btn btn-default btn-primary btn-lg">Visit site</a>
                 </div>
-                <div class="col-xs-12 col-sm-6"></div>
-                <div class="col-xs-12 col-sm-6"><a href="https://github.com/marcnewport/windowrescue" target="_blank" class="btn btn-default btn-default btn-lg">View source</a><a href="http://windowrescue.co.nz" target="_blank" class="btn btn-default btn-primary btn-lg">Visit site</a></div>
               </div>
             </div>
           </div>
@@ -105,13 +144,16 @@
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-xs-12 col-sm-6"><img src="assets/project-yoannahelyse-mac.png" alt="" class="img-responsive"></div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="laptop">
+                    <div class="laptop-screen"><img src="assets/project-yoannahelyse.png" class="img-responsive"></div>
+                    <div class="laptop-base"></div>
+                  </div>
+                </div>
                 <div class="col-xs-12 col-sm-6">
                   <h3>Yoannah Elyse<span class="subheading">Portfolio Website</span></h3>
-                  <p>Drupal </p><span class="label label-default">PHP</span><span class="label label-default">Drupal</span><span class="label label-default">HTML</span><span class="label label-default">CSS</span><span class="label label-default">Bootstrap</span><span class="label label-default">JavaScript</span><span class="label label-default">jQuery</span>
+                  <p>Drupal </p><span class="label label-default">MySQL</span><span class="label label-default">PHP</span><span class="label label-default">Drupal</span><span class="label label-default">HTML</span><span class="label label-default">CSS</span><span class="label label-default">Bootstrap</span><span class="label label-default">JavaScript</span><span class="label label-default">jQuery</span><br><a href="https://github.com/marcnewport/yoannah-elyse" target="_blank" class="btn btn-default btn-lg">View source</a><a href="http://yoannahelyse.com/" target="_blank" class="btn btn-default btn-primary btn-lg">Visit site</a>
                 </div>
-                <div class="col-xs-12 col-sm-6"></div>
-                <div class="col-xs-12 col-sm-6"><a href="https://github.com/marcnewport/yoannah-elyse" target="_blank" class="btn btn-default btn-default btn-lg">View source</a><a href="http://yoannahelyse.com/" target="_blank" class="btn btn-default btn-primary btn-lg">Visit site</a></div>
               </div>
             </div>
           </div>
@@ -121,7 +163,7 @@
     </div>
     <footer>
       <div class="container">
-        <div class="row"><a href="mailto:marcnewport@gmail.com"><i class="fa fa-envelope"></i></a><a href="https://www.linkedin.com/in/marcnewport" target="_blank"><i class="fa fa-linkedin-square"></i></a><a href="https://github.com/marcnewport" target="_blank"><i class="fa fa-github-alt"></i></a><a href="http://codepen.io/marcnewport/" target="_blank"><i class="fa fa-codepen"></i></a><a href="https://www.instagram.com/marcnewport/" target="_blank"><i class="fa fa-instagram"></i></a></div>
+        <div class="row"><a href="mailto:marcnewport@gmail.com"><i class="fa fa-envelope"></i></a><a href="https://www.linkedin.com/in/marcnewport" target="_blank"><i class="fa fa-linkedin-square"></i></a><a href="https://github.com/marcnewport" target="_blank"><i class="fa fa-github-alt"></i></a><a href="http://codepen.io/marcnewport/pens/popular/" target="_blank"><i class="fa fa-codepen"></i></a><a href="https://www.instagram.com/marcnewport/" target="_blank"><i class="fa fa-instagram"></i></a></div>
       </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

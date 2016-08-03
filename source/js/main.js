@@ -15,8 +15,8 @@ var footer = require('./footer');
     var $body = $('body');
 
     // // Animate scrolling to the anchor target
-    // $body.on('click.navigate', '.btn-navigate-down', smoothScroll);
-    // $(window).on('hashchange', smoothScroll);
+    $body.on('click.navigate', '.btn-navigate-down', smoothScroll);
+    $(window).on('hashchange', smoothScroll);
 
 
 

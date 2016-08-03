@@ -10,13 +10,17 @@
         .container-fluid
           .row
             .col-xs-12.col-sm-6
-              img.img-responsive(src="assets/project-nebula-mac.png", alt="")
+              .laptop
+                .laptop-screen
+                  img.img-responsive(src="assets/project-nebula.png")
+                .laptop-base
             .col-xs-12.col-sm-6
               h3 Nebula CAS
                 span.subheading Web Application
               p This is a web application with two parts; a Drupal authoring tool for maintaining content and media which produces a web application (SCO) for online learning systems (LMS).
               p The web application is used for delivering material, and then assessing on that material with a variety of interactions.
               p I have been the lead developer on this product for the past four years, guiding it from a bespoke tool into a SaaS application.
+              span.label.label-default MySQL
               span.label.label-default PHP
               span.label.label-default HTML
               span.label.label-default CSS
@@ -24,9 +28,8 @@
               span.label.label-default JavaScript
               span.label.label-default jQuery
               span.label.label-default SCORM
-            .col-xs-12.col-sm-6
-            .col-xs-12.col-sm-6
-              a.btn.btn-default.btn-default.btn-lg.disabled(href="#") Source unavailable
+              br
+              a.btn.btn-default.btn-lg.disabled(href="#") Source unavailable
               a.btn.btn-default.btn-primary.btn-lg(href="demos/nebula/", target="_blank") View demo
           
       .modal-footer
