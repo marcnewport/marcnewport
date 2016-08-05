@@ -1,21 +1,21 @@
 doctype html
-html.no-js(lang='en')
+html.no-js(lang="en")
   head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
     title Marc Newport | Front End Developer
-    meta(name='application-name', content='Marc Newport')
-    meta(name='author', content='marcnewport@gmail.com')
-    meta(name='description', content='Description of the page')
-    meta(name='keywords', content='Comma separated keywords')
-    meta(name='rating', content='General')
+    meta(name="application-name", content="Marc Newport")
+    meta(name="author", content="marcnewport@gmail.com")
+    meta(name="description", content="Description of the page")
+    meta(name="keywords", content="Comma separated keywords")
+    meta(name="rating", content="General")
     
-    link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css', rel='stylesheet')
-    link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css', rel='stylesheet')
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css", rel="stylesheet")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css", rel="stylesheet")
     // http://devicon.fr
-    link(href='https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css', rel='stylesheet')
-    link(href='css/main.css', rel='stylesheet', type='text/css')
+    link(href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css", rel="stylesheet")
+    link(href="css/main.css", rel="stylesheet")
   body
     
     
@@ -48,7 +48,7 @@ html.no-js(lang='en')
           span.title-big Newport
             
         .anchor-wrap  
-          a.btn.btn-navigate-down(href='#about', aria-hidden='true')
+          a.btn.btn-navigate-down(href="#about", aria-hidden="true")
             span.glyphicon.glyphicon-chevron-down
       
             
@@ -58,7 +58,7 @@ html.no-js(lang='en')
         .row
           .col-xs-2.col-sm-4
           .col-xs-8.col-sm-4
-            img.img-responsive.img-circle(src='assets/profilepic.jpg')
+            img.img-responsive.img-circle(src="assets/profilepic.jpg")
         .row
           .col-xs-12
             h2 Front-end Developer
@@ -69,7 +69,7 @@ html.no-js(lang='en')
               strong for hire!
             a.btn.btn-default.btn-lg.btn-resume(href="assets/resume-marc-newport-2016.pdf", target="_blank") Download Resume
       
-        a.btn.btn-navigate-down(href='#projects', aria-hidden='true')
+        a.btn.btn-navigate-down(href="#projects", aria-hidden="true")
           span.glyphicon.glyphicon-chevron-down
     
     
@@ -79,21 +79,21 @@ html.no-js(lang='en')
         .row
           .project.col-xs-12.col-sm-6
             a(href="#", data-toggle="modal", data-target="#project-yoyoboco", class="project-link")
-              img.img-responsive(src='assets/project-yoyoboco.png', alt='')
+              img.img-responsive(srcset="assets/project-yoyoboco-small.png 320w, assets/project-yoyoboco.png 600w, assets/project-yoyoboco.png 1000w", sizes="(min-width: 768px) 50vw, 100vw", src="assets/project-yoyoboco.png", alt="")
           .project.col-xs-12.col-sm-6
             a(href="#", data-toggle="modal", data-target="#project-nebula", class="project-link")
-              img.img-responsive(src='assets/project-nebula.png', alt='')
+              img.img-responsive(srcset="assets/project-nebula-small.png 320w, assets/project-nebula.png 600w, assets/project-nebula.png 1000w", sizes="(min-width: 768px) 50vw, 100vw", src="assets/project-nebula.png", alt="")
         .row
           .project.col-xs-12.col-sm-6
             a(href="#", data-toggle="modal", data-target="#project-windowrescue", class="project-link")
-              img.img-responsive(src='assets/project-windowrescue.png', alt='')
+              img.img-responsive(srcset="assets/project-windowrescue-small.png 320w, assets/project-windowrescue.png 600w, assets/project-windowrescue.png 1000w", sizes="(min-width: 768px) 50vw, 100vw", src="assets/project-windowrescue.png", alt="")
           .project.col-xs-12.col-sm-6
             a(href="#", data-toggle="modal", data-target="#project-yoannahelyse", class="project-link")
-              img.img-responsive(src='assets/project-yoannahelyse.png', alt='')
+              img.img-responsive(srcset="assets/project-yoannahelyse-small.png 320w, assets/project-yoannahelyse.png 600w, assets/project-yoannahelyse.png 1000w", sizes="(min-width: 768px) 50vw, 100vw", src="assets/project-yoannahelyse.png", alt="")
         .row
           .project.col-xs-12.col-sm-6
             a(href="http://codepen.io/marcnewport/pens/popular/", target="_blank")
-              img.img-responsive(src='assets/project-codepen.png', alt='')
+              img.img-responsive(srcset="assets/project-codepen-small.png 320w, assets/project-codepen.png 600w, assets/project-codepen.png 1000w", sizes="(min-width: 768px) 50vw, 100vw", src="assets/project-codepen.png", alt="")
           
               
       
@@ -107,20 +107,20 @@ html.no-js(lang='en')
     footer
       .container
         .row
-          a(href='mailto:marcnewport@gmail.com')
+          a(href="mailto:marcnewport@gmail.com")
             i.fa.fa-envelope
-          a(href='https://www.linkedin.com/in/marcnewport', target='_blank')
+          a(href="https://www.linkedin.com/in/marcnewport", target="_blank")
             i.fa.fa-linkedin-square
-          a(href='https://github.com/marcnewport', target='_blank')
+          a(href="https://github.com/marcnewport", target="_blank")
             i.fa.fa-github-alt
-          a(href='http://codepen.io/marcnewport/pens/popular/', target='_blank')
+          a(href="http://codepen.io/marcnewport/pens/popular/", target="_blank")
             i.fa.fa-codepen
-          a(href='https://www.instagram.com/marcnewport/', target='_blank')
+          a(href="https://www.instagram.com/marcnewport/", target="_blank")
             i.fa.fa-instagram
             
     
     
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js')
-    script(src='//cdn.jsdelivr.net/scrollreveal.js/3.0.3/scrollreveal.min.js')
-    script(src='js/main.js')
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js")
+    script(src="//cdn.jsdelivr.net/scrollreveal.js/3.0.3/scrollreveal.min.js")
+    script(src="js/main.js")
