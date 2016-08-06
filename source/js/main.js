@@ -15,19 +15,19 @@ var footer = require('./footer');
 
     var $body = $('body');
 
-    // // Animate scrolling to the anchor target
+    // Animate scrolling to the anchor target
     $body.on('click.navigate', '.btn-navigate-down', smoothScroll);
     $window.on('hashchange', smoothScroll);
 
-
-
     home();
-
     projects();
-
     footer();
 
-    ScrollReveal({ reset: true }).reveal('.img-circle', { duration: 1000 });
+    // Use scrollreveal
+    var sr = ScrollReveal({ reset: true });
+    if (sr.isSupported()) {
+      sr.reveal('.img-circle', { duration: 1000 });
+    }
   });
 
 
@@ -58,6 +58,16 @@ var footer = require('./footer');
       global.hash = el;
     }
     e.preventDefault();
+  }
+
+
+  /**
+   * Check if client supports CSS Transform and CSS Transition.
+   * @return {boolean}
+   */
+  ScrollReveal.prototype.isSupported = function () {
+    var style = document.documentElement.style;
+    return 'WebkitTransition' in style && 'WebkitTransform' in style || 'transition' in style && 'transform' in style;
   }
 
 }(jQuery));
