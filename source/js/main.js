@@ -5,6 +5,7 @@ var footer = require('./footer');
 
 (function($) {
 
+  global.$window = $(window);
   global.$document = $(document);
   global.hash = '#home';
 
@@ -16,7 +17,7 @@ var footer = require('./footer');
 
     // // Animate scrolling to the anchor target
     $body.on('click.navigate', '.btn-navigate-down', smoothScroll);
-    $(window).on('hashchange', smoothScroll);
+    $window.on('hashchange', smoothScroll);
 
 
 

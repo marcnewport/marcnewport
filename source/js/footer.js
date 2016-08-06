@@ -1,7 +1,6 @@
 module.exports = function() {
 
-  var $window = $(window),
-      windowHeight = $window.height(),
+  var windowHeight = $window.height(),
       $footer = $document.find('footer'),
       footerHeight = $footer.height(),
       position,
