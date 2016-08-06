@@ -55,6 +55,10 @@ section {
 	position: relative;
 	z-index: 2;
 
+	&:active {
+		box-shadow: none;
+	}
+
 	.glyphicon:before {
 		width: 50px;
 		height: 50px;
@@ -65,7 +69,7 @@ section {
 	}
 }
 
-// BS overrides
+// Bootstrap overrides
 a {
 	color: $primary-color;
 
@@ -86,19 +90,3 @@ a {
 .label-default {
 	background-color: $panel-background-color;
 }
-
-// section,
-// footer {
-// 	position: relative;
-// 	left: 0;
-//   transition: left 600ms ease-in-out;
-// }
-//
-// .show-project {
-// 	overflow: hidden;
-//
-//   section,
-// 	footer {
-// 		left: -100%;
-// 	}
-// }

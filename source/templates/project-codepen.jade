@@ -1,0 +1,33 @@
+
+.modal.fade(class="project-modal modal fade", id="project-codepen", tabindex="-1", role="dialog")
+  .modal-dialog
+    .modal-content
+      .modal-header
+        button.close(type='button', class='btn-close' data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+          
+      .modal-body
+        .container
+          .row
+            .col-xs-12.col-sm-6
+              .laptop
+                .laptop-screen
+                  img.img-responsive(src="assets/project-codepen.png")
+                .laptop-base
+            .col-xs-12.col-sm-6
+              h3 Codepen 
+                span.subheading 
+              p Codepen is a briliant online tool for developers to test out ideas in a rapid environment.
+              p Below is a link to my codepen profile page where you can check out some works. Some of the pens focus on cutting edge technology like speech recognition which is only in webkit browsers. I recommend using Google's Chrome.
+              span.label.label-default JADE
+              span.label.label-default HTML
+              span.label.label-default SASS
+              span.label.label-default CSS
+              span.label.label-default Bootstrap
+              span.label.label-default JavaScript
+              span.label.label-default jQuery
+              br
+              //- a.btn.btn-default.btn-lg.disabled(href="#") Source unavailable
+              a.btn.btn-default.btn-primary.btn-lg(href="http://codepen.io/marcnewport/pens/popular/", target="_blank") View pens
+          
+      .modal-footer
