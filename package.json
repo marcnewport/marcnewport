@@ -32,7 +32,8 @@
     "demo": "n-copy --source source/demo --destination build/demo \"*\"",
     "postdemo": "chmod -Rf 777 build/demo",
     "serve": "browser-sync start --server --startPath \"build/index.html\" --files \"build/**\"",
-    "dev": "npm-run-all --parallel serve watch:*"
+    "dev": "npm-run-all --parallel serve watch:*",
+    "build": "npm-run-all js sass jade assets demo"
   },
   "repository": {
     "type": "git",
