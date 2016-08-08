@@ -34,30 +34,23 @@ var footer = require('./footer');
 
   /**
    * Event handler for click and hashchange that scrolls the page to the internal anchors
-   *
-   * @param  {Object} e
-   *         The event
    */
   function smoothScroll(e) {
 
     var el = e.type === 'click' ? $(this).attr('href') : window.location.hash || '#home';
-    var pos = 0;
+    var pos = $(el).offset().top;
 
-    if (global.hash !== el) {
+    $('html, body').animate({
+      scrollTop: pos
+    },
+    400,
+    function() {
+      window.location.hash = el === '#home' ? '' : el;
+    });
 
-      pos = $(el).offset().top;
+    global.hash = el;
 
-      $('html, body').animate({
-        scrollTop: pos
-      },
-      400,
-      function() {
-        window.location.hash = el === '#home' ? '' : el;
-      });
-
-      global.hash = el;
-    }
-    e.preventDefault();
+    return false;
   }
 
 

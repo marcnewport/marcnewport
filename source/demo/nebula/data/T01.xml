@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T01</id>
+  <type>mp_topic</type>
+  <title><![CDATA[Topic One - Display Pages]]></title>
+  <roles>role1,role2</roles>
+  <enable_menu>1</enable_menu>
+  <enable_resources>1</enable_resources>
+  <enable_case_study>1</enable_case_study>
+  <enable_my_notes>1</enable_my_notes>
+  <force_order>false</force_order>
+  <assessed>false</assessed>
+  <knowledge_check>0</knowledge_check>
+  <resources>
+    <group type="review">
+      <item>
+        <id>R03</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[280x380]]></title>
+        <content><![CDATA[903-280x380.jpg]]></content>
+        <size>20227</size>
+        <ext>jpg</ext>
+        <width>280</width>
+        <height>380</height>
+        <alt_text><![CDATA[]]></alt_text>
+      </item>
+      <item>
+        <id>R02</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[835x380]]></title>
+        <content><![CDATA[901-835x380.jpg]]></content>
+        <size>22394</size>
+        <ext>jpg</ext>
+        <width>835</width>
+        <height>380</height>
+        <alt_text><![CDATA[]]></alt_text>
+      </item>
+    </group>
+    <group type="other">
+      <item>
+        <id>R03</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Nebula Fly-through]]></title>
+        <streaming>1</streaming>
+        <address>//player.vimeo.com/video/64484866</address>
+      </item>
+    </group>
+  </resources>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

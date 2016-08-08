@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T03</id>
+  <type>mp_topic</type>
+  <title><![CDATA[Topic Three - Scoring Interactions]]></title>
+  <roles>role1</roles>
+  <enable_menu>0</enable_menu>
+  <enable_resources>0</enable_resources>
+  <enable_case_study>0</enable_case_study>
+  <enable_my_notes>0</enable_my_notes>
+  <force_order>true</force_order>
+  <assessed>true</assessed>
+  <knowledge_check>0</knowledge_check>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

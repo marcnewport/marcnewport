@@ -1,0 +1,118 @@
+#page.mp-table-activity {
+	.question {
+		width:30%;
+		overflow: auto;
+		float: left;
+    }
+
+    #btn-submit {
+      margin: 10px 20px 0 0;
+
+      &:hover {
+        margin-right: 17px;
+      }
+    }
+
+    #truefalsetable_div {
+        width:70%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        float: right;
+    }
+
+    .truefalsetable {
+		width: 92%;
+		text-align: left;
+		border-bottom: solid 1px;
+		float: right;
+	}
+
+	.truefalsetable th {
+		background-color: $primary-color;
+		border: solid 1px #000;
+		border-bottom: none;
+		padding-left: 3px;
+        padding-right: 3px;
+        color: $modal-panels-button-color;
+	}
+
+	.truefalsetable td {
+		border: solid 1px;
+		border-bottom: none;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		position: relative;
+
+		&.statement {
+		    padding-left:5px
+		}
+	}
+
+	.truefalsetable tr.even {
+		background: $grey-color;
+	}
+
+	.truefalsetable td.answer, .truefalsetable th.answer {
+		text-align: center;
+		border-left: none;
+	}
+
+	.marking.icon.icon-tick {
+		float: right;
+		color: $secondary-color;
+	}
+
+	.odd .input-overlay.radio {
+        background: url(../files/skin/sprite-radio-button.png) no-repeat 0 0 #7D7D7D;
+    }
+	.input-overlay.radio {
+		background: url(../files/skin/sprite-radio-button-grey.png) no-repeat 0 0 #7D7D7D;
+		width: 19px;
+		height: 19px;
+		margin-top: 2px;
+		margin-right:auto;
+		margin-left:auto;
+
+		input {
+		  opacity: 0.01;
+		  height: 19px;
+		  width: 19px;
+		  cursor: pointer;
+		}
+
+	    &.selected  {
+	      background-position: 0 -19px;
+	    }
+	}
+
+	.input-overlay.checkbox {
+	    background: url(../files/skin/sprite-checkbox.png) no-repeat 0 0 #7D7D7D;
+	    width: 19px;
+	    height: 19px;
+	    margin-right:auto;
+        margin-left:auto;
+
+        input {
+          opacity: 0.01;
+          height: 19px;
+          width: 19px;
+          cursor: pointer;
+        }
+
+	    &.selected  {
+          background-position: 0 -19px;
+        }
+
+      &.focus {
+        outline: 1px dotted #000000;
+      }
+    }
+    #content a.btn-why {
+      top: 2px;
+      left: -40px
+    }
+
+    .input-overlay.correct {
+      background-color: $secondary-color !important;
+    }
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T02P02</id>
+  <type>mp_mid_video_activity</type>
+  <title><![CDATA[Mid-video Activity]]></title>
+  <main><![CDATA[<p>A mid-video activity allows you to stop the video at any point and display text or a activity in a modal overlay.</p>
+<p>The modal overlay types are:</p>
+<ul>
+<li>Text</li>
+<li>Checklist question</li>
+<li>True false question</li>
+<li>Multi-choice question.</li>
+</ul>]]></main>
+  <video>
+    <item>
+      <id>R03</id>
+      <type>mp_resource_video</type>
+      <title><![CDATA[Nebula Fly-through]]></title>
+      <streaming>1</streaming>
+      <address>//player.vimeo.com/video/64484866</address>
+    </item>
+  </video>
+  <timecodes>
+    <item>
+      <id>T02P02-AT01</id>
+      <time>5</time>
+      <activities>
+        <item>
+          <id>T02P02-AT01-A01</id>
+          <type>mp_timecode_text_dialogue</type>
+        </item>
+      </activities>
+    </item>
+    <item>
+      <id>T02P02-AT02</id>
+      <time>10</time>
+      <activities>
+        <item>
+          <id>T02P02-AT02-A01</id>
+          <type>mp_timecode_checklist</type>
+        </item>
+      </activities>
+    </item>
+  </timecodes>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

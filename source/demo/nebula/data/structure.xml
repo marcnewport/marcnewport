@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <course id="DEMO01">
+    <id>DEMO01</id>
+    <type>mp_course</type>
+    <title><![CDATA[Demo Course]]></title>
+    <force_topics>false</force_topics>
+    <description_panel>1</description_panel>
+    <my_notes_text><![CDATA[]]></my_notes_text>
+    <action_notes_text><![CDATA[]]></action_notes_text>
+    <other_notes_text><![CDATA[]]></other_notes_text>
+    <copyright><![CDATA[&copy; Nine Lanterns 2015]]></copyright>
+    <course_save_title><![CDATA[Session saved]]></course_save_title>
+    <course_save_content><![CDATA[You can now close your browser.]]></course_save_content>
+    <tree>
+      <item>
+        <id>P01</id>
+        <type>mp_splash</type>
+        <title><![CDATA[Splash Page]]></title>
+      </item>
+      <item>
+        <id>T01</id>
+        <type>mp_topic</type>
+        <title><![CDATA[Topic One - Display Pages]]></title>
+        <roles>role1,role2</roles>
+        <enable_case_study/>
+        <force_order>false</force_order>
+        <assessable>false</assessable>
+        <knowledge_check>0</knowledge_check>
+        <children>
+          <item>
+            <id>T01P00</id>
+            <type>mp_introduction</type>
+            <title><![CDATA[Introduction]]></title>
+          </item>
+          <item>
+            <id>T01P01</id>
+            <type>mp_basic</type>
+            <title><![CDATA[Basic page]]></title>
+          </item>
+          <item>
+            <id>T01P03</id>
+            <type>mp_basic</type>
+            <title><![CDATA[Video Page]]></title>
+          </item>
+          <item>
+            <id>T01P04</id>
+            <type>mp_role_choice</type>
+            <title><![CDATA[Role Choice]]></title>
+          </item>
+        </children>
+      </item>
+      <item>
+        <id>T02</id>
+        <type>mp_topic</type>
+        <title><![CDATA[Topic Two - Non Scoring Interactions]]></title>
+        <roles>role1,role2</roles>
+        <enable_case_study/>
+        <force_order>false</force_order>
+        <assessable>false</assessable>
+        <knowledge_check>0</knowledge_check>
+        <children>
+          <item>
+            <id>T02P01</id>
+            <type>mp_search_scene</type>
+            <title><![CDATA[Search the Scene]]></title>
+          </item>
+          <item>
+            <id>T02P03</id>
+            <type>mp_free_text</type>
+            <title><![CDATA[Text Input]]></title>
+          </item>
+          <item>
+            <id>T02P02</id>
+            <type>mp_mid_video_activity</type>
+            <title><![CDATA[Mid-video Activity]]></title>
+            <children>
+              <item>
+                <id>T02P02-AT01</id>
+                <type>mp_mid_video_activity_timecode</type>
+                <title><![CDATA[AT01]]></title>
+                <children>
+                  <item>
+                    <id>T02P02-AT01-A01</id>
+                    <type>mp_timecode_text_dialogue</type>
+                    <title><![CDATA[Timecode Text Dialogue]]></title>
+                  </item>
+                </children>
+              </item>
+              <item>
+                <id>T02P02-AT02</id>
+                <type>mp_mid_video_activity_timecode</type>
+                <title><![CDATA[AT02]]></title>
+                <children>
+                  <item>
+                    <id>T02P02-AT02-A01</id>
+                    <type>mp_timecode_checklist</type>
+                    <title><![CDATA[Timecode Checklist]]></title>
+                  </item>
+                </children>
+              </item>
+            </children>
+          </item>
+        </children>
+      </item>
+      <item>
+        <id>T03</id>
+        <type>mp_topic</type>
+        <title><![CDATA[Topic Three - Scoring Interactions]]></title>
+        <roles>role1</roles>
+        <enable_case_study/>
+        <force_order>true</force_order>
+        <assessable>true</assessable>
+        <knowledge_check>0</knowledge_check>
+        <children>
+          <item>
+            <id>T03P01</id>
+            <type>mp_checklist</type>
+            <title><![CDATA[Checklist]]></title>
+          </item>
+          <item>
+            <id>T03P02</id>
+            <type>mp_multiple_choice</type>
+            <title><![CDATA[Multiple Choice]]></title>
+          </item>
+          <item>
+            <id>T03P03</id>
+            <type>mp_true_false</type>
+            <title><![CDATA[True False]]></title>
+          </item>
+          <item>
+            <id>T03P06</id>
+            <type>mp_summary</type>
+            <title><![CDATA[Summary]]></title>
+          </item>
+        </children>
+      </item>
+    </tree>
+    <settings>
+      <cache_buster>DEMO011470640410</cache_buster>
+      <viewable>mp_audio_stories,mp_basic,mp_branching_menu,mp_checklist,mp_click_scene,mp_decision_tree,mp_demonstration,mp_diagram,mp_drag_drop_match,mp_drag_drop_scene,mp_drag_drop_sort,mp_explore,mp_free_text,mp_fullscreen_video,mp_image_multiple_choice,mp_introduction,mp_media_page,mp_mid_video_activity,mp_multiple_choice,mp_reflect_and_review,mp_reorder,mp_role_choice,mp_search_scene,mp_splash,mp_summary,mp_table_activity,mp_transition,mp_true_false</viewable>
+      <page_list>
+        <role1>T01P00,T01P01,T01P03,T01P04,T02P01,T02P03,T02P02,T03P01,T03P02,T03P03,T03P06</role1>
+        <role2>T01P00,T01P01,T01P03,T01P04,T02P01,T02P03,T02P02</role2>
+        <all>T01P00,T01P01,T01P03,T01P04,T02P01,T02P03,T02P02,T03P01,T03P02,T03P03,T03P06</all>
+      </page_list>
+      <resume_session>1</resume_session>
+      <transition_page>1</transition_page>
+      <display_disabled_tabs>1</display_disabled_tabs>
+      <force_complete>0</force_complete>
+      <pass_mark>75</pass_mark>
+      <disabled_navigation_opacity>0</disabled_navigation_opacity>
+    </settings>
+    <resources>
+      <glossary>
+        <id>Global-glossary</id>
+        <type>mp_glossary</type>
+        <title><![CDATA[Glossary]]></title>
+        <item>
+          <term>basic page</term>
+          <definition><![CDATA[This is an example of the glossary feature. You can choose a word to define, that will be highlighted in the text. It will also display in a list in the Resources panel.]]></definition>
+        </item>
+        <item>
+          <term>SCORM 1.2</term>
+          <definition><![CDATA[SCORM is a communication standard between a module like Nebula (SCO) and an online learning system (LMS). SCORM 1.2 is the most widely used.]]></definition>
+        </item>
+        <item>
+          <term>WCAG AA</term>
+          <definition><![CDATA[WCAG is an accessibiity standard for web pages and applications. There are three levels: A, AA, AAA]]></definition>
+        </item>
+      </glossary>
+      <faq>
+        <id>Global-FAQ</id>
+        <type>mp_faq</type>
+        <title><![CDATA[FAQ]]></title>
+        <item>
+          <question><![CDATA[Is there a time limit for completing the course?]]></question>
+          <answer><![CDATA[<p>No, there is no time limit for completing the course.</p>]]></answer>
+        </item>
+        <item>
+          <question><![CDATA[What happens if I need to exit the course before I finish it?]]></question>
+          <answer><![CDATA[<p>You can select the <strong>Exit</strong> button to leave the course at any time without losing your work.</p>
+<p>Your progress and notes will be automatically saved, so you can recommence from the same place when you're ready.</p>
+<p>Remember to select the <strong>Exit</strong> button - if you exit using the browser <strong>Close (X)</strong> button, your work will not be saved.</p>]]></answer>
+        </item>
+        <item>
+          <question><![CDATA[Can I practice taking the course more than once?]]></question>
+          <answer><![CDATA[<p>Yes, you can work through the course as many times as you like.</p>
+<p> </p>]]></answer>
+        </item>
+        <item>
+          <question><![CDATA[Can I download the course so I can view them offline?]]></question>
+          <answer><![CDATA[<p>No, you must be online to complete the course.</p>
+<p> </p>]]></answer>
+        </item>
+        <item>
+          <question><![CDATA[Can I complete this course on a mobile device?]]></question>
+          <answer><![CDATA[<p>The course can be completed on an iPad or Android tablet, but are not designed for use on a smart phone.</p>
+<p> </p>]]></answer>
+        </item>
+        <item>
+          <question><![CDATA[Can I keep a record of my answers?]]></question>
+          <answer><![CDATA[<p>Your answers to the free text questions will be saved in <strong>My notes</strong>.</p>
+<p>You can print these, or save them electronically by selecting <strong>Print</strong>, then <strong>Save as PDF</strong>.</p>]]></answer>
+        </item>
+        <item>
+          <question><![CDATA[Can I save a copy of <b>My notes</b>?]]></question>
+          <answer><![CDATA[Yes. When you select <strong>Print</strong>, choose <strong>Save as PDF</strong>.]]></answer>
+        </item>
+      </faq>
+      <help>
+        <id>Global-help</id>
+        <type>mp_help</type>
+        <title><![CDATA[Help]]></title>
+        <item>
+          <title><![CDATA[Basic navigation]]></title>
+          <content><![CDATA[<p>While each screen varies a little, you'll notice some consistent navigation tools throughout. These include:</p>
+<p><strong>Back and Next</strong>. Use the <strong>Back</strong> and <strong>Next</strong> buttons to move backwards and forwards through the module. The numbers between the arrows indicate your current position in relation to the total number of screens in the module.</p>
+<p><strong>Exit</strong>. Select the <strong>Exit</strong> button to leave the module at any time without losing your work. Your progress and notes will be automatically saved, so you can recommence from the same place when you're ready.</p>
+<p><strong>Resources</strong>. To complete the module you will need to use a number of linked reference materials such as external websites and PDF documents in the <strong>Resources</strong> tab.</p>
+<p><strong>Glossary links.</strong> Words on the content screen that have a glossary definition available are underlined with a dotted line.</p>
+<p><strong>?</strong> Help content can be accessed from this button.</p>]]></content>
+        </item>
+        <item>
+          <title><![CDATA[Tabs]]></title>
+          <content><![CDATA[<p>You can access three options via the tabs to the right of the screen:</p>
+<p><strong>Menu:</strong> allows you to quickly navigate through the module by selecting any section. You must complete each screen in order though and can only jump between screens you have already completed.</p>
+<p><strong>Resources:</strong> provides a list of references and support material that will help you complete the module.</p>
+<p><strong>My notes:</strong> keeps a record of your responses to free text questions and allows you to write comments and notes for yourself as you work. You'll be able to print your notes at any time.</p>]]></content>
+        </item>
+        <item>
+          <title><![CDATA[Accessing video]]></title>
+          <content><![CDATA[<p>There are a number of video clips throughout the module, so make sure you've got your headphones ready. When you see the video screen you can use the following options to control the video:</p>
+<p><strong>Play:</strong> select this button to play and then select again to pause.</p>
+<p><strong>Volume:</strong> select this controller to adjust the volume.</p>
+<p><strong>Full screen:</strong> select this button to view the video in full screen.</p>]]></content>
+        </item>
+        <item>
+          <title><![CDATA[Activity types]]></title>
+          <content><![CDATA[<p>Throughout the module you'll be completing a number of activities. These might include questions using:</p>
+<p><strong>True and false:</strong> where you must provide a true or false answer for each response.</p>
+<p><strong>Checklist:</strong> where you might be required to identify a number of correct responses.</p>
+<p><strong>Hot spot:</strong> where there are icons on an image which can be selected to provide more information.</p>
+<p><strong>Free text:</strong> where you are able to write a response to a question in your own words.</p>]]></content>
+        </item>
+        <item>
+          <title><![CDATA[Feedback]]></title>
+          <content><![CDATA[<p>Usually, you'll have two chances to complete an activity before you'll be able to read feedback about the correct response. When the feedback window appears, you'll be able to minimise it by selecting this button.</p>]]></content>
+        </item>
+        <item>
+          <title><![CDATA[Accessibility]]></title>
+          <content><![CDATA[<p>Use the minimise/maximise buttons to make text larger or smaller.</p>
+<p> </p>]]></content>
+        </item>
+      </help>
+    </resources>
+  </course>
+</root>

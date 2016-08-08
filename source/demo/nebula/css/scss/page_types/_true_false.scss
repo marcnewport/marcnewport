@@ -1,0 +1,132 @@
+/*
+ * True-false choice page
+ */
+#page.mp-true-false {
+
+  //to show transcript panel
+  &.transcript #content {
+    z-index: 11;
+
+    &> .inner {
+      overflow: visible;
+    }
+  }
+
+  .left-column {
+    width: 40%;
+
+    #scenario {
+      margin-bottom: 1em;
+    }
+  }
+
+  .right-column {
+    width: 56%;
+
+    #question {
+      margin-bottom: 15px;
+    }
+
+    &.no-scenario {
+      width: 100%;
+    }
+
+    #true-false-header {
+      font-weight: bold;
+      color: $primary-color;
+      margin: 0 20px 10px 0;
+      text-align: right;
+    }
+  }
+
+  #activity {
+
+    .response {
+      margin-top: 2px;
+      margin-bottom: 10px;
+      position: relative;
+      outline: none;
+
+      .statement {
+        display: block;
+        min-height: 29px;
+        margin: 0 80px 0 38px;
+        cursor: pointer;
+      }
+
+      input {
+        position: absolute;
+      }
+
+      .label-true {
+        position: absolute;
+        right: 55px;
+        top: 0;
+        width: 18px;
+        height: 18px;
+      }
+
+      .label-false {
+        position: absolute;
+        right: 12px;
+        top: 0;
+        width: 18px;
+        height: 18px;
+      }
+    }
+
+    &.completed .response {
+
+      &.true .label-true .custom-input {
+        border-color: $secondary-color;
+
+        &:after {
+          background-color: $secondary-color;
+        }
+      }
+
+      &.false .label-false .custom-input {
+        border-color: $secondary-color;
+
+        &:after {
+          background-color: $secondary-color;
+        }
+      }
+
+      &.correct {
+
+        &:before {
+          font-family: 'icomoon';
+          speak: none;
+          font-style: normal;
+          font-weight: normal;
+          font-variant: normal;
+          text-transform: none;
+          line-height: 1;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          content: "\e600";
+          color: $secondary-color;
+          position: absolute;
+          top: 2px;
+          left: 10px;
+        }
+      }
+    }
+  }
+
+  .right-column.no-scenario {
+
+    .clickable {
+      margin-left:0;
+    }
+
+    #question {
+      margin-left: 0;
+    }
+
+    .response label {
+      padding-right: 0;
+    }
+  }
+}

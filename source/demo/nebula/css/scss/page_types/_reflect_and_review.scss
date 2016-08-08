@@ -1,0 +1,180 @@
+/*
+ * Reflect and review
+ */
+#page.mp-reflect-and-review {
+
+  #tab-container {
+    overflow: hidden;
+
+    .tab {
+      float: left;
+      color: $white-color;
+      background: $primary-color;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin-right: 3px;
+      border-radius: $button-radius-medium 0 0 0;
+
+      &.selected,
+      &:hover {
+        color: $primary-color;
+        background: $grey-color;
+      }
+    }
+  }
+
+  #tab-content-container {
+    background: $grey-color;
+    overflow: hidden;
+
+    .tab-content {
+      height: 100%;
+      display: none;
+      color: $black-color;
+
+      &.selected {
+        display: block;
+      }
+
+      .tab-content-inner {
+        margin: 20px 20px 7px 20px;
+        height: 80%;
+      }
+
+      .btn {
+        height: 29px;
+        padding: 0 5px;
+        margin-right: 20px;
+        font-family: Verdana, Sans-serif;
+        font-size: 0.86em;
+        font-weight: bold;
+        line-height: 29px;
+        color: $button-link-color;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: none;
+        float: right;
+        transition: margin 0.1s;
+
+        &:after {
+          @include button-icon('right');
+        }
+      }
+    }
+
+    #tab-content-intro {
+
+      .tab-content-inner {
+        overflow: auto;
+      }
+    }
+
+    #tab-content-reflect {
+
+      .tab-content-inner {
+        overflow: hidden;
+
+        .statement {
+          display: none;
+          height: 100%;
+
+          &.selected {
+            display: block;
+          }
+
+          .question {
+            //max-height: 35%;
+            height: 35%;
+            overflow: auto;
+            margin-bottom: 20px;
+          }
+
+          .options-container {
+            width: 28%;
+            float: left;
+            height: 55%;
+            overflow: auto;
+            border-right: 3px solid $white-color;
+          }
+
+          .statement-feedback {
+            width: 65%;
+            float: right;
+            height: 55%;
+            overflow: auto;
+          }
+
+          .response {
+            margin-bottom: 5px;
+            margin-top: 1px;
+            overflow: hidden;
+            position: relative;
+            min-height: 21px;
+
+            label {
+              cursor: pointer;
+              float: left;
+              margin-left: 29px;
+            }
+
+            .input-wrap {
+              position: absolute;
+              top: 0;
+              right: 0;
+            }
+
+            input,
+            .custom-input {
+              position: absolute;
+              top: 2px;
+              left: 2px;
+            }
+          }
+        }
+      }
+
+      .statement-btns {
+        float: left;
+        margin-left: 40%;
+
+        .statement-btn {
+          float: left;
+          color: $primary-color;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 1.1em;
+          line-height: 1.3em;
+          height: 1.3em;
+          width: 1.3em;
+          text-align: center;
+          border-radius: 50%;
+
+          &.selected {
+            background: $white-color;
+          }
+        }
+      }
+    }
+
+    #tab-content-review {
+
+      label {
+        display: block;
+        margin-bottom: 15px;
+        height: 30%;
+        overflow: auto;
+      }
+
+      textarea {
+        display: block;
+        width: 94%;
+        height: 55%;
+        background: $grey-color;
+        color: $black-color;
+        border: 2px solid $white-color;
+        padding: 10px 20px;
+      }
+    }
+  }
+}

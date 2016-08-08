@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T03P03</id>
+  <type>mp_true_false</type>
+  <title><![CDATA[True False]]></title>
+  <question><![CDATA[<p>This is a true false page type - it allows you to have multiple statements followed by a true false selection.</p>
+<p>As with other scoring page types, if you omit the scenario text the layout will be displayed across the full width.</p>]]></question>
+  <max_attempts>1</max_attempts>
+  <responses>
+    <item>
+      <statement><![CDATA[Statement one (true) - please choose true or false. You can also have "why feedback" at the statement level as seen on the previous page.]]></statement>
+      <correct>1</correct>
+      <why><![CDATA[Statement one why feedback]]></why>
+    </item>
+    <item>
+      <statement><![CDATA[Statement two (false)]]></statement>
+      <correct>0</correct>
+      <why><![CDATA[Statement two why feedback]]></why>
+    </item>
+    <item>
+      <statement><![CDATA[Statement three (false)]]></statement>
+      <correct>0</correct>
+      <why><![CDATA[Statement three why feedback]]></why>
+    </item>
+    <item>
+      <statement><![CDATA[Statement four (false)]]></statement>
+      <correct>0</correct>
+      <why><![CDATA[Statement four why feedback]]></why>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[This is the correct feedback. Tell the learner why this is correct.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[This is the incorrect feedback for any attempt that is not the final attempt. You might give the learner more information and an encouraging message to retry.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[This is the final incorrect feedback. Here you might tell the learner which was the correct answer and why.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T02P02-AT01-A01</id>
+  <type>mp_timecode_text_dialogue</type>
+  <title><![CDATA[Timecode Text Dialogue]]></title>
+  <question><![CDATA[This is where you can highlight something about the video at this time. Other interactions available are: checklist, multiple choice, and true false.]]></question>
+</root>

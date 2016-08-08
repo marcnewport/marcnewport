@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T02P01</id>
+  <type>mp_search_scene</type>
+  <title><![CDATA[Search the Scene]]></title>
+  <asset>
+    <item>
+      <id>R02</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[835x380]]></title>
+      <content><![CDATA[901-835x380.jpg]]></content>
+      <size>22394</size>
+      <ext>jpg</ext>
+      <width>835</width>
+      <height>380</height>
+      <alt_text><![CDATA[]]></alt_text>
+    </item>
+  </asset>
+  <hotspots>
+    <item>
+      <title><![CDATA[Hotspot area]]></title>
+      <label><![CDATA[Add information about an area on an image you want to highlight. You can choose where the hotspot areas are positioned.]]></label>
+      <top>200</top>
+      <left>100</left>
+    </item>
+    <item>
+      <title><![CDATA[Another hotspot area]]></title>
+      <label><![CDATA[Add information about an area on an image you want to highlight. You can choose where the hotspot areas are positioned.]]></label>
+      <top>300</top>
+      <left>500</left>
+    </item>
+  </hotspots>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

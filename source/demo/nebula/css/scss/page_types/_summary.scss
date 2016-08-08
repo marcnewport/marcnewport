@@ -1,0 +1,59 @@
+/*
+ * Summary page
+ */
+#page.mp-summary {
+
+  #content > .inner {
+    overflow: visible;
+  }
+
+  #content .left-column h4 {
+    margin-top: 30px;
+  }
+
+  #summary-buttons a {
+    font-weight: bold;
+    color: $button-link-color;
+    border: none;
+    padding: 6px;
+    float: left;
+    clear: both;
+    text-decoration: none;
+    font-family: $button-font-family;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    transition: padding 0.1s;
+
+    &:after {
+      @include button-icon('right');
+    }
+
+    &:hover {
+      padding: 6px 3px 6px 9px;
+    }
+  }
+
+  #content .right-column {
+    width: 389px;
+    overflow-x: hidden !important;
+    background-color: $grey-color;
+    color: #000000;
+    margin-right: 30px;
+  }
+
+  #content.has-media .right-column {
+    background: #FFFFFF;
+    overflow: hidden !important;
+  }
+
+  #content .right-column #user-score {
+    background: #FFFFFF;
+    padding: 5px 0 10px 0;
+    float: left;
+    width: 100%;
+  }
+
+  #content .right-column .directors-tip {
+    margin: 15px 20px;
+  }
+}
