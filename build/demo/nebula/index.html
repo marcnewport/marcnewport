@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Demo Course - </title>
+
+    <meta charset="utf-8" />
+		<meta name="author" content="Nine Lanterns http://www.ninelanterns.com.au" />
+    <meta name="viewport" content="user-scalable=1.0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+
+		<link rel="stylesheet" href="css/styles.css?uncache=1470640412" type="text/css" media="all" />
+
+    <!--[if lte IE 7]>
+      <link rel="stylesheet" href="css/ie7.css?uncache=1470640412" type="text/css" media="all" />
+    <![endif]-->
+    <!--[if IE 8]>
+      <link rel="stylesheet" href="css/ie8.css?uncache=1470640412" type="text/css" media="all" />
+    <![endif]-->
+	</head>
+
+	<body class="text-size-normal">
+
+    <div id="page" class="loading">
+
+      <!-- page heading -->
+      <div id="header" role="banner">
+        <div id="header-logo"></div>
+        <div class="inner">
+          <h1>Title</h1>
+          <div id="header-buttons">
+            <a href="#" id="btn-size-minus" title="Decrease text size" role="button">A<span class="minus">-</span></a>
+            <a href="#" id="btn-size-plus" title="Increase text size"  role="button">A<span class="plus">+</span></a>
+            <a href="#" id="btn-help" title="Access help menu" role="button">?</a>
+            <a href="#" id="btn-exit" title="Exit module" role="button">x</a>
+          </div>
+        </div>
+        <div id="header-underline"></div>
+      </div>
+
+      <!-- the page type markup wrap -->
+      <div id="content" role="main">
+        <!-- ajaxed page goes here -->
+        <div id="font-loader"><!-- preload font into dom --></div>
+      </div>
+
+      <!-- feedback popup -->
+      <div id="feedback" class="hidden open" role="dialog" tabindex="-1">
+        <div id="feedback-content">
+          <div id="feedback-txt"></div>
+          <a href="#" class="btn-reset feedback-button" title="Reset the question">Reset</a>
+          <a href="#" class="btn-findout feedback-button" title="Show more information about the responses">Find out why</a>
+          <a href="#" class="btn-show feedback-button" title="Show the correct order">Correct Order</a>
+          <a href="#" class="btn-location feedback-button" title="Show the correct location">Correct Location</a>
+          <a href="#" class="btn-categories feedback-button" title="Show the items in their correct categories">Correct Categories</a>
+
+          <a href="#" class="btn-feedback-restart feedback-button" title="Start from the first decision point">Restart</a>
+          <a href="#" class="btn-feedback-previous feedback-button" title="Go back to the last decision point">Previous</a>
+          <a href="#" class="btn-feedback-undo feedback-button" title="Choose another point">Undo</a>
+          <a href="#" class="btn-feedback-more feedback-button" title="View resources">More</a>
+        </div>
+
+        <div class="feedback-footer">
+          <a href="#" class="btn-feedback feedback-button" title="Show Feedback" role="button">Feedback</a>
+          <a href="#" class="btn-tryagain feedback-button" title="Retry the activity" role="button">Try Again</a>
+          <a href="#" class="btn-next feedback-button" title="Go to the next page" role="button">Next</a>
+
+          <a href="#" class="btn-feedback-hs-done feedback-button" title="OK" role="button">OK</a>
+          <a href="#" class="btn-feedback-hs-tryagain feedback-button" title="Retry the activity" role="button">Try Again</a>
+          <a href="#" class="btn-feedback-hs-rewatch feedback-button" title="Rewatch from last point">Rewatch</a>
+          <a href="#" class="btn-feedback-hs-resume feedback-button" title="Resume the video">Resume video</a>
+          <a href="#" class="btn-feedback-hs-next feedback-button" title="Go to the next page" role="button">Next</a>
+
+          <a href="#" class="btn-feedback-next feedback-button" title="Go to the next page">Next</a>
+          <a href="#" class="btn-feedback-continue feedback-button" title="Go to the next decision point">Continue</a>
+          <a href="#" class="btn-feedback-hide feedback-button" title="Hide this panel">Hide</a>
+        </div>
+      </div>
+
+      <!-- page footer -->
+      <div id="footer">
+        <div id="copyright" role="contentinfo"></div>
+        <div id="page-navigation" role="navigation"></div>
+      </div>
+
+    </div><!--end page-->
+
+    <div id="blocker"></div>
+
+    <div id="modal-overlay" role="dialog" tabindex="-1">
+      <div class="title">
+        <div class="inner"></div>
+      </div>
+      <div class="content"></div>
+      <a href="#" id="btn-overlay-close" role="button">Close</a>
+    </div>
+
+    <!-- panels -->
+    <div id="panels" class="hidden">
+      <div id="panel-menu" class="panel closed" role="tabpanel">
+        <div class="panel-content" role="menu"></div>
+      </div>
+      <div  id="panel-resources" class="panel closed" role="tabpanel">
+        <div class="panel-tabs"></div>
+        <div class="panel-content"></div>
+      </div>
+      <div  id="panel-case-study" class="panel closed" role="tabpanel">
+        <div class="panel-tabs"></div>
+        <div class="panel-content"></div>
+      </div>
+      <div  id="panel-notes" class="panel closed" role="tabpanel">
+        <div class="panel-tabs">
+          <a href="#" id="my-notes" class="tab">My notes</a>
+          <a href="#" id="action-notes" class="tab">Actions</a>
+          <a href="#" id="other-notes" class="tab">Other notes</a>
+        </div>
+        <div class="panel-content"></div>
+      </div>
+    </div>
+
+    <!-- panel buttons - at end of page for better focus order -->
+    <div id="panel-buttons" class="hidden" role="tablist">
+      <a href="#" id="btn-menu" class="btn-panel btn-closed" title="Show the menu panel" role="tab" aria-controls="panel-menu">
+        <span class="icon icon-menu"></span>
+        <div class="label">Menu</div>
+      </a>
+      <a href="#" id="btn-resources" class="btn-panel btn-closed" title="Show the resources panel" role="tab" aria-controls="panel-resources">
+        <span class="icon icon-resources"></span>
+        <img src="files/skin/icon-panel-essential-info.png" class="essential" alt="" />
+        <div class="label">Resources</div>
+      </a>
+      <a href="#" id="btn-case-study" class="btn-panel btn-closed" title="Show the case study panel" role="tab" aria-controls="panel-case-study">
+        <span class="icon icon-case-study"></span>
+        <div class="label">Case study</div>
+      </a>
+      <a href="#" id="btn-notes" class="btn-panel btn-closed" title="Show the notes panel" role="tab" aria-controls="panel-notes">
+        <span class="icon icon-notes"></span>
+        <div class="label">My notes</div>
+      </a>
+    </div>
+
+    <!-- the loading animation overlay -->
+    <div id="loader" class="initialising" tabindex="-1" aria-valuetext="Loading"><div class="inner"></div></div>
+
+    <div id="ie6-message" class="hidden">
+      <h3>Your browser is unsupported</h3>
+      <p>You need a modern browser to run this application.</p>
+    </div>
+
+    <!-- what to show if browser has no javascript -->
+    <noscript>
+      <div class="detect-warning">You need javascript to run this application.</div>
+    </noscript>
+
+    <!-- utility scripts -->
+		<script src="js/utilities/jquery.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/utilities/jquery.plugins.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/utilities/inheritance.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/utilities/jwplayer.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/utilities/utilities.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="//www.youtube.com/iframe_api" type="text/javascript"></script>
+    <!-- models -->
+		<script src="js/models/scorm.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/models/structure.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/models/session.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/models/sequence.js?uncache=1470640412" type="text/javascript"></script>
+    <!-- application controller -->
+		<script src="js/application.js?uncache=1470640412" type="text/javascript"></script>
+    <!-- panel views -->
+		<script src="js/panels/panel.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/panels/panel_menu.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/panels/panel_resources.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/panels/panel_case_study.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/panels/panel_notes.js?uncache=1470640412" type="text/javascript"></script>
+    <!-- page type views -->
+		<script src="js/page_types/page_type.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/page_types/mp_basic.js?uncache=1470640412" type="text/javascript"></script>
+		<script src="js/page_types/mp_search_scene.js?uncache=1470640412" type="text/javascript"></script>
+    <!-- init -->
+		<script src="js/init.js?uncache=1470640412" type="text/javascript"></script>
+  </body>
+</html>

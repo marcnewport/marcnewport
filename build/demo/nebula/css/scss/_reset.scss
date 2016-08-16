@@ -1,0 +1,122 @@
+/*
+ * Reset
+ */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-overflow-scrolling: touch;
+}
+
+*:focus,
+*.focus {
+  outline: 1px dotted #000000;
+}
+
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  line-height: 1.333em;
+  color: $body-font-color;
+  overflow: hidden;
+  background-color: $background-color;
+  background-image: $background-image;
+
+  //font size changing - all other font sizes are relative to these
+  &.text-size-big {
+    font-size: 19px;
+  }
+
+  &.text-size-biggest {
+    font-size: 22px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  font-family: $title-font-family;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.33em;
+  font-weight: normal;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul {
+  padding-left: 1.2em;
+  margin-bottom: 1em;
+}
+
+ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 1em;
+}
+
+a img {
+  border: none;
+}
+
+fieldset {
+  border: none;
+}
+
+textarea {
+  font-family: $body-font-family;
+  font-size: 0.9em;
+  color: $body-font-color;
+}
+
+textarea[disabled] {
+  color: $dark-grey-color;
+  background-color: #FFFFFF;
+}
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.disable *,
+.disabled,
+.disabled * {
+  cursor: default !important;
+}
+
+[tabindex="-1"]:focus,
+.disabled:focus,
+.disabled.focus,
+.disabled *:focus,
+.disabled *.focus {
+  outline: none;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T01P04</id>
+  <type>mp_role_choice</type>
+  <title><![CDATA[Role Choice]]></title>
+  <main><![CDATA[This page type allows you to select a role; then you assign roles to a topic so that certain roles only see certain topics. In this example, <strong>Role One</strong> can access all topics within this module and <strong>Role Two</strong> cannot access the last topic.]]></main>
+  <roles>
+    <item>
+      <id>role1</id>
+      <name><![CDATA[Role One]]></name>
+      <description><![CDATA[This role has access to the entire module.]]></description>
+      <image>
+        <item>
+          <id>R04</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[User icon]]></title>
+          <content><![CDATA[profile.gif]]></content>
+          <size>552</size>
+          <ext>gif</ext>
+          <width>75</width>
+          <height>75</height>
+          <alt_text><![CDATA[]]></alt_text>
+        </item>
+      </image>
+    </item>
+    <item>
+      <id>role2</id>
+      <name><![CDATA[Role Two]]></name>
+      <description><![CDATA[This role can access the non assessment topics.]]></description>
+      <image>
+        <item>
+          <id>R04</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[User icon]]></title>
+          <content><![CDATA[profile.gif]]></content>
+          <size>552</size>
+          <ext>gif</ext>
+          <width>75</width>
+          <height>75</height>
+          <alt_text><![CDATA[]]></alt_text>
+        </item>
+      </image>
+    </item>
+  </roles>
+</root>

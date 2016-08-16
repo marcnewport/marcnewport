@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>P01</id>
+  <type>mp_splash</type>
+  <title><![CDATA[Splash Page]]></title>
+  <credits_link><![CDATA[]]></credits_link>
+  <slides>
+    <slide>
+      <alt_text><![CDATA[]]></alt_text>
+      <image><![CDATA[slide1_2.jpg]]></image>
+      <width>990</width>
+      <height>400</height>
+    </slide>
+    <slide>
+      <alt_text><![CDATA[]]></alt_text>
+      <image><![CDATA[slide2_1.jpg]]></image>
+      <width>990</width>
+      <height>400</height>
+    </slide>
+  </slides>
+</root>

@@ -1,0 +1,48 @@
+/*
+ * Role choice
+ */
+#page.mp-role-choice {
+
+  #main-text {
+    float: left;
+    overflow: auto;
+  }
+
+  #roles {
+    float: left;
+
+    .role-item {
+      overflow: hidden;
+      float: left;
+      position: relative;
+
+      h3 {
+        text-align: center;
+        clear: left;
+      }
+
+      a {
+        float: left;
+        overflow: hidden;
+        border: 10px solid #FFFFFF;
+        background: $primary-color;
+        border-radius: 100%;
+
+        &:hover {
+
+          img {
+            opacity: 0.8;
+          }
+        }
+      }
+
+      &.selected a {
+        border: 10px solid $primary-color;
+      }
+    }
+  }
+
+  #footer {
+    background: none;
+  }
+}

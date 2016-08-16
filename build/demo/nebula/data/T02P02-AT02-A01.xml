@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T02P02-AT02-A01</id>
+  <type>mp_timecode_checklist</type>
+  <title><![CDATA[Timecode Checklist]]></title>
+  <question><![CDATA[Here you can ask the learner a question about the video]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <item>
+      <option><![CDATA[Option 1]]></option>
+      <correct>1</correct>
+    </item>
+    <item>
+      <option><![CDATA[Option 2]]></option>
+      <correct>0</correct>
+    </item>
+    <item>
+      <option><![CDATA[Option 3]]></option>
+      <correct>0</correct>
+    </item>
+    <item>
+      <option><![CDATA[Option 4]]></option>
+      <correct>0</correct>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[This is the correct feedback. Tell the learner why this is correct.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[This is the incorrect feedback for any attempt that is not the final attempt. You might give the learner more information and an encouraging message to retry.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[This is the final incorrect feedback. Here you might tell the learner which was the correct answer and why.]]></text>
+    </item>
+  </feedback>
+</root>

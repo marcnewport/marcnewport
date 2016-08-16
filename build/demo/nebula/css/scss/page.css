@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Search and Click scene popups
+ */
+#panel-case-study #hs-popup,
+#page #hs-popup {
+  max-width: 380px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background: #9DCD6D;
+  color: #000000;
+  z-index: 101;
+}
+
+#panel-case-study #hs-popup .title .inner h3,
+#page #hs-popup .title .inner h3 {
+  margin: 10px 15px;
+  color: #000000;
+}
+
+#panel-case-study #hs-popup .content,
+#page #hs-popup .content {
+  max-height: 280px;
+  margin: 15px;
+  overflow: auto;
+  padding-right: 10px;
+}
+
+#page #hs-popup .content span.title {
+  font-weight: bold;
+}
+
+#page #hs-popup .content p:last {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Fullscreen video page
+ */
+#page.mp-fullscreen-video #content #video-wrap {
+  margin-right: 40px;
+  background-color: #404040;
+  padding-left: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+

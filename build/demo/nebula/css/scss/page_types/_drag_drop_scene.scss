@@ -1,0 +1,88 @@
+/*
+ * Drag drop scene
+ */
+#page.mp-drag-drop-scene {
+
+  #draggables {
+    float: left;
+
+    &.completed {
+
+      .correct:before {
+        font-family: 'icomoon';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        /* Better Font Rendering */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\e600";
+        color: $secondary-color;
+        font-size: 16px;
+        position: absolute;
+        left: 2px;
+        top: 11px;
+      }
+    }
+  }
+
+  .draggable {
+    position: relative;
+    font-size: 0.85em;
+    background-color: #FFFFFF;
+    border: 1px solid $dark-grey-color;
+    list-style: none;
+    margin: 0 10px 10px 0;
+    padding: 10px 13px 10px 17px;
+    cursor: pointer;
+    float: left;
+    z-index: 3;
+    width: 94px;
+    text-align: center;
+    border-radius: $button-radius;
+
+    &:hover {
+      box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  .ui-draggable-disabled,
+  .ui-draggable-disabled:hover {
+    background-color: #FFFFFF;
+    cursor: default;
+    box-shadow: none;
+  }
+
+  .draggable.ui-draggable-dragging {
+    z-index: 5;
+  }
+
+  #scene {
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #scene img {
+    float: left;
+  }
+
+  .droppable {
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid $primary-color;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .droppable.over,
+  .droppable.dropped,
+  .droppable:hover {
+    background: $primary-color;
+  }
+}

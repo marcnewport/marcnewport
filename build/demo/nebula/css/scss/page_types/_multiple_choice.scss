@@ -1,0 +1,91 @@
+/*
+ * Multiple choice page
+ */
+#page.mp-multiple-choice {
+
+  //to show transcript panel
+  &.transcript #content {
+    z-index: 11;
+
+    &> .inner {
+      overflow: visible;
+    }
+  }
+
+  .left-column {
+    width: 41%;
+  }
+
+  .left-column #scenario {
+    margin-bottom: 1em;
+  }
+
+  #content #question {
+    margin-bottom: 15px;
+  }
+
+  .right-column {
+    width: 55%;
+  }
+
+  .right-column.no-scenario {
+    width: 100%;
+  }
+
+  #scenario {
+    overflow: hidden;
+    margin-bottom: 1em;
+  }
+
+  #activity {
+
+    .response {
+      margin-top: 2px;
+      margin-bottom: 10px;
+      position: relative;
+
+      label {
+        display: block;
+        min-height: 29px;
+        margin: 0 25px 0 38px;
+      }
+
+      input,
+      .custom-input {
+        position: absolute;
+        right: 5px;
+        top: 0;
+      }
+    }
+
+    &.completed .response {
+
+      &.correct {
+        .custom-input {
+          border-color: $secondary-color;
+
+          &:after {
+            background-color: $secondary-color;
+          }
+        }
+
+        &.checked:before {
+          font-family: 'icomoon';
+        	speak: none;
+        	font-style: normal;
+        	font-weight: normal;
+        	font-variant: normal;
+        	text-transform: none;
+        	line-height: 1;
+        	-webkit-font-smoothing: antialiased;
+        	-moz-osx-font-smoothing: grayscale;
+          content: "\e600";
+          color: $secondary-color;
+          position: absolute;
+          top: 2px;
+          left: 10px;
+        }
+      }
+    }
+  }
+}

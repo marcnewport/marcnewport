@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T02P03</id>
+  <type>mp_free_text</type>
+  <title><![CDATA[Text Input]]></title>
+  <scenario><![CDATA[<p>This page type allows the learner to input text which gets stored between sessions. You can add a model answer to the feedback section for the learner to compare notes with on submission.</p>
+<p>The text input here will get stored in the My Notes panel for later reference and is available to print out.</p>]]></scenario>
+  <questions>
+    <question>
+      <text><![CDATA[Here you can prefix the text area input with a question]]></text>
+    </question>
+    <question>
+      <text><![CDATA[Or it might have more detailed information about what you want the learner to write]]></text>
+    </question>
+  </questions>
+  <feedback>
+    <item>
+      <text><![CDATA[<p>Here you might put a model answer for the learner to compare notes with.</p>
+<p>Check the My Notes panel by selecting the tab on the bottom left.</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Here you might put a model answer for the learner to compare notes with.</p>
+<p>Check the My Notes panel by selecting the tab on the bottom left.</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Here you might put a model answer for the learner to compare notes with.</p>
+<p>Check the My Notes panel by selecting the tab on the bottom left.</p>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

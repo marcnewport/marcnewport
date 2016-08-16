@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T03P06</id>
+  <type>mp_summary</type>
+  <title><![CDATA[Summary]]></title>
+  <pass_text><![CDATA[<p><strong>Congratulations you have passed the assessment!</strong></p>
+<p>Here you can add further information for the learner in the case where they pass the module.</p>]]></pass_text>
+  <fail_text><![CDATA[<p><strong>Oh no, you didn't quite pass the assessment.</strong></p>
+<p>Here you can add further information for the learner in the case where they did not pass the module.</p>]]></fail_text>
+  <show_score>none</show_score>
+  <reviewable>1</reviewable>
+  <button_heading><![CDATA[What would you like to do next?]]></button_heading>
+  <btn_exit><![CDATA[Exit module]]></btn_exit>
+  <btn_review><![CDATA[Review module]]></btn_review>
+  <summary_title><![CDATA[This is the end of the module]]></summary_title>
+  <directors_tip><![CDATA[<p>Here you can give further information to the learner wether they passed the module or not. Generally this section is used for further learning or what to do next.</p>
+<p>There is an option to display the score of the learner as a pecentage or as a ratio.</p>]]></directors_tip>
+  <include_image>1</include_image>
+</root>

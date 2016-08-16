@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T01P00</id>
+  <type>mp_introduction</type>
+  <title><![CDATA[Introduction]]></title>
+  <module><![CDATA[<p>Nebula is a web application that is <a href="#" class="glossary-term" name="SCORM 1.2">SCORM 1.2</a> compliant for use in online learning platforms such as <a href="https://moodle.org/"  target="_blank">Moodle</a>. Nebula is an HTML5 application and is optimised for use on desktop, laptop, and tablets.</p>
+<p>Nebula has been developed to comply with <a href="#" class="glossary-term" name="WCAG AA">WCAG AA</a> standards (assuming alternative media has been supplied).</p>]]></module>
+  <learn_about_title><![CDATA[You'll Learn]]></learn_about_title>
+  <learn_about><![CDATA[This is a demo module show casing the variety of page types and interactions available in Nebula. There are many configuration options available making it a flexible tool to build an online learning module. Nebula also has a theme builder so you can choose colors, fonts and other graphical features.]]></learn_about>
+  <get_started_title><![CDATA[Getting Started]]></get_started_title>
+  <get_started><![CDATA[View the help section for tips on how to navigate the module.]]></get_started>
+  <about_module_title><![CDATA[About This Module]]></about_module_title>
+  <time_title><![CDATA[Time To Complete]]></time_title>
+  <time><![CDATA[5 mins]]></time>
+  <audio_info_title><![CDATA[Audio Information]]></audio_info_title>
+  <audio_info><![CDATA[Headphones recommended]]></audio_info>
+  <text_references_title><![CDATA[Text References]]></text_references_title>
+  <text_references><![CDATA[Check the Resources panel for references]]></text_references>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

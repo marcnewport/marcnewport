@@ -27,10 +27,7 @@
     "watch:jade": "watch-run -p 'source/*.jade,source/templates/*.jade' npm run jade",
     "preassets": "n-clean build/assets/**",
     "assets": "n-copy --source source/assets --destination build/assets \"*\"",
-    "postassets": "chmod -Rf 777 build/assets & npm run demo",
-    "predemo": "n-clean build/demo/**",
-    "demo": "n-copy --source source/demo --destination build/demo \"*\"",
-    "postdemo": "chmod -Rf 777 build/demo",
+    "postassets": "chmod -Rf 777 build/assets",
     "serve": "browser-sync start --server --startPath \"build/index.html\" --files \"build/**\"",
     "dev": "npm-run-all --parallel serve watch:*",
     "build": "npm-run-all js sass jade assets demo"

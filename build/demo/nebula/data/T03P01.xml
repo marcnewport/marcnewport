@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T03P01</id>
+  <type>mp_checklist</type>
+  <title><![CDATA[Checklist]]></title>
+  <scenario><![CDATA[<p>A checklist page gives you multiple options to choose from with one or more options being selectable and one or more options being correct.</p>
+<p>Feedback is available on submission, along with "why feedback" which is specific to an option.</p>]]></scenario>
+  <question><![CDATA[This is where you prefix the activity with a statement or question.]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <item>
+      <option><![CDATA[Option one]]></option>
+      <why><![CDATA[This is where you would explain why this option was correct or incorrect]]></why>
+      <correct>1</correct>
+    </item>
+    <item>
+      <option><![CDATA[Option two]]></option>
+      <why><![CDATA[This is where you would explain why this option was correct or incorrect]]></why>
+      <correct>0</correct>
+    </item>
+    <item>
+      <option><![CDATA[Option three]]></option>
+      <why><![CDATA[This is where you would explain why this option was correct or incorrect]]></why>
+      <correct>0</correct>
+    </item>
+    <item>
+      <option><![CDATA[Option four]]></option>
+      <why><![CDATA[This is where you would explain why this option was correct or incorrect]]></why>
+      <correct>0</correct>
+    </item>
+    <item>
+      <option><![CDATA[Option five]]></option>
+      <why><![CDATA[This is where you would explain why this option was correct or incorrect]]></why>
+      <correct>0</correct>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[This is the correct feedback. Tell the learner why this is correct.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[This is the incorrect feedback for any attempt that is not the final attempt. You might give the learner more information and an encouraging message to retry.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[This is the final incorrect feedback. Here you might tell the learner which was the correct answer and why.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

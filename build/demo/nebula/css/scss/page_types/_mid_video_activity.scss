@@ -1,0 +1,206 @@
+/*
+ * Mid-video activity
+ */
+#page.mp-mid-video-activity {
+
+  #content .inner {
+    margin-right: 0;
+  }
+
+  #main-text {
+    float: left;
+    width: 30%;
+  }
+
+  #video-blocker {
+    position: absolute;
+    width: 87%;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 10;
+  }
+
+  .jwplayer-wrap {
+    float: right;
+    margin-right: 40px;
+    z-index: 1;
+  }
+
+  #btn-va-back {
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    padding: 5px 15px;
+  }
+
+  /* Popup for the activity */
+  #hs-popup {
+    top: 150px;
+    left: 450px;
+    background-color: #FFFFFF;
+    color: #404040;
+
+    .content {
+      max-height: 256px;
+      margin-bottom: 10px;
+      width: 340px;
+
+      #question {
+        margin-bottom: 20px;
+      }
+
+      #activity {
+
+        .response {
+
+          label {
+            display: block;
+            min-height: 29px;
+            margin: 0 25px 0 20px;
+          }
+
+          input,
+          .custom-input {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+        }
+
+        &.completed .response {
+
+          &.correct {
+            .custom-input {
+              border-color: $secondary-color;
+
+              &:after {
+                background-color: $secondary-color;
+              }
+            }
+
+            &.checked:before {
+              font-family: 'icomoon';
+            	speak: none;
+            	font-style: normal;
+            	font-weight: normal;
+            	font-variant: normal;
+            	text-transform: none;
+            	line-height: 1;
+            	-webkit-font-smoothing: antialiased;
+            	-moz-osx-font-smoothing: grayscale;
+              content: "\e600";
+              color: $secondary-color;
+              position: absolute;
+              top: 2px;
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+
+    a#btn-submit-popup {
+      color: $primary-color;
+      margin-bottom: 6px;
+      background-position: right center;
+    }
+
+    &.mp-timecode-true-false {
+
+      #activity {
+
+        #true-false-header {
+          font-weight: bold;
+          color: $primary-color;
+          margin: 0 0 10px 0;
+          text-align: right;
+        }
+
+        .response {
+
+          .statement {
+            display: block;
+            min-height: 29px;
+            margin: 0 80px 0 20px;
+            cursor: pointer;
+          }
+
+          label {
+            margin: 0;
+          }
+
+          .label-true {
+            position: absolute;
+            right: 55px;
+            top: 0;
+            width: 22px;
+            height: 22px;
+            overflow: hidden;
+          }
+
+          .label-false {
+            position: absolute;
+            right: 12px;
+            top: 0;
+            width: 22px;
+            height: 22px;
+            overflow: hidden;
+          }
+
+          input,
+          .custom-input {
+            top: 2px;
+            right: 2px;
+          }
+        }
+
+        &.completed .response {
+
+          &.correct {
+
+            .custom-input {
+              border-color: $darker-grey-color;
+
+              &:after {
+                background-color: $darker-grey-color;
+              }
+            }
+
+            &:before {
+              font-family: 'icomoon';
+              speak: none;
+              font-style: normal;
+              font-weight: normal;
+              font-variant: normal;
+              text-transform: none;
+              line-height: 1;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              content: "\e600";
+              color: $secondary-color;
+              position: absolute;
+              top: 2px;
+              left: 0;
+            }
+          }
+
+          &.true .label-true .custom-input {
+            border-color: $secondary-color;
+
+            &:after {
+              background-color: $secondary-color;
+            }
+          }
+
+          &.false .label-false .custom-input {
+            border-color: $secondary-color;
+
+            &:after {
+              background-color: $secondary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

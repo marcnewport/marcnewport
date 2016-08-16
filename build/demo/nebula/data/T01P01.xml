@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T01P01</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic page]]></title>
+  <main><![CDATA[<p>This is a <a href="#" class="glossary-term" name="basic page">basic page</a>. However, it is a lot more complex than the name suggests. There are many variations on this page type, for example:</p>
+<ul style="padding-left: 15px;">
+<li>The text can be displayed in columns</li>
+<li>Images can be fixed or fluid</li>
+<li>Video and audio can be displayed along side text content from sources like youtube and vimeo</li>
+</ul>
+This is an example of a <a href="#" class="glossary-term" name="basic page">basic page</a> with a portrait image fixed to the right.]]></main>
+  <assets>
+    <item>
+      <id>R03</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[280x380]]></title>
+      <content><![CDATA[903-280x380.jpg]]></content>
+      <size>20227</size>
+      <ext>jpg</ext>
+      <width>280</width>
+      <height>380</height>
+      <alt_text><![CDATA[]]></alt_text>
+    </item>
+  </assets>
+  <basic_type>image_inline</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

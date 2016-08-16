@@ -1,0 +1,31 @@
+/*
+ * Transition page
+ */
+#page.mp-transition {
+  
+  .page-title h2 {
+    display: none;
+  }
+  
+  #transition-text {
+    font: normal 1.7em/1.3em $body-font-family;
+    color: $transition-font-color;
+    display: none;
+    text-align: $transition-text-align;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+    p {
+      margin-bottom: 0;
+    }
+  }
+  
+  div#content .inner {
+    background: $transition-back;
+  }
+}
+
+.navigation-top #page.mp-transition #header .inner h1 {
+  display: none;
+}

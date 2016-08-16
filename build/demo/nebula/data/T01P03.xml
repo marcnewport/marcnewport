@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T01P03</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Video Page]]></title>
+  <main><![CDATA[This is an example of the <a href="#" class="glossary-term" name="basic page">Basic Page</a> with video content. The video source can be uploaded directly to Nebula CAS or be linked to a YouTube or Vimeo source.]]></main>
+  <assets>
+    <item>
+      <id>R03</id>
+      <type>mp_resource_video</type>
+      <title><![CDATA[Nebula Fly-through]]></title>
+      <streaming>1</streaming>
+      <address>//player.vimeo.com/video/64484866</address>
+    </item>
+  </assets>
+  <basic_type>video</basic_type>
+  <media_description><![CDATA[This video shows a 3D visualisation of part of the sky in the constellation of Orion (The Hunter), showing the new infrared Hubble observations of the Horsehead Nebula (otherwise known as Barnard 33). This video presents a scientific visualisation of the Horsehead Nebula as seen in infrared light. The computer graphics model is intended to be scientifically reasonable, but not fully accurate. This new infrared image has been released to celebrate 23 years of the NASA/ESA Hubble Space Telescope. This video also uses ground-based observations from the European Southern Observatory's Visible and Infrared Survey Telescope for Astronomy (VISTA).<br /><br />Credit: NASA, ESA, the Hubble Heritage Team (STScI/AURA)]]></media_description>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

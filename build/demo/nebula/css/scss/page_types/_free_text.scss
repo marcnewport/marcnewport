@@ -1,0 +1,54 @@
+/*
+ * Freetext page
+ */
+#page.mp-free-text {
+  
+  .left-column {
+    width: 45%;
+  }
+
+  .right-column {
+    width: 52%;
+  }
+
+  .scenario-right .left-column {
+    width: 385px;
+  }
+
+  .scenario-right .left-column .page-media img {
+    height: auto;
+    width: 385px;
+  }
+
+  .scenario-right .right-column {
+    width: auto;
+  }
+
+  .right-column #scenario {
+    margin-bottom: 1em;
+  }
+
+  .question {
+    margin-bottom: 1em;
+  }
+
+  .question.last {
+    margin-bottom: 0;
+  }
+
+  #content .question label {
+    margin-bottom: 1em;
+    float: left;
+  }
+
+  #content .question label p {
+    margin-bottom: 0;
+  }
+
+  .question textarea {
+    height: 60px;
+    resize: none;
+    border: 1px solid #636363;
+    padding: 10px 15px;
+  }
+}

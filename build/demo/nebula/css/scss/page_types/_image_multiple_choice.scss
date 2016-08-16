@@ -1,0 +1,104 @@
+/*
+ * Image mutliple choice
+ */
+#page.mp-image-multiple-choice {
+
+  #content .left-column {
+    width: 40%;
+  }
+
+  #content .right-column {
+    position: relative;
+    width: 56%;
+  }
+
+  #content #question {
+    overflow: auto;
+    max-height: 65px;
+    margin-bottom: 10px;
+  }
+
+  #content .right-column #activity {
+    margin-bottom: 10px;
+  }
+
+  #content .right-column #activity fieldset {
+    padding: 0;
+    margin: 0;
+  }
+
+  #activity .item {
+    position: relative;
+    float: left;
+    margin: 0 35px 18px 0;
+    width: 120px;
+    height: 120px;
+
+    .icon {
+      font-size: 24px;
+      color: $secondary-color;
+      position: absolute;
+      top: 48px;
+      left: 48px;
+      z-index: 5;
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  #activity .item.last-column {
+    margin-right: 0;
+  }
+
+  #activity .item.last-row {
+    margin-bottom: 0;
+  }
+
+  #activity .item .response-image {
+    float: left;
+  }
+
+  #activity.disable .item .response-image,
+  #activity.final .item .response-image {
+    opacity: 0.75;
+  }
+
+  #activity .item .input-bdr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 112px;
+    height: 112px;
+    z-index: 2;
+    border: 4px solid transparent;
+  }
+
+  #activity .item.selected .input-bdr {
+    border: 4px solid $primary-color;
+  }
+
+  #activity.final .item.true .input-bdr {
+    border: 4px dashed $secondary-color;
+  }
+
+  #activity.final .item.selected.true .input-bdr {
+    border: 4px solid $secondary-color;
+  }
+
+  #activity .item input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    opacity: 0.01;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  #activity .item .btn-why {
+    position: absolute;
+    top: -4px;
+    left: -19px;
+    z-index: 4;
+  }
+}

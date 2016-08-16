@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>T03P02</id>
+  <type>mp_multiple_choice</type>
+  <title><![CDATA[Multiple Choice]]></title>
+  <scenario><![CDATA[<p>A multiple choice page gives you multiple options to choose from with only one option being selectable.</p>
+<p>Feedback is available on submission, along with "why feedback" which is specific to an option.</p>]]></scenario>
+  <question><![CDATA[This is where you prefix the activity with a statement or question.]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <correct>1</correct>
+    <item>
+      <option><![CDATA[Option one]]></option>
+      <why><![CDATA[Option one is correct because ...]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Option two]]></option>
+      <why><![CDATA[Option two is icorrect because ...]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Option three]]></option>
+      <why><![CDATA[Option three is icorrect because ...]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Option four]]></option>
+      <why><![CDATA[Option four is icorrect because ...]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Option five]]></option>
+      <why><![CDATA[Option five is icorrect because ...]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Option six]]></option>
+      <why><![CDATA[Option six is icorrect because ...]]></why>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[This is the correct feedback. Tell the learner why this is correct.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[This is the incorrect feedback for any attempt that is not the final attempt. You might give the learner more information and an encouraging message to retry.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[This is the final incorrect feedback. Here you might tell the learner which was the correct answer and why.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

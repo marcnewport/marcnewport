@@ -1,0 +1,130 @@
+/*
+ * Splash page
+ */
+#page.mp-splash {
+  border: none;
+
+  #content {
+    padding: 0;
+    background-color: $splash-background-color;
+
+    .inner {
+      margin: 0;
+      height: 100% !important;
+    }
+
+    #course-title {
+      width: 100%;
+      height: 90px;
+      overflow: hidden;
+
+      #splash-logo {
+        background-image: $splash-logo;
+        width: $splash-logo-width;
+        height: $splash-logo-height;
+        overflow: hidden;
+        float: left;
+      }
+
+      h1 {
+        font-size: 2em;
+        font-weight: normal;
+        line-height: 1.2em;
+        color: $splash-title-color;
+        float: left;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  #module-title {
+    position: absolute;
+    top: 90px;
+    left: $splash-module-title-left;
+    padding: 30px;
+    padding-top: $splash-module-padding-top;
+    //minus 60 for padding
+    width: $splash-module-title-width - 60;
+    z-index: 5;
+    color: $splash-module-title-color;
+    background: $splash-module-title-background;
+    font-size: $splash-module-title-font-size;
+    line-height: 1.2em;
+    display: $splash-module-title-display;
+  }
+
+  #slides {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 395px;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    img.showing {
+      z-index: 1;
+    }
+  }
+
+  #header,
+  #footer {
+    display: none;
+  }
+
+  #copyright-splash {
+    font-size: 12px;
+    font-family: Verdana, Sans-serif;
+    color: $splash-copyright-color;
+    width: 75%;
+    margin-left: 30px;
+    float: left;
+    height: 65px;
+
+    p {
+      margin: 0;
+      display: table-cell;
+      vertical-align: middle;
+      height: inherit;
+    }
+
+  }
+
+  #copyright-splash a {
+    color: $primary-color;
+    margin-right: 0.5em;
+  }
+
+  #btn-start {
+    position: absolute;
+    right: 35px;
+    bottom: 13px;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    background: $splash-start-button-color;
+    color: $splash-start-button-font-color;
+    transition: transform 0.1s;
+    border-radius: $navigation-button-radius;
+  }
+
+  #btn-start:hover,
+  #btn-start:focus,
+  #btn-start.focus {
+    transform: translateX(3px);
+  }
+
+  #logo-splash-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  #logo-splash-footer img {
+    float: left;
+  }
+}

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Created by Nebula CAS - Nine Lanterns - http://ninelanterns.com.au -->
+<manifest identifier="MAN_DEMO01_1470187131" 
+          version="1470640412" 
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+          xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" 
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  
+  <organizations default="ORG_DEMO01_1470187131">
+    <organization identifier="ORG_DEMO01_1470187131" structure="hierarchical">
+      <title>Demo Course</title>
+      <item identifier="ACT_DEMO01_1470187131" isvisible="true" identifierref="RES_DEMO01_1470187131">
+        <title></title>
+      </item>
+    </organization>
+  </organizations>
+
+  <resources>
+    <resource identifier="RES_DEMO01_1470187131" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html" />
+      <file href="css/ie7.css" />
+      <file href="css/ie8.css" />
+      <file href="css/ipad.css" />
+      <file href="css/scss/page.css" />
+      <file href="css/scss/page_types/_audio_stories.scss" />
+      <file href="css/scss/page_types/_basic.scss" />
+      <file href="css/scss/page_types/_branching_menu.scss" />
+      <file href="css/scss/page_types/_checklist.scss" />
+      <file href="css/scss/page_types/_click_scene.scss" />
+      <file href="css/scss/page_types/_decision_tree.scss" />
+      <file href="css/scss/page_types/_demonstration.scss" />
+      <file href="css/scss/page_types/_diagram.scss" />
+      <file href="css/scss/page_types/_drag_drop_match.scss" />
+      <file href="css/scss/page_types/_drag_drop_scene.scss" />
+      <file href="css/scss/page_types/_drag_drop_sort.scss" />
+      <file href="css/scss/page_types/_explore.scss" />
+      <file href="css/scss/page_types/_free_text.scss" />
+      <file href="css/scss/page_types/_general.scss" />
+      <file href="css/scss/page_types/_image_multiple_choice.scss" />
+      <file href="css/scss/page_types/_introduction.scss" />
+      <file href="css/scss/page_types/_media_page.scss" />
+      <file href="css/scss/page_types/_mid_video_activity.scss" />
+      <file href="css/scss/page_types/_multiple_choice.scss" />
+      <file href="css/scss/page_types/_reflect_and_review.scss" />
+      <file href="css/scss/page_types/_reorder.scss" />
+      <file href="css/scss/page_types/_role_choice.scss" />
+      <file href="css/scss/page_types/_search_scene.scss" />
+      <file href="css/scss/page_types/_splash.scss" />
+      <file href="css/scss/page_types/_summary.scss" />
+      <file href="css/scss/page_types/_table_activity.scss" />
+      <file href="css/scss/page_types/_transition.scss" />
+      <file href="css/scss/page_types/_true_false.scss" />
+      <file href="css/scss/styles.scss" />
+      <file href="css/scss/_fonts.scss" />
+      <file href="css/scss/_icons.scss" />
+      <file href="css/scss/_navigation_top.scss" />
+      <file href="css/scss/_overlays.scss" />
+      <file href="css/scss/_panels.scss" />
+      <file href="css/scss/_reset.scss" />
+      <file href="css/scss/_variables.scss" />
+      <file href="css/styles.css" />
+      <file href="css/styles.css.map" />
+      <file href="data/DEMO01.xml" />
+      <file href="data/P01.xml" />
+      <file href="data/structure.xml" />
+      <file href="data/T01.xml" />
+      <file href="data/T01P00.xml" />
+      <file href="data/T01P01.xml" />
+      <file href="data/T01P03.xml" />
+      <file href="data/T01P04.xml" />
+      <file href="data/T02.xml" />
+      <file href="data/T02P01.xml" />
+      <file href="data/T02P02-AT01-A01.xml" />
+      <file href="data/T02P02-AT01.xml" />
+      <file href="data/T02P02-AT02-A01.xml" />
+      <file href="data/T02P02-AT02.xml" />
+      <file href="data/T02P02.xml" />
+      <file href="data/T02P03.xml" />
+      <file href="data/T03.xml" />
+      <file href="data/T03P01.xml" />
+      <file href="data/T03P02.xml" />
+      <file href="data/T03P03.xml" />
+      <file href="data/T03P06.xml" />
+      <file href="files/901-835x380.jpg" />
+      <file href="files/903-280x380.jpg" />
+      <file href="files/nebulacas-logo-full.png" />
+      <file href="files/nebula_logo.png" />
+      <file href="files/not_published.jpg" />
+      <file href="files/player.swf" />
+      <file href="files/profile.gif" />
+      <file href="files/skin/bg-white-opacity-80.png" />
+      <file href="files/skin/button-transcript-hide-down.png" />
+      <file href="files/skin/button-transcript-hide-right.png" />
+      <file href="files/skin/button-transcript-show-down.png" />
+      <file href="files/skin/button-transcript-show-right.png" />
+      <file href="files/skin/drag-item-point.png" />
+      <file href="files/skin/fonts/icomoon.eot" />
+      <file href="files/skin/fonts/icomoon.svg" />
+      <file href="files/skin/fonts/icomoon.ttf" />
+      <file href="files/skin/fonts/icomoon.woff" />
+      <file href="files/skin/icon-panel-case-study.png" />
+      <file href="files/skin/icon-panel-essential-info-navigation-top.png" />
+      <file href="files/skin/icon-panel-essential-info.png" />
+      <file href="files/skin/icon-panel-menu.png" />
+      <file href="files/skin/icon-panel-my-notes.png" />
+      <file href="files/skin/icon-panel-resources.png" />
+      <file href="files/skin/icon-sprite-search-scene.png" />
+      <file href="files/skin/loader.gif" />
+      <file href="files/skin/question-item-point.png" />
+      <file href="files/skin/sprite-checkbox.png" />
+      <file href="files/skin/sprite-radio-button-grey.png" />
+      <file href="files/skin/sprite-radio-button.png" />
+      <file href="files/skin/summary-fail.jpg" />
+      <file href="files/skin/summary-pass.jpg" />
+      <file href="files/skin/tooltip-point.png" />
+      <file href="files/slide1_2.jpg" />
+      <file href="files/slide2_1.jpg" />
+      <file href="js/application.js" />
+      <file href="js/init.js" />
+      <file href="js/models/scorm.js" />
+      <file href="js/models/sequence.js" />
+      <file href="js/models/session.js" />
+      <file href="js/models/structure.js" />
+      <file href="js/page_types/mp_audio_stories.js" />
+      <file href="js/page_types/mp_basic.js" />
+      <file href="js/page_types/mp_basic_case_study.js" />
+      <file href="js/page_types/mp_branching_menu.js" />
+      <file href="js/page_types/mp_checklist.js" />
+      <file href="js/page_types/mp_click_scene.js" />
+      <file href="js/page_types/mp_decision_tree.js" />
+      <file href="js/page_types/mp_demonstration.js" />
+      <file href="js/page_types/mp_diagram.js" />
+      <file href="js/page_types/mp_drag_drop_match.js" />
+      <file href="js/page_types/mp_drag_drop_scene.js" />
+      <file href="js/page_types/mp_drag_drop_sort.js" />
+      <file href="js/page_types/mp_explore.js" />
+      <file href="js/page_types/mp_free_text.js" />
+      <file href="js/page_types/mp_fullscreen_video.js" />
+      <file href="js/page_types/mp_hotspot_activity.js" />
+      <file href="js/page_types/mp_hotspot_multiple_choice.js" />
+      <file href="js/page_types/mp_image_multiple_choice.js" />
+      <file href="js/page_types/mp_introduction.js" />
+      <file href="js/page_types/mp_media_page.js" />
+      <file href="js/page_types/mp_mid_video_activity.js" />
+      <file href="js/page_types/mp_multiple_choice.js" />
+      <file href="js/page_types/mp_reflect_and_review.js" />
+      <file href="js/page_types/mp_reorder.js" />
+      <file href="js/page_types/mp_role_choice.js" />
+      <file href="js/page_types/mp_search_scene.js" />
+      <file href="js/page_types/mp_search_scene_case_study.js" />
+      <file href="js/page_types/mp_splash.js" />
+      <file href="js/page_types/mp_summary.js" />
+      <file href="js/page_types/mp_table_activity.js" />
+      <file href="js/page_types/mp_timecode_activity.js" />
+      <file href="js/page_types/mp_timecode_checklist.js" />
+      <file href="js/page_types/mp_timecode_multiple_choice.js" />
+      <file href="js/page_types/mp_timecode_text_dialogue.js" />
+      <file href="js/page_types/mp_timecode_true_false.js" />
+      <file href="js/page_types/mp_transition.js" />
+      <file href="js/page_types/mp_true_false.js" />
+      <file href="js/page_types/page_type.js" />
+      <file href="js/panels/panel.js" />
+      <file href="js/panels/panel_case_study.js" />
+      <file href="js/panels/panel_menu.js" />
+      <file href="js/panels/panel_notes.js" />
+      <file href="js/panels/panel_resources.js" />
+      <file href="js/utilities/inheritance.js" />
+      <file href="js/utilities/jquery.js" />
+      <file href="js/utilities/jquery.plugins.js" />
+      <file href="js/utilities/jwplayer.js" />
+      <file href="js/utilities/utilities.js" />
+    </resource>
+  </resources>
+
+</manifest>

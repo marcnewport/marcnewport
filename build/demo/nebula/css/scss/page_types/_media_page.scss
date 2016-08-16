@@ -1,0 +1,60 @@
+/*
+ * Media page
+ */
+#page.mp-media-page {
+  
+  .left-column {
+    overflow: auto;
+  }
+  
+  .right-column {
+    width: 560px;
+    overflow: auto;
+  }
+  
+  #media {
+    overflow: hidden;
+  }
+  
+  .media-item {
+    position: relative;
+    margin-bottom: 25px;
+    float: left;
+    min-height: 150px;
+    
+    .thumb {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 270px;
+      height: 150px;
+      cursor: pointer;
+      
+      img {
+        float: left;
+      }
+    }
+    
+    h5 {
+      margin-left: 295px;
+    }
+    
+    .text {
+      color: $body-font-color;
+      margin-left: 295px;
+    }
+  }
+}
+
+#modal-overlay.media-page {
+  
+  .content {
+    margin: 30px 20px 20px 30px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #btn-overlay-close {
+    bottom: 12px;
+  }
+}
