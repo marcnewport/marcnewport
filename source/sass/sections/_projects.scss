@@ -6,16 +6,52 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 
   .project {
-		padding: 0 !important;
+		padding: 0;
     overflow: hidden;
 
-    img {
-      transition: all 400ms;
-      transition-timing-function: ease-in-out;
+    a {
+      overflow: hidden;
+
+      img {
+        transition: all 400ms;
+        transition-timing-function: ease-in-out;
+      }
+
+      .details {
+        color: $white;
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        transition: all 400ms;
+        transition-timing-function: ease-in-out;
+        opacity: 0;
+
+        h5 {
+          margin: 0.3em 0 0 0;
+        }
+
+        p {
+          margin: 0;
+
+          &:last-child {
+            font-size: 0.6em;
+          }
+        }
+      }
 
       &:hover {
-        filter: grayscale(33%) brightness(66%);
-        transform: scale(1.1);
+
+        img {
+          filter: grayscale(33%) brightness(60%);
+          transform: scale(1.1);
+        }
+
+        .details {
+          opacity: 1;
+        }
       }
     }
 	}
@@ -23,6 +59,15 @@
   &.no-hover .project img:hover {
     filter: none;
     transform: none;
+  }
+
+  @media($screen-xs) {
+    // background-color: $background-color;
+    padding: 15px 15px 0 15px;
+
+    .project {
+      margin-bottom: 15px;
+    }
   }
 }
 
