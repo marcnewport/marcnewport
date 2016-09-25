@@ -10,6 +10,7 @@
     "exorcist": "^0.4.0",
     "imagemin": "^4.0.0",
     "jade": "^1.11.0",
+    "minifyify": "^7.3.3",
     "node-sass": "",
     "npm-build-tools": "^2.2.5",
     "npm-run-all": "^1.5.1",
