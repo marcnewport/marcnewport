@@ -10,6 +10,7 @@ var _app = new Application();
 //overwrite properties here
 //_app.dimensions.layout = 'fluid';
 //_app.navigation = 'top';
+//_app.debug = true;
 
 $(document).ready(function() {
   _app.start();

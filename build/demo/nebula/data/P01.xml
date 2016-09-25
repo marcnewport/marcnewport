@@ -3,17 +3,17 @@
   <id>P01</id>
   <type>mp_splash</type>
   <title><![CDATA[Splash Page]]></title>
-  <credits_link><![CDATA[]]></credits_link>
+  <credits_link></credits_link>
   <slides>
     <slide>
-      <alt_text><![CDATA[]]></alt_text>
-      <image><![CDATA[slide1_2.jpg]]></image>
+      <alt_text></alt_text>
+      <image><![CDATA[slide1_6.jpg]]></image>
       <width>990</width>
       <height>400</height>
     </slide>
     <slide>
-      <alt_text><![CDATA[]]></alt_text>
-      <image><![CDATA[slide2_1.jpg]]></image>
+      <alt_text></alt_text>
+      <image><![CDATA[slide2_5.jpg]]></image>
       <width>990</width>
       <height>400</height>
     </slide>

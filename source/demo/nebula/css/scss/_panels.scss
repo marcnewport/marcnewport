@@ -453,19 +453,21 @@
 #panel-resources #faq-content .item .question {
   display: block;
   cursor: pointer;
-  height: 43px;
   background-color: $accordion-button-color;
   font-size: 1.13em;
-  line-height: 43px;
+  line-height: 1.4em;
+  padding: 12px 12px 12px 38px;
   color: $accordion-button-text;
   text-decoration: none;
   overflow: hidden;
-  padding: 0 17px;
+  position: relative;
 
-  &:before {
-    @include button-icon('right');
-    left: -7px;
-  }
+    &:before {
+      @include button-icon('right');
+      position: absolute;
+      left: 12px;
+      top: 16px;
+    }
 }
 
 #panel-resources #faq-content .item .question span {
@@ -484,7 +486,9 @@
 
   &:before {
     @include button-icon('down');
-    left: -7px;
+    position: absolute;
+    left: 12px;
+    top: 16px;
   }
 }
 

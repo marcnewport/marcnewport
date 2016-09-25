@@ -1,0 +1,55 @@
+@mixin percent-circle($diameter, $stroke-width, $fg-color, $bg-color) {
+
+  $percent: attr(data-percent);
+  $pi: 3.14159;
+  $circumference: $diameter * $pi;
+  $grey-color: lighten(desaturate($fg-color, 80%), 50%);
+
+  @if ($grey-color == #ffffff) {
+    $grey-color: #efefef;
+  }
+
+  svg:before {
+    content: $grey-color;
+    display: block;
+  }
+
+  width: $diameter;
+  height: $diameter;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+
+  svg {
+    width: $diameter;
+    height: $diameter;
+    //the dash starts at 3 o'clock so we need to rotate it back
+    transform: rotate(-90deg);
+
+    .percent-circle-inner {
+      fill: $grey-color;
+      stroke: $fg-color;
+      stroke-width: $stroke-width * 2;
+      // this prop will get updated in js
+      stroke-dasharray: 0 $circumference;
+      transition: stroke-dasharray 0.6s ease-out;
+    }
+  }
+
+  &:after {
+    //write the percetage in straight from the data attribute
+    content: $percent '%';
+    display: block;
+    width: $diameter - $stroke-width * 2;
+    height: $diameter - $stroke-width * 2;
+    background: $bg-color;
+    position: absolute;
+    top: $stroke-width;
+    left: $stroke-width;
+    border-radius: 50%;
+    color: $fg-color;
+    text-align: center;
+    line-height: $diameter - ($stroke-width * 2);
+    font-size: ($diameter * 0.22);
+  }
+}

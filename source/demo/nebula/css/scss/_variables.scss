@@ -66,10 +66,10 @@
 
     //splash page
     $splash-background-color: #000000;
-    $splash-logo: url("../files/nebulacas-logo-full.png");
+    $splash-logo: url("../files/NebulaCas_landsape_revse_large.png");
     //add default dimensions for no logo margin
-    $splash-logo-width: 356px;
-    $splash-logo-height: 90px;
+    $splash-logo-width: 532px;
+    $splash-logo-height: 98px;
     $splash-title-color: #4CC0C3;
     $splash-module-title-color: #FFFFFF;
     $splash-module-title-background: rgba(0, 0, 0, 0.7);
@@ -84,7 +84,7 @@
 
     //transition page
     $transition-font-color: $dark-grey-color;
-    $transition-back: none;
+    $transition-back: url("../files/slide1_2.jpg") no-repeat center / contain;
     $transition-text-align: left;
 
     //inserts the icon used for a button

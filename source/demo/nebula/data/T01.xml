@@ -22,7 +22,7 @@
         <ext>jpg</ext>
         <width>280</width>
         <height>380</height>
-        <alt_text><![CDATA[]]></alt_text>
+        <alt_text></alt_text>
       </item>
       <item>
         <id>R02</id>
@@ -33,7 +33,7 @@
         <ext>jpg</ext>
         <width>835</width>
         <height>380</height>
-        <alt_text><![CDATA[]]></alt_text>
+        <alt_text></alt_text>
       </item>
     </group>
     <group type="other">
@@ -43,6 +43,7 @@
         <title><![CDATA[Nebula Fly-through]]></title>
         <streaming>1</streaming>
         <address>//player.vimeo.com/video/64484866</address>
+        <force_captions>1</force_captions>
       </item>
     </group>
   </resources>

@@ -8,6 +8,8 @@
 @import '_icons.scss';
 @import '_variables.scss';
 
+@import 'mixins/_percent_circle.scss';
+
 @import '_reset.scss';
 @import '_panels.scss';
 @import '_overlays.scss';
@@ -28,6 +30,7 @@
 @import 'page_types/_free_text.scss';
 @import 'page_types/_image_multiple_choice.scss';
 @import 'page_types/_introduction.scss';
+@import 'page_types/_main_menu.scss';
 @import 'page_types/_media_page.scss';
 @import 'page_types/_mid_video_activity.scss';
 @import 'page_types/_multiple_choice.scss';
@@ -42,3 +45,4 @@
 @import 'page_types/_reflect_and_review.scss';
 
 @import '_navigation_top.scss';
+@import '_navigation_hamburger.scss';

@@ -91,11 +91,13 @@
       height: inherit;
     }
 
-  }
-
-  #copyright-splash a {
-    color: $primary-color;
-    margin-right: 0.5em;
+    #credits {
+      color: $primary-color;
+      margin-right: 30px;
+      height: 65px;
+      line-height: 65px;
+      float: left;
+    }
   }
 
   #btn-start {

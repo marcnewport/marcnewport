@@ -3,14 +3,15 @@
   <id>T01P03</id>
   <type>mp_basic</type>
   <title><![CDATA[Video Page]]></title>
-  <main><![CDATA[This is an example of the <a href="#" class="glossary-term" name="basic page">Basic Page</a> with video content. The video source can be uploaded directly to Nebula CAS or be linked to a YouTube or Vimeo source.]]></main>
+  <main><![CDATA[This is an example of the Basic Page with video content. The video source can be uploaded directly to Nebula CAS or be linked to a YouTube or Vimeo source.]]></main>
   <assets>
     <item>
-      <id>R03</id>
+      <id>R05</id>
       <type>mp_resource_video</type>
-      <title><![CDATA[Nebula Fly-through]]></title>
+      <title><![CDATA[Youtube video with captions]]></title>
       <streaming>1</streaming>
-      <address>//player.vimeo.com/video/64484866</address>
+      <address>//www.youtube.com/embed/MQ2m8blOYOg</address>
+      <force_captions>1</force_captions>
     </item>
   </assets>
   <basic_type>video</basic_type>

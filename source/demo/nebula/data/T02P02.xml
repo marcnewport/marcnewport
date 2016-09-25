@@ -18,6 +18,7 @@
       <title><![CDATA[Nebula Fly-through]]></title>
       <streaming>1</streaming>
       <address>//player.vimeo.com/video/64484866</address>
+      <force_captions>1</force_captions>
     </item>
   </video>
   <timecodes>

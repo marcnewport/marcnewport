@@ -1,0 +1,256 @@
+/*
+ * Splash page
+ */
+#page.mp-main-menu {
+
+  #header,
+  #footer {
+    display: none;
+  }
+
+  #content {
+    padding: 0;
+    position: relative;
+    background: $white-color;
+    height: 100% !important;
+
+    .inner {
+      margin: 0 !important;
+      height: 100% !important;
+    }
+
+    .background-image {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .page-title {
+      position: absolute;
+      top: 40px;
+      overflow: visible;
+      width: 60%;
+      z-index: 1;
+      background: $header-logo no-repeat left center;
+      min-height: $header-logo-height;
+
+      h2 {
+        font-size: 30px;
+        margin: 0;
+        line-height: normal;
+        padding-left: $header-logo-width + 10;
+      }
+    }
+
+    .left-column {
+      width: 25%;
+      height: 100%;
+      background-color: rgba($tertiary-color, 0.5);
+      position: relative;
+    }
+
+    .left-column-inner {
+      margin: 170px 60px 50px 30px;
+
+      .introduction {
+        padding-bottom: 20px;
+        border-bottom: 1px solid $white-color;
+
+        p:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .media-description {
+        margin: 20px 0;
+
+        p:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .btn-video {
+        text-decoration: none;
+        background: $primary-color;
+        color: $white-color;
+        padding: 12px 0;
+        float: left;
+        width: 100%;
+        text-align: center;
+
+        &:hover {
+          background: $secondary-color;
+        }
+      }
+    }
+
+    .centre-column {
+      width: 41%;
+      position: absolute;
+      left: 22%;
+      bottom: 50px;
+
+      .link {
+        height: 72px;
+        background-color: $primary-color;
+        color: $white-color;
+        margin: 10px 0;
+        border-radius: 36px;
+        position: relative;
+        cursor: pointer;
+
+        &.intro {
+          width: 100%;
+
+          .link-title {
+            font-size: 1.3em;
+          }
+        }
+
+        &.standard {
+          width: 49%;
+          float: left;
+
+          .link-description {
+            font-size: 0.7em;
+          }
+
+          &:nth-child(odd) {
+            float: right;
+          }
+        }
+
+        .percent-circle {
+          @include percent-circle(72px, 7px, #c2d52f, $secondary-color);
+          position: absolute;
+          left: -2px;
+
+          &:after {
+            color: $grey-color;
+            font-weight: bold;
+          }
+        }
+
+        .link-inner {
+          height: 100%;
+          margin-left: 72px;
+          display: table;
+        }
+
+        .link-title {
+          height: 100%;
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+          padding: 5px 36px 5px 10px;
+        }
+
+        .link-description {
+          height: 100%;
+          vertical-align: middle;
+          text-align: center;
+          display: none;
+          padding: 5px 36px 5px 10px;
+        }
+
+        &:hover {
+          background-color: $secondary-color;
+
+          .link-title {
+            display: none;
+          }
+
+          .link-description {
+            display: table-cell;
+          }
+        }
+      }
+    }
+
+    .right-column {
+      width: 31%;
+      background-color: rgba($white-color, 0.65);
+      position: absolute;
+      right: 30px;
+
+      .link-inner {
+        margin: 50px 30px 30px 30px;
+        overflow: hidden;
+      }
+
+      .link-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: $secondary-color;
+        margin-bottom: 0.8em;
+      }
+
+      .link-description {
+        margin-bottom: 0.8em;
+      }
+
+      .score-circle {
+        width: 92px;
+        height: 92px;
+        background: $secondary-color;
+        border-radius: 50%;
+        float: left;
+        margin-right: 15px;
+
+        &:after {
+          content: attr(data-percent);
+          display: block;
+          color: $white-color;
+          font-size: 38px;
+          font-weight: bold;
+          width: 92px;
+          height: 92px;
+          line-height: 92px;
+          text-align: center;
+        }
+      }
+
+      .score-description {
+        font-size: 0.8em;
+        padding-top: 1em;
+      }
+
+      .link-footer {
+        height: 48px;
+        background-color: $primary-color;
+        color: $white-color;
+        text-align: right;
+        line-height: 48px;
+        padding: 0 25px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $secondary-color;
+        }
+      }
+    }
+
+    .link .icon {
+      font-size: 0.8em;
+    }
+
+
+  }
+}
+
+// this is ugly as hell, but its the most efficient way to overwrite the usual design paradigms
+#modal-overlay.mp-main-menu {
+  width: 800px !important;
+  background-color: transparent;
+  box-shadow: none;
+  left: 100px !important;
+
+  .title {
+    display: none;
+  }
+
+  .content {
+    width: 740px !important;
+    overflow: hidden;
+  }
+}
