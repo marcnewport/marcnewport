@@ -102,9 +102,11 @@
   .modal-header {
     border: none;
 
-    .close {
+    .btn-close {
       font-size: 34px;
       margin-top: -7px;
+      color: $foreground-color;
+      opacity: 1;
     }
   }
 

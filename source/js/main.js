@@ -8,6 +8,7 @@ var footer = require('./footer');
   global.$window = $(window);
   global.$document = $(document);
   global.hash = '#home';
+  global.modalShowing = false;
 
   $document.ready(function() {
 
@@ -16,8 +17,8 @@ var footer = require('./footer');
     var $body = $('body');
 
     // Animate scrolling to the anchor target
-    $body.on('click.navigate', '.btn-navigate-down', smoothScroll);
-    $window.on('hashchange', smoothScroll);
+    $body.on('click.navigate', '.btn-navigate-down', handleNavigation);
+    $window.on('hashchange', handleNavigation);
 
     home();
     projects();
@@ -35,20 +36,39 @@ var footer = require('./footer');
   /**
    * Event handler for click and hashchange that scrolls the page to the internal anchors
    */
-  function smoothScroll(e) {
+  function handleNavigation(e) {
 
-    var el = e.type === 'click' ? $(this).attr('href') : window.location.hash || '#home';
-    var pos = $(el).offset().top;
+    var el;
 
-    $('html, body').animate({
-      scrollTop: pos
-    },
-    400,
-    function() {
-      window.location.hash = el === '#home' ? '' : el;
-    });
+    console.log(e.target);
 
-    global.hash = el;
+    if (e.type === 'click') {
+      el = $(this).attr('href');
+
+      $('html, body').animate({
+        scrollTop: $(el).offset().top
+      },
+      400,
+      function() {
+        window.location.hash = el;
+      });
+    }
+    else {
+      if (modalShowing) {
+        $('.project-modal').modal('hide');
+      }
+      else {
+        el = window.location.hash || '#home';
+
+        $('html, body').animate({
+          scrollTop: $(el).offset().top
+        },
+        400,
+        function() {
+          window.location.hash = el === '#home' ? '' : el;
+        });
+      }
+    }
 
     return false;
   }
