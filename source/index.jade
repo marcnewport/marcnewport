@@ -10,15 +10,15 @@ html.no-js(lang="en")
     meta(name="description", content="Description of the page")
     meta(name="keywords", content="Comma separated keywords")
     meta(name="rating", content="General")
-    
+
     link(href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css", rel="stylesheet")
     link(href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css", rel="stylesheet")
     // http://devicon.fr
     link(href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css", rel="stylesheet")
     link(href="css/main.css", rel="stylesheet")
   body
-    
-    
+
+
     //- nav.navbar.navbar-fixed-top
     //-   .container
     //-     .navbar-header
@@ -36,24 +36,24 @@ html.no-js(lang="en")
     //-           a(href='#tips') Projects
     //-         li
     //-           a(href='#contact') Contact
-    
-    
+
+
     section#home
       //- img.parallax-image(src="assets/abstract-blur-green-blurred-dark.jpg", alt="")
       .container
         //- | <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>256</title><defs><path d="M133.333 136.275l29.826 14.913c1.928.965 5.02.847 6.87-.264l22.686-13.61c1.85-1.11 3.417-3.783 3.486-5.938l3.673-115.69c.068-2.157-1.55-4.478-3.597-5.16L168.425 1.24c-2.047-.683-5.345-.552-7.33.29l-33.48 14.205L100 27.45 72.61 15.83 38.904 1.53c-1.986-.842-5.284-.973-7.33-.29L3.72 10.524c-2.045.68-3.665 3.002-3.596 5.16l3.672 115.69c.07 2.156 1.637 4.827 3.486 5.937l22.687 13.61c1.848 1.11 4.94 1.23 6.87.264l29.827-14.913v28.433c0 2.157 1.596 4.672 3.55 5.592l26.236 12.347c1.95.92 5.145.92 7.096 0l26.236-12.347c1.95-.92 3.547-3.435 3.547-5.592v-28.43zm-3.3-53.506c.068.037.134.075.198.114-.065-.04-.132-.078-.198-.115z" id="a"/></defs><g transform="translate(0 8)" fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use xlink:href="#a"/><g mask="url(#b)"><path d="M166.667 152.94V68.628L133.333 84.33v52.17l33.334 16.44zM100 27.45v41.177l33.333 15.687V41.176L100 27.45z"/><path d="M33.333 152.94V68.628L66.667 84.33v52.17l-33.334 16.44z" fill-opacity=".5" fill="#000"/><path d="M100 27.45v41.177L66.667 84.314V41.176L100 27.45z" fill-opacity=".5" fill="#FFF"/><path d="M100 27.45l33.333 13.726L200 11.766 164.706 0 100 27.45zM100 27.45L66.667 41.177 0 11.766 35.294 0 100 27.45z" fill-opacity=".5" fill="#000"/><path d="M166.667 152.94l29.41-17.646L200 11.764l-66.667 29.412v43.138l33.334-15.687v84.314z" fill-opacity=".5" fill="#FFF"/><path d="M33.333 152.94l-29.41-17.646L0 11.764l66.667 29.412v43.138L33.333 68.627v84.314z"/><path d="M100 100l33.333-15.686L100 68.627V100zm0 0L66.667 84.314 100 68.627V100z" fill-opacity=".5" fill="#000"/><path d="M100 184.314V100l33.333-15.686v84.313L100 184.314z" fill-opacity=".5" fill="#FFF"/><path d="M100 184.314V100L66.667 84.314v84.313L100 184.314z"/></g></g></svg>
-        
+
         h1
-          span.title-small Hello. I'm 
-          span.title-big Marc 
+          span.title-small Hello. I'm
+          span.title-big Marc
           span.title-big Newport
-            
-        .anchor-wrap  
+
+        .anchor-wrap
           a.btn.btn-navigate-down(href="#about", aria-hidden="true")
             span.glyphicon.glyphicon-chevron-down
-      
-            
-            
+
+
+
     section#about
       .container
         .row
@@ -71,12 +71,12 @@ html.no-js(lang="en")
           .col-xs-12
             a.btn.btn-default.btn-lg.btn-callout(href="assets/marc-newport-resume-2016.pdf", target="_blank") View Resume
             a.btn.btn-primary.btn-lg.btn-callout(href="mailto:marcnewport@gmail.com") Send Email
-      
+
         a.btn.btn-navigate-down(href="#projects", aria-hidden="true")
           span.glyphicon.glyphicon-chevron-down
-    
-    
-    
+
+
+
     section#projects
       .container-fluid
         .row
@@ -117,17 +117,17 @@ html.no-js(lang="en")
                 i.fa.fa-external-link-square
                 h5 CodePen
                 p View project details
-          
-              
-      
+
+
+
     include templates/project-yoyoboco
     include templates/project-nebula
     include templates/project-windowrescue
     include templates/project-yoannahelyse
     include templates/project-codepen
-    
-    
-    
+
+
+
     footer
       .container
         .row
@@ -135,20 +135,19 @@ html.no-js(lang="en")
             i.fa.fa-envelope
           a(href="https://www.linkedin.com/in/marcnewport", target="_blank")
             i.fa.fa-linkedin-square
-          a(href="https://github.com/marcnewport", target="_blank")
+          a(href="https://github.com/marcnewport?tab=repositories", target="_blank")
             i.fa.fa-github-alt
           a(href="http://codepen.io/marcnewport/pens/popular/", target="_blank")
             i.fa.fa-codepen
           a(href="https://www.instagram.com/marcnewport/", target="_blank")
             i.fa.fa-instagram
-            
-    
-    
+
+
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js")
     script(src="//cdn.jsdelivr.net/scrollreveal.js/3.0.3/scrollreveal.min.js")
     script(src="js/main.js")
-    
+
     script(src="https://www.google-analytics.com/analytics.js")
     script
       | ga('create', 'UA-9735536-1', 'auto');
