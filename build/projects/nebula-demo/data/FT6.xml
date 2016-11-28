@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FT6</id>
+  <type>mp_free_text</type>
+  <title><![CDATA[Free text with audio, no image and multiple questions]]></title>
+  <questions>
+    <question>
+      <text><![CDATA[Con ac sit. Quis nullam posuere?]]></text>
+    </question>
+    <question>
+      <text><![CDATA[Convallis proin reiciendis. Proin ante?]]></text>
+    </question>
+  </questions>
+  <description><![CDATA[Tincidunt id fermentum. Pellentesque vitae natoque.]]></description>
+  <media>
+    <item>
+      <id>RP7</id>
+      <type>mp_resource_audio</type>
+      <title><![CDATA[Audio with no image]]></title>
+      <content><![CDATA[placeholder-audio_0.mp3]]></content>
+      <size>162742</size>
+      <ext>mp3</ext>
+      <streaming>0</streaming>
+    </item>
+  </media>
+  <feedback>
+    <item>
+      <text><![CDATA[<a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor. Sit amet lacinia et purus non quis ut quis. Et vehicula eleifend. Felis integer ac et nec eget velit suscipit libero ultricies tempus sed. Pharetra libero euismod blandit sociosqu neque nulla eros nonummy. Lectus ut feugiat rutrum urna enim vel ligula gravida. Et ex vitae. Amet porta suscipit. Diam cursus id. Risus sit massa in vel lobortis. Magna nec ante volutpat metus at pede curabitur quisque fusce molestie ut. Nobis ligula aliquam. Bibendum mattis orci orci cras nam et sapiente architecto. Praesent morbi morbi. Augue sit metus.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor. Sit amet lacinia et purus non quis ut quis. Et vehicula eleifend. Felis integer ac et nec eget velit suscipit libero ultricies tempus sed. Pharetra libero euismod blandit sociosqu neque nulla eros nonummy. Lectus ut feugiat rutrum urna enim vel ligula gravida. Et ex vitae. Amet porta suscipit. Diam cursus id. Risus sit massa in vel lobortis. Magna nec ante volutpat metus at pede curabitur quisque fusce molestie ut. Nobis ligula aliquam. Bibendum mattis orci orci cras nam et sapiente architecto. Praesent morbi morbi. Augue sit metus.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor. Sit amet lacinia et purus non quis ut quis. Et vehicula eleifend. Felis integer ac et nec eget velit suscipit libero ultricies tempus sed. Pharetra libero euismod blandit sociosqu neque nulla eros nonummy. Lectus ut feugiat rutrum urna enim vel ligula gravida. Et ex vitae. Amet porta suscipit. Diam cursus id. Risus sit massa in vel lobortis. Magna nec ante volutpat metus at pede curabitur quisque fusce molestie ut. Nobis ligula aliquam. Bibendum mattis orci orci cras nam et sapiente architecto. Praesent morbi morbi. Augue sit metus.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

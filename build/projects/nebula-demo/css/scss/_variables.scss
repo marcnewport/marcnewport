@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+    //theme colors
+    $primary-color: #557F90;
+    $secondary-color: #4CC0C3;
+    $tertiary-color: #BED237;
+    $grey-color: #E6E6E6;
+    $dark-grey-color: darken($grey-color, 8%);
+    $darker-grey-color: darken($grey-color, 33%);
+    $black-color: #000000;
+    $white-color: #FFFFFF;
+    $shadows: true;
+
+    //background
+    $background-color: #F6F6F6;
+    $background-image: none;
+
+    //buttons
+    $button-font-family: Verdana, Geneva, sans-serif;
+    $button-icon: "chevron";
+    $button-radius: 5px;
+    $button-radius-medium: 10px;
+    $button-radius-large: 16px;
+
+    //panels
+    $panel-button-icon-color: $white-color;
+    $panel-button-color: $primary-color;
+    $panel-button-rollover: $primary-color;
+    $panel-button-label-color: $black-color;
+    $panel-button-label-background: $dark-grey-color;
+    $accordion-button-color: $primary-color;
+    $accordion-button-rollover: $secondary-color;
+    $accordion-button-text: $white-color;
+
+    //page header
+    $header-logo: url("../files/nebula logo_0.png");
+    //add default dimensions for no logo margin
+    $header-logo-width: 105px;
+    $header-logo-height: 90px;
+    $header-title-color: $secondary-color;
+    $header-button-color: $secondary-color;
+    $header-button-rollover: $tertiary-color;
+    $header-button-icon-color: $white-color;
+    $header-underline-color: $grey-color;
+    $header-underline-image: none;
+
+    //page body
+    $body-font-color: #4C4C4C;
+    $body-font-family: "Open Sans", sans-serif;
+    $body-font-size: 15px;
+    $title-font-color: $tertiary-color;
+    $title-font-family: "Open Sans", sans-serif;
+    $body-link-color: $secondary-color;
+    $body-link-rollover: $secondary-color;
+    $button-link-color: $primary-color;
+    $icon-color: $secondary-color;
+    $modal-panels-button-color: $white-color;
+    $modal-panels-button-background: $primary-color;
+    $transcript-button-color: $white-color;
+    $transcript-button-background: $primary-color;
+
+    //page footer
+    $navigation-button-label: $white-color;
+    $navigation-button-color: $primary-color;
+    $navigation-button-rollover: $primary-color;
+    $navigation-button-radius: 20px;
+
+    //splash page
+    $splash-background-color: #000000;
+    $splash-logo: url("../files/nebulacas-logo-full.png");
+    //add default dimensions for no logo margin
+    $splash-logo-width: 356px;
+    $splash-logo-height: 90px;
+    $splash-title-color: #4CC0C3;
+    $splash-module-title-color: #FFFFFF;
+    $splash-module-title-background: rgba(0, 0, 0, 0.7);
+    $splash-module-title-font-size: 22px;
+    $splash-module-title-left: 30px;
+    $splash-module-title-width: 300px;
+    $splash-module-padding-top: 120px;
+    $splash-copyright-color: #FFFFFF;
+    $splash-start-button-color: #557F90;
+    $splash-start-button-font-color: #FFFFFF;
+    $splash-module-title-display: inline;
+
+    //transition page
+    $transition-font-color: $primary-color;
+    $transition-back: none;
+    $transition-text-align: center;
+
+    //inserts the icon used for a button
+    //
+    // @direction: right, down, left, up
+    //    the direction you want the icon to face
+    @mixin button-icon($direction) {
+      font-family: "icomoon";
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      //better font rendering
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      //the icon place held in _icons.scss
+      @extend %icon-#{$button-icon}-#{$direction};
+      position: relative;
+      top: 1px;
+      left: 7px;
+    }
+
+  

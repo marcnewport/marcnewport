@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FT3</id>
+  <type>mp_free_text</type>
+  <title><![CDATA[Free text questions with multimedia pop up and multiple questions]]></title>
+  <scenario><![CDATA[<p>Ante eleifend suspendisse. Morbi lectus ligula. Et fusce sed. Pretium vel vivamus. Nulla nisl quam. Aliquam id turpis.</p>
+<p>Vitae tristique turpis. Sed augue expedita. Malesuada nunc ipsum nulla commodo pede tempus quam donec. Morbi pede vitae. Eu et mauris.</p>
+<p class="textblockkey">Erat sit tempor. A sollicitudin orci. Eleifend odio nullam sem donec integer imperdiet turpis non.</p>]]></scenario>
+  <questions>
+    <question>
+      <text><![CDATA[<a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet tellus?]]></text>
+    </question>
+    <question>
+      <text><![CDATA[Aliquam vel non justo urna ac?]]></text>
+    </question>
+  </questions>
+  <feedback>
+    <item>
+      <text><![CDATA[Ante eleifend suspendisse. Morbi lectus ligula. Et fusce sed. Pretium vel vivamus. Nulla nisl quam. Aliquam id turpis. Vitae tristique turpis. Sed augue expedita. Malesuada nunc ipsum nulla commodo pede tempus quam donec. Morbi pede vitae. Eu et mauris. Erat sit tempor. A sollicitudin orci. Eleifend odio nullam sem donec integer imperdiet turpis non. Sed quisque sem nam mus massa a et tellus quis tortor amet et quam eu luctus luctus malesuada egestas amet congue. Quam eros pellentesque. Nibh eu quis. Rutrum iure odio fusce tempus placerat. Condimentum quam id aenean sociosqu sodales nunc tellus lobortis sed eu vitae morbi ridiculus eget. Mauris lacus ipsum. Nisl lobortis dolor. Dui mauris faucibus. Adipiscing placerat consectetuer. Eget vel augue posuere amet at urna ligula augue amet tincidunt nullam dapibus nunc vel condimentum mi porta vestibulum ex pellentesque nec nulla quisque aliquam pellentesque at suscipit sapien nunc wisi lectus tincidunt. Convallis dignissim sed.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Ante eleifend suspendisse. Morbi lectus ligula. Et fusce sed. Pretium vel vivamus. Nulla nisl quam. Aliquam id turpis. Vitae tristique turpis. Sed augue expedita. Malesuada nunc ipsum nulla commodo pede tempus quam donec. Morbi pede vitae. Eu et mauris. Erat sit tempor. A sollicitudin orci. Eleifend odio nullam sem donec integer imperdiet turpis non. Sed quisque sem nam mus massa a et tellus quis tortor amet et quam eu luctus luctus malesuada egestas amet congue. Quam eros pellentesque. Nibh eu quis. Rutrum iure odio fusce tempus placerat. Condimentum quam id aenean sociosqu sodales nunc tellus lobortis sed eu vitae morbi ridiculus eget. Mauris lacus ipsum. Nisl lobortis dolor. Dui mauris faucibus. Adipiscing placerat consectetuer. Eget vel augue posuere amet at urna ligula augue amet tincidunt nullam dapibus nunc vel condimentum mi porta vestibulum ex pellentesque nec nulla quisque aliquam pellentesque at suscipit sapien nunc wisi lectus tincidunt. Convallis dignissim sed.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Ante eleifend suspendisse. Morbi lectus ligula. Et fusce sed. Pretium vel vivamus. Nulla nisl quam. Aliquam id turpis. Vitae tristique turpis. Sed augue expedita. Malesuada nunc ipsum nulla commodo pede tempus quam donec. Morbi pede vitae. Eu et mauris. Erat sit tempor. A sollicitudin orci. Eleifend odio nullam sem donec integer imperdiet turpis non. Sed quisque sem nam mus massa a et tellus quis tortor amet et quam eu luctus luctus malesuada egestas amet congue. Quam eros pellentesque. Nibh eu quis. Rutrum iure odio fusce tempus placerat. Condimentum quam id aenean sociosqu sodales nunc tellus lobortis sed eu vitae morbi ridiculus eget. Mauris lacus ipsum. Nisl lobortis dolor. Dui mauris faucibus. Adipiscing placerat consectetuer. Eget vel augue posuere amet at urna ligula augue amet tincidunt nullam dapibus nunc vel condimentum mi porta vestibulum ex pellentesque nec nulla quisque aliquam pellentesque at suscipit sapien nunc wisi lectus tincidunt. Convallis dignissim sed.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

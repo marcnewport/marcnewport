@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*
+* Internet explorer 8 specific styles
+*/
+
+html {
+  overflow: hidden;
+}
+
+/* remove that pesky dotted line,*/
+.clickable,
+.clickable label,
+fieldset {
+  outline: none !important;
+}
+
+.custom-input {
+  display: none !important;
+}
+
+/*.fading,
+.fading *,*/
+.disabled,
+.disabled * {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+.transcript .transcript-button span {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}

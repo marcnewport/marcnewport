@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>demonstration</id>
+  <type>mp_demonstration</type>
+  <title><![CDATA[Demonstration – How to write a CV]]></title>
+  <introduction><![CDATA[<p>Your CV is your passport to employment. Do not underestimate its significance. It may mean the difference between getting to the interview stage, or going straight to the rejection pile. </p>
+<p>Select<strong> Start</strong> to read four tips on how to write it. To progress forward or backwards through the tips, select <strong>the arrows</strong> on the side of the images.</p>
+<p>When you are finished select <strong>Next</strong> to continue.</p>]]></introduction>
+  <image>
+    <item>
+      <id>RP24</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[CV of Gemma Grierson]]></title>
+      <content><![CDATA[resume_example.jpg]]></content>
+      <size>419147</size>
+      <ext>jpg</ext>
+      <width>980</width>
+      <height>735</height>
+      <alt_text></alt_text>
+    </item>
+  </image>
+  <autoplay>0</autoplay>
+  <positions>
+    <item>
+      <audio>
+        <item>
+          <id>RP30</id>
+          <type>mp_resource_audio</type>
+          <title><![CDATA[Demonstration Audio 1]]></title>
+          <content><![CDATA[Demmonstration%20Activity%201.mp3]]></content>
+          <size>464769</size>
+          <ext>mp3</ext>
+          <streaming>0</streaming>
+          <description><![CDATA[<p>Include your name and contact details. The form of your name will be what the employer uses through the recruitment process. If you use different names such as Sandra and Sandy, decide which one you will use in the workplace. Make sure that you will be available from any of the contact details you put down. If you are moving around and don't know where you are living, then put down a postal address and a phone number.</p>]]></description>
+        </item>
+      </audio>
+      <label><![CDATA[Name and contact details]]></label>
+      <position>205,0</position>
+      <zoom>1</zoom>
+    </item>
+    <item>
+      <audio>
+        <item>
+          <id>RP31</id>
+          <type>mp_resource_audio</type>
+          <title><![CDATA[Demonstration Audio 2]]></title>
+          <content><![CDATA[Demonstration%20Audio%202.mp3]]></content>
+          <size>351502</size>
+          <ext>mp3</ext>
+          <streaming>0</streaming>
+          <description><![CDATA[<p>Your career objective is perhaps the single most important part of you CV. Get it wrong and your chances of being invited to interview are drastically reduced.<br />Its aim is to highlight your professional attributes and goals, summarising why someone should consider your application.</p>]]></description>
+        </item>
+      </audio>
+      <label><![CDATA[Career objective]]></label>
+      <position>10,113</position>
+      <zoom>0.75</zoom>
+    </item>
+    <item>
+      <audio>
+        <item>
+          <id>RP32</id>
+          <type>mp_resource_audio</type>
+          <title><![CDATA[Demonstration Audio 3]]></title>
+          <content><![CDATA[Demonstration%20Audio%203_1.mp3]]></content>
+          <size>337710</size>
+          <ext>mp3</ext>
+          <streaming>0</streaming>
+          <description><![CDATA[<p>List your professional qualifications with the most recent one at the top. Carefully consider the relevance of each qualification to the role you are applying for. It's important to be concise, clear and truthful. Add any professional associations which you belong to.</p>]]></description>
+        </item>
+      </audio>
+      <label><![CDATA[Relevant education and qualifications]]></label>
+      <position>10,237</position>
+      <zoom>0.75</zoom>
+    </item>
+    <item>
+      <audio>
+        <item>
+          <id>RP33</id>
+          <type>mp_resource_audio</type>
+          <title><![CDATA[Demonstration Audio 4]]></title>
+          <content><![CDATA[Demonstration%20Audio%204.mp3]]></content>
+          <size>236563</size>
+          <ext>mp3</ext>
+          <streaming>0</streaming>
+          <description><![CDATA[<p>When you list your awards and achievements, try to avoid cliché phrases. You need to write the achievements down in a way that differentiates you from other candidates.</p>]]></description>
+        </item>
+      </audio>
+      <label><![CDATA[Awards and Achievements]]></label>
+      <position>16,604</position>
+      <zoom>1</zoom>
+    </item>
+  </positions>
+</root>

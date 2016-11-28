@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>dragdropscene</id>
+  <type>mp_drag_drop_scene</type>
+  <title><![CDATA[Drag and Drop Scene]]></title>
+  <scenario><![CDATA[<p>Here is a map of the area around the Nine Lantern's office. There are three important facilities that need to be located. </p>]]></scenario>
+  <question><![CDATA[<p>To identify the locations, drag each of the items below to the correct spot on the map.</p>]]></question>
+  <max_attempts>2</max_attempts>
+  <asset>
+    <item>
+      <id>RP21</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Richmond Map]]></title>
+      <content><![CDATA[richmond-map.png]]></content>
+      <size>313114</size>
+      <ext>png</ext>
+      <width>550</width>
+      <height>330</height>
+      <alt_text><![CDATA[Map of richmond]]></alt_text>
+    </item>
+  </asset>
+  <hotspots>
+    <item>
+      <content><![CDATA[Near Gipps street]]></content>
+      <left>80</left>
+      <top>80</top>
+      <width>70</width>
+      <height>30</height>
+    </item>
+    <item>
+      <content><![CDATA[On a main road]]></content>
+      <left>180</left>
+      <top>180</top>
+      <width>70</width>
+      <height>30</height>
+    </item>
+    <item>
+      <content><![CDATA[Between parks]]></content>
+      <left>300</left>
+      <top>80</top>
+      <width>70</width>
+      <height>30</height>
+    </item>
+  </hotspots>
+  <feedback>
+    <item>
+      <text><![CDATA[<p>Feedback Correct.</p>
+<p>Aenean orci quam, sollicitudin vel risus eu, bibendum aliquet ipsum. Phasellus tincidunt eros ac diam egestas, sit amet consectetur nibh euismod.</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Feedback Incorrect (1st Attempt).</p>
+<p>Aenean orci quam, sollicitudin vel risus eu, bibendum aliquet ipsum. Phasellus tincidunt eros ac diam egestas, sit amet consectetur nibh euismod.</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Feedback Incorrect (2nd Attempt).</p>
+<p>Aenean orci quam, sollicitudin vel risus eu, bibendum aliquet ipsum. Phasellus tincidunt eros ac diam egestas, sit amet consectetur nibh euismod.</p>]]></text>
+    </item>
+  </feedback>
+  <resources>
+    <group type="review">
+      <item>
+        <id>RP1</id>
+        <type>mp_resource_audio</type>
+        <title><![CDATA[Audio with Image]]></title>
+        <content><![CDATA[placeholder-audio.mp3]]></content>
+        <size>162742</size>
+        <ext>mp3</ext>
+        <streaming>0</streaming>
+        <image>
+          <content><![CDATA[9L-basic-landscape_0.jpg]]></content>
+          <alt_text></alt_text>
+          <size>133053</size>
+          <ext>jpg</ext>
+          <width>498</width>
+          <height>337</height>
+        </image>
+        <description><![CDATA[Description]]></description>
+      </item>
+      <item>
+        <id>RP2</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video_1.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+      </item>
+      <item>
+        <id>RP3</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[External Video with no Image]]></title>
+        <streaming>1</streaming>
+        <address>//player.vimeo.com/video/94659157</address>
+        <description><![CDATA[Duis et arcu urna. Pellentesque ut imperdiet sem. Praesent lacinia mauris vel consequat egestas. Etiam non nibh tristique, mattis nunc quis, vehicula diam. Etiam sit amet mauris vel ligula maximus iaculis sed at mi. Curabitur urna nisi, iaculis eu auctor ac, tincidunt non erat. Aliquam vel magna vulputate elit laoreet cursus.]]></description>
+      </item>
+      <item>
+        <id>RP4</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with no Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+        <description><![CDATA[<p>Etiam malesuada sollicitudin sem, ut semper lacus efficitur vitae. Nunc vestibulum lectus vitae volutpat pellentesque. Nullam in magna accumsan, facilisis ante ac, euismod tellus. Nunc bibendum sapien a mauris pulvinar hendrerit. Suspendisse sodales, mauris fermentum tincidunt consectetur, nulla erat aliquet metus, et dictum diam felis in nibh. Aliquam gravida pretium orci eget laoreet. Mauris dolor velit, congue quis facilisis eu, porttitor eget neque.</p>
+<p>Integer euismod consectetur ipsum vitae vehicula. Donec congue vitae lacus at fermentum. Nullam lobortis, ipsum quis elementum fermentum, lectus risus porta purus, at tincidunt diam nibh eu lectus. Nunc lobortis consectetur felis luctus porta. Sed placerat, augue ac ultrices finibus, eros augue elementum mauris, vitae tincidunt massa nunc eu quam. Suspendisse elit lorem, bibendum vel consequat ut, blandit nec ligula. Pellentesque ut facilisis nunc, non ultrices tellus. In feugiat sed risus vitae aliquam.</p>]]></description>
+      </item>
+    </group>
+  </resources>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

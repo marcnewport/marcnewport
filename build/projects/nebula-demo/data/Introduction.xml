@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Introduction</id>
+  <type>mp_introduction</type>
+  <title><![CDATA[Introduction]]></title>
+  <module><![CDATA[Bonum patria: miserum exilium. Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Qui-vere falsone, quaerere mittimus-dicitur oculis se privasse; Paulum, cum regem Persem captum Ataqua adduceret.]]></module>
+  <learn_about_title><![CDATA[You'll Learn]]></learn_about_title>
+  <learn_about><![CDATA[<ul>
+<li>Quia dolori non voluptas contraria est, sed doloris privatio.</li>
+<li>Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere.</li>
+</ul>]]></learn_about>
+  <get_started_title><![CDATA[Getting started]]></get_started_title>
+  <get_started><![CDATA[Read the <strong>Resources</strong> and then select <strong>Next</strong>.]]></get_started>
+  <about_module_title><![CDATA[About this module]]></about_module_title>
+  <time_title><![CDATA[Time to complete]]></time_title>
+  <time><![CDATA[60 minutes]]></time>
+  <audio_info_title><![CDATA[Audio information]]></audio_info_title>
+  <audio_info><![CDATA[You will need headphones for this course]]></audio_info>
+  <text_references_title><![CDATA[Text reference]]></text_references_title>
+  <text_references><![CDATA[There is no text in this course]]></text_references>
+  <resources>
+    <group type="review">
+      <item>
+        <id>RP1</id>
+        <type>mp_resource_audio</type>
+        <title><![CDATA[Audio with Image]]></title>
+        <content><![CDATA[placeholder-audio.mp3]]></content>
+        <size>162742</size>
+        <ext>mp3</ext>
+        <streaming>0</streaming>
+        <image>
+          <content><![CDATA[9L-basic-landscape_0.jpg]]></content>
+          <alt_text></alt_text>
+          <size>133053</size>
+          <ext>jpg</ext>
+          <width>498</width>
+          <height>337</height>
+        </image>
+        <description><![CDATA[Description]]></description>
+      </item>
+    </group>
+    <group type="other">
+      <item>
+        <id>RP2</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video_1.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+      </item>
+    </group>
+    <group type="essential">
+      <item>
+        <type>essential</type>
+        <title>Essential Information</title>
+        <content><![CDATA[Essential Information]]></content>
+      </item>
+      <item>
+        <id>RP4</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with no Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+        <description><![CDATA[<p>Etiam malesuada sollicitudin sem, ut semper lacus efficitur vitae. Nunc vestibulum lectus vitae volutpat pellentesque. Nullam in magna accumsan, facilisis ante ac, euismod tellus. Nunc bibendum sapien a mauris pulvinar hendrerit. Suspendisse sodales, mauris fermentum tincidunt consectetur, nulla erat aliquet metus, et dictum diam felis in nibh. Aliquam gravida pretium orci eget laoreet. Mauris dolor velit, congue quis facilisis eu, porttitor eget neque.</p>
+<p>Integer euismod consectetur ipsum vitae vehicula. Donec congue vitae lacus at fermentum. Nullam lobortis, ipsum quis elementum fermentum, lectus risus porta purus, at tincidunt diam nibh eu lectus. Nunc lobortis consectetur felis luctus porta. Sed placerat, augue ac ultrices finibus, eros augue elementum mauris, vitae tincidunt massa nunc eu quam. Suspendisse elit lorem, bibendum vel consequat ut, blandit nec ligula. Pellentesque ut facilisis nunc, non ultrices tellus. In feugiat sed risus vitae aliquam.</p>]]></description>
+      </item>
+    </group>
+  </resources>
+  <enable_cs_tab>4</enable_cs_tab>
+  <enable_cs_button>5</enable_cs_button>
+</root>

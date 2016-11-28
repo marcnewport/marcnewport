@@ -1,0 +1,122 @@
+/*
+ * Drag and drop match activity page
+ */
+#page.mp-drag-drop-match {
+
+  #drag-container {
+    margin: 10px 0 0 180px;
+    position: relative;
+    font-size: 12px;
+    line-height: 15px;
+
+    p {
+      margin: 0;
+    }
+
+    .container,
+    .drag-item {
+      width: 317px;
+      position: relative;
+      padding-left: 9px;
+      margin-bottom: 8px;
+      left: 313px;
+      position: absolute;
+      top: 0;
+      height: 54px;
+    }
+
+    .drag-item {
+      z-index: 1;
+      cursor: pointer;
+
+      &.ui-draggable-disabled {
+        cursor: default;
+
+        .drag-item-mid {
+          box-shadow: none;
+        }
+      }
+    }
+
+    .drag-item.odd {
+      margin-left: 10px;
+    }
+
+    .drag-item-point {
+      width: 10px;
+      height: 48px;
+      background: url(../files/skin/drag-item-point.png) no-repeat left center;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .drag-item-mid {
+      padding: 17px 30px 18px 30px;
+      background: #FFFFFF;
+      border: 1px solid $dark-grey-color;
+      border-radius: $button-radius;
+
+      &:hover {
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    .icon-tick {
+      font-size: 16px;
+      position: absolute;
+      top: 16px;
+      left: 18px;
+      color: $secondary-color;
+      display: none;
+    }
+
+    .final .drag-item.correct {
+
+      .drag-item-mid {
+        color: $secondary-color;
+      }
+
+      .icon-tick {
+        display: inline;
+      }
+    }
+
+    .ui-draggable-dragging {
+      z-index: 4;
+    }
+  }
+
+  #targets {
+
+    .item {
+      clear: both;
+      position: relative;
+      height: 55px;
+    }
+
+    .question {
+      color: #FFFFFF;
+      background: url(../files/skin/question-item-point.png) no-repeat right center $primary-color;
+      padding: 0 10px 0 13px;
+      width: 280px;
+      height: 49px;
+      float: left;
+      border-radius: $button-radius;
+    }
+
+    .question-mid {
+      max-height: 29px;
+      overflow: hidden;
+    }
+
+    .target {
+      position: absolute;
+      top: 0;
+      left: 294px;
+      width: 304px;
+      height: 55px;
+      float: left;
+    }
+  }
+}

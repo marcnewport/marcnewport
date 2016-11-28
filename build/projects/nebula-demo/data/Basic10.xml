@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic10</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic Page with Multi Media Pop up and Essential Information]]></title>
+  <heading><![CDATA[Minime vero istorum quidem, inquit.]]></heading>
+  <main><![CDATA[<p><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet, consectetur adipiscing elit. Equidem e Cn. Duo Reges: constructio interrete. Immo alio genere; Si longus, levis.</p>
+<p>Sed quid sentiat, non videtis. Ita prorsus, inquam;</p>
+<ol>
+<li>Et quidem iure fortasse, sed tamen non gravissimum est testimonium multitudinis.</li>
+<li>Ergo et avarus erit, sed finite, et adulter, verum habebit modum, et luxuriosus eodem modo.</li>
+<li>Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere?An haec ab eo non dicuntur?</li>
+<li>Istam voluptatem perpetuam quis potest praestare sapienti?</li>
+</ol>
+<p> </p>
+<ul>
+<li>Minime vero istorum quidem, inquit.</li>
+<li>Idemne potest esse dies saepius, qui semel fuit?</li>
+</ul>]]></main>
+  <assets/>
+  <basic_type>text_only</basic_type>
+  <resources>
+    <group type="review">
+      <item>
+        <id>RP8</id>
+        <type>mp_resource_document</type>
+        <title><![CDATA[Placeholder PDF]]></title>
+        <content><![CDATA[Placeholder.pdf]]></content>
+        <size>35384</size>
+        <ext>pdf</ext>
+      </item>
+    </group>
+    <group type="essential">
+      <item>
+        <type>essential</type>
+        <title>Essential Information</title>
+        <content><![CDATA[Vide, quantum, inquam, fallare, <a href="#" class="glossary-term" name="Torquate">Torquate</a>. Poterat autem inpune; Quae est igitur causa istarum angustiarum?]]></content>
+      </item>
+    </group>
+  </resources>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

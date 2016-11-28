@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FT10</id>
+  <type>mp_free_text</type>
+  <title><![CDATA[Free text with image in multimedia panel]]></title>
+  <scenario><![CDATA[Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></scenario>
+  <questions>
+    <question>
+      <text><![CDATA[Duis aute irure dolor in reprehenderit?]]></text>
+    </question>
+  </questions>
+  <feedback>
+    <item>
+      <text><![CDATA[<span>An educator might say:</span>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<span>An educator might say:</span>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<span>An educator might say:</span>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

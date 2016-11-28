@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>BAS</id>
+  <type>mp_topic</type>
+  <title><![CDATA[Basic Pages]]></title>
+  <roles/>
+  <enable_menu>1</enable_menu>
+  <enable_resources>1</enable_resources>
+  <enable_case_study>1</enable_case_study>
+  <enable_my_notes>1</enable_my_notes>
+  <force_order>false</force_order>
+  <assessed>false</assessed>
+  <knowledge_check/>
+  <resources>
+    <group type="review">
+      <item>
+        <id>RP1</id>
+        <type>mp_resource_audio</type>
+        <title><![CDATA[Audio with Image]]></title>
+        <content><![CDATA[placeholder-audio.mp3]]></content>
+        <size>162742</size>
+        <ext>mp3</ext>
+        <streaming>0</streaming>
+        <image>
+          <content><![CDATA[9L-basic-landscape_0.jpg]]></content>
+          <alt_text></alt_text>
+          <size>133053</size>
+          <ext>jpg</ext>
+          <width>498</width>
+          <height>337</height>
+        </image>
+        <description><![CDATA[Description]]></description>
+      </item>
+      <item>
+        <id>RP2</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video_1.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+      </item>
+      <item>
+        <id>RP3</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[External Video with no Image]]></title>
+        <streaming>1</streaming>
+        <address>//player.vimeo.com/video/94659157</address>
+        <description><![CDATA[Duis et arcu urna. Pellentesque ut imperdiet sem. Praesent lacinia mauris vel consequat egestas. Etiam non nibh tristique, mattis nunc quis, vehicula diam. Etiam sit amet mauris vel ligula maximus iaculis sed at mi. Curabitur urna nisi, iaculis eu auctor ac, tincidunt non erat. Aliquam vel magna vulputate elit laoreet cursus.]]></description>
+      </item>
+      <item>
+        <id>RP4</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with no Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+        <description><![CDATA[<p>Etiam malesuada sollicitudin sem, ut semper lacus efficitur vitae. Nunc vestibulum lectus vitae volutpat pellentesque. Nullam in magna accumsan, facilisis ante ac, euismod tellus. Nunc bibendum sapien a mauris pulvinar hendrerit. Suspendisse sodales, mauris fermentum tincidunt consectetur, nulla erat aliquet metus, et dictum diam felis in nibh. Aliquam gravida pretium orci eget laoreet. Mauris dolor velit, congue quis facilisis eu, porttitor eget neque.</p>
+<p>Integer euismod consectetur ipsum vitae vehicula. Donec congue vitae lacus at fermentum. Nullam lobortis, ipsum quis elementum fermentum, lectus risus porta purus, at tincidunt diam nibh eu lectus. Nunc lobortis consectetur felis luctus porta. Sed placerat, augue ac ultrices finibus, eros augue elementum mauris, vitae tincidunt massa nunc eu quam. Suspendisse elit lorem, bibendum vel consequat ut, blandit nec ligula. Pellentesque ut facilisis nunc, non ultrices tellus. In feugiat sed risus vitae aliquam.</p>]]></description>
+      </item>
+      <item>
+        <id>RP5</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[Landscape Image]]></title>
+        <content><![CDATA[9L-basic-landscape.jpg]]></content>
+        <size>133053</size>
+        <ext>jpg</ext>
+        <width>498</width>
+        <height>337</height>
+        <alt_text></alt_text>
+      </item>
+      <item>
+        <id>RP6</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[Portrait Image]]></title>
+        <content><![CDATA[9L-basic-portrait.jpg]]></content>
+        <size>88044</size>
+        <ext>jpg</ext>
+        <width>250</width>
+        <height>336</height>
+        <alt_text></alt_text>
+        <description><![CDATA[Portrait image description.]]></description>
+      </item>
+      <item>
+        <id>RP7</id>
+        <type>mp_resource_audio</type>
+        <title><![CDATA[Audio with no image]]></title>
+        <content><![CDATA[placeholder-audio_0.mp3]]></content>
+        <size>162742</size>
+        <ext>mp3</ext>
+        <streaming>0</streaming>
+      </item>
+      <item>
+        <id>RP8</id>
+        <type>mp_resource_document</type>
+        <title><![CDATA[Placeholder PDF]]></title>
+        <content><![CDATA[Placeholder.pdf]]></content>
+        <size>35384</size>
+        <ext>pdf</ext>
+      </item>
+      <item>
+        <id>RP9</id>
+        <type>mp_resource_web</type>
+        <title><![CDATA[Placeholder Web Address]]></title>
+        <content><![CDATA[http://www.ninelanterns.com.au]]></content>
+        <ext>web</ext>
+      </item>
+      <item>
+        <id>RP10</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[MC1 Image]]></title>
+        <content><![CDATA[9L-MCQ-image1_0.jpg]]></content>
+        <size>31925</size>
+        <ext>jpg</ext>
+        <width>119</width>
+        <height>119</height>
+        <alt_text></alt_text>
+      </item>
+      <item>
+        <id>RP11</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[MC2 Image]]></title>
+        <content><![CDATA[9L-MCQ-image2.jpg]]></content>
+        <size>32997</size>
+        <ext>jpg</ext>
+        <width>119</width>
+        <height>119</height>
+        <alt_text></alt_text>
+      </item>
+      <item>
+        <id>RP12</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[MC3 Image]]></title>
+        <content><![CDATA[9L-MCQ-image3.jpg]]></content>
+        <size>27751</size>
+        <ext>jpg</ext>
+        <width>119</width>
+        <height>119</height>
+        <alt_text></alt_text>
+      </item>
+      <item>
+        <id>RP13</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[MC4 Image]]></title>
+        <content><![CDATA[9L-MCQ-image4.jpg]]></content>
+        <size>33723</size>
+        <ext>jpg</ext>
+        <width>119</width>
+        <height>119</height>
+        <alt_text></alt_text>
+      </item>
+      <item>
+        <id>RP14</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[Full Width Image]]></title>
+        <content><![CDATA[9L-basic-fullscreen.jpg]]></content>
+        <size>147199</size>
+        <ext>jpg</ext>
+        <width>709</width>
+        <height>345</height>
+        <alt_text></alt_text>
+      </item>
+      <missing/>
+      <missing/>
+    </group>
+    <group type="other">
+      <missing/>
+      <missing/>
+      <missing/>
+      <missing/>
+    </group>
+  </resources>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

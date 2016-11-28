@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>EP1</id>
+  <type>mp_explore</type>
+  <title><![CDATA[Explore page text only]]></title>
+  <main><![CDATA[<p>Sit lacus ante amet libero massa blandit justo mauris quam euismod interdum.</p>]]></main>
+  <information>
+    <item>
+      <label><![CDATA[<p>Ac non enim.</p>]]></label>
+      <text><![CDATA[<p><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet maiores. Diam faucibus nec gravida faucibus vestibulum. Commodo maecenas wisi. Pretium arcu nascetur.</p>
+<p>Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede. Diam faucibus nec gravida faucibus vestibulum. Commodo maecenas wisi.</p>
+<p>Pretium arcu nascetur. Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede.</p>
+<p>Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede.</p>
+<p><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet maiores. Diam faucibus nec gravida faucibus vestibulum. Commodo maecenas wisi. Pretium arcu nascetur.</p>
+<p>Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede. Diam faucibus nec gravida faucibus vestibulum. Commodo maecenas wisi.</p>
+<p>Pretium arcu nascetur. Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede.</p>
+<p>Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede.</p>]]></text>
+    </item>
+    <item>
+      <label><![CDATA[<p>Lacinia vel a leo leo vel in erat aenean.</p>]]></label>
+      <text><![CDATA[<a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet maiores. Diam faucibus nec gravida faucibus vestibulum. Commodo maecenas wisi. Pretium arcu nascetur. Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede.]]></text>
+    </item>
+    <item>
+      <label><![CDATA[<p>Quis purus odio ipsum laoreet odio.</p>]]></label>
+      <text><![CDATA[<a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet maiores. Diam faucibus nec gravida faucibus vestibulum. Commodo maecenas wisi. Pretium arcu nascetur. Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede.]]></text>
+    </item>
+  </information>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

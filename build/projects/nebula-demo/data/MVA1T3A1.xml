@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>MVA1T3A1</id>
+  <type>mp_timecode_true_false</type>
+  <title><![CDATA[Activity 3]]></title>
+  <question><![CDATA[Question]]></question>
+  <max_attempts>2</max_attempts>
+  <statements>
+    <item>
+      <statement><![CDATA[Statement 1 (t)]]></statement>
+      <answer>1</answer>
+    </item>
+    <item>
+      <statement><![CDATA[Statement 2 (f)]]></statement>
+      <answer>0</answer>
+    </item>
+  </statements>
+  <feedback>
+    <item>
+      <text><![CDATA[Feedback Correct]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Feedback Incorrect (1st Attempt)]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Feedback Incorrect (Final Attempt)]]></text>
+    </item>
+  </feedback>
+</root>

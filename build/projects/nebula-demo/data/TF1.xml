@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>TF1</id>
+  <type>mp_true_false</type>
+  <title><![CDATA[True false questions]]></title>
+  <scenario><![CDATA[Rutrum adipiscing ipsum. Diam taciti a. Aenean id sollicitudin. Justo sed mauris. Magnis nunc mattis.]]></scenario>
+  <question><![CDATA[Justo tincidunt mauris adipiscing ac lectus?]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <item>
+      <statement><![CDATA[Ante massa magna nullam ultrices neque eleifend vitae adipiscing (T)]]></statement>
+      <correct>1</correct>
+      <why><![CDATA[Dolor amet ipsum etiam suspendisse in eget sapien egestas. Aliquet eget ligula.]]></why>
+    </item>
+    <item>
+      <statement><![CDATA[Diam quis in (F)]]></statement>
+      <correct>0</correct>
+      <why><![CDATA[Quis nec fermentum. Sem quis nascetur nec etiam phasellus. Sed volutpat praesent venenatis pede eu]]></why>
+    </item>
+    <item>
+      <statement><![CDATA[ Et pulvinar quis. (T)]]></statement>
+      <correct>1</correct>
+      <why><![CDATA[ Elit magna aenean sit sem eros. Lobortis cubilia metus felis pharetra mi. Curabitur eu sed. Elit feugiat dictum.]]></why>
+    </item>
+    <item>
+      <statement><![CDATA[Orci et sed. (T)]]></statement>
+      <correct>1</correct>
+      <why><![CDATA[Aenean id sollicitudin. Justo sed mauris. Magnis nunc mattis. Porttitor nullam magna sed ac suspendisse]]></why>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[That is correct. Please select <strong>Next</strong> to continue.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Please <strong>try again</strong>.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is still incorrect. Please review the <strong>why feedback</strong> and then select <strong>Next</strong> to continue.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

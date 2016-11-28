@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>EP3</id>
+  <type>mp_explore</type>
+  <title><![CDATA[Explore page with multiple images]]></title>
+  <main><![CDATA[Lorem ipsum dolor sit amet maiores. Diam faucibus nec gravida faucibus vestibulum. Commodo maecenas wisi. Pretium arcu nascetur. Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede.]]></main>
+  <information>
+    <item>
+      <label><![CDATA[Eget neque praesent. Diam blandit libero.]]></label>
+      <text><![CDATA[<p>Pellentesque ut eget. Augue a ut. Eu wisi aliquet. Bibendum sollicitudin vivamus maecenas blandit venenatis. Quis cras ac elit urna turpis magna montes nostra. Est in eros a et fermentum amet amet habitasse mi wisi per do<a href="#" class="glossary-term" name="Lorem">lorem</a> varius risus</p>]]></text>
+      <image>
+        <path><![CDATA[9L-mm-videostill.jpg]]></path>
+        <width>465</width>
+        <height>262</height>
+        <alt_text>MMP Image Resource Alt Text</alt_text>
+      </image>
+    </item>
+    <item>
+      <label><![CDATA[Eget neque praesent. Diam blandit libero.]]></label>
+      <text><![CDATA[<p>Pellentesque ut eget. Augue a ut. Eu wisi aliquet. Bibendum sollicitudin vivamus maecenas blandit venenatis. Quis cras ac elit urna turpis magna montes nostra. Est in eros a et fermentum amet amet habitasse mi wisi per do<a href="#" class="glossary-term" name="Lorem">lorem</a> varius risus</p>]]></text>
+      <image>
+        <path><![CDATA[9L-basic-fullscreen.jpg]]></path>
+        <width>709</width>
+        <height>345</height>
+        <alt_text/>
+      </image>
+    </item>
+    <item>
+      <label><![CDATA[Pellentesque ut eget.]]></label>
+      <text><![CDATA[<p>Eget neque praesent. Diam blandit libero.</p>]]></text>
+      <image>
+        <path><![CDATA[9L-MCQ-image3.jpg]]></path>
+        <width>119</width>
+        <height>119</height>
+        <alt_text/>
+      </image>
+    </item>
+    <item>
+      <label><![CDATA[<p>Non a lacus. Arcu nunc vestibulum.</p>]]></label>
+      <text><![CDATA[<p>Amet semper ac egestas pulvinar penatibus. Nunc pellentesque suspendisse sed conubia sodales erat nullam risus. Ut integer aliquet vestibulum curabitur quisque. Mattis aenean in in lacinia fringilla rutrum conubia nunc morbi non donec. Magna at metus erat massa vestibulum. Vestibulum sit libero. Nam morbi quis duis lacinia suspendisse nulla a duis pellentesque est nec. Nostra dui sed. Est curabitur eros.</p>]]></text>
+    </item>
+  </information>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

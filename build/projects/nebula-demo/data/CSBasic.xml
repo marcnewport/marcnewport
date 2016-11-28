@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>CSBasic</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Case Study Basic Page]]></title>
+  <main><![CDATA[<p>Each tab in the case study can have multiple buttons - listed down the left side - which will display different content when clicked.</p>
+<p>In this tab there is only one button, so that list is not <a href="http://www.google.com"  target="_blank">displayed</a>.</p>
+<p>Click the second tab above to see how a tab with multiple buttons would look.</p>]]></main>
+  <assets/>
+  <basic_type>text_only</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

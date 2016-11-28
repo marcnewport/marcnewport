@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>dragdropsort</id>
+  <type>mp_drag_drop_sort</type>
+  <title><![CDATA[Drag and Drop Sorting]]></title>
+  <scenario><![CDATA[<p>Drag and Drop Sorting scenario.</p>]]></scenario>
+  <max_attempts>2</max_attempts>
+  <targets>
+    <item>
+      <title><![CDATA[Catagory 1]]></title>
+    </item>
+    <item>
+      <title><![CDATA[Catagory 2]]></title>
+    </item>
+    <item>
+      <title><![CDATA[Catagory 3]]></title>
+    </item>
+  </targets>
+  <draggables>
+    <item>
+      <label><![CDATA[Drag item 1 Catagory 2]]></label>
+      <target>2</target>
+    </item>
+    <item>
+      <label><![CDATA[Drag item 1 Catagory 3]]></label>
+      <target>3</target>
+    </item>
+    <item>
+      <label><![CDATA[<p>Drag item 3 Catagory 2</p>]]></label>
+      <target>2</target>
+    </item>
+    <item>
+      <label><![CDATA[Drag item 2 Catagory 3]]></label>
+      <target>3</target>
+    </item>
+    <item>
+      <label><![CDATA[Drag item 3 Catagory 1]]></label>
+      <target>1</target>
+    </item>
+    <item>
+      <label><![CDATA[Drag item 2 Catagory 2]]></label>
+      <target>2</target>
+    </item>
+    <item>
+      <label><![CDATA[Drag item 1 Catagory 1]]></label>
+      <target>1</target>
+    </item>
+    <item>
+      <label><![CDATA[Drag item 3 Catagory 3]]></label>
+      <target>3</target>
+    </item>
+    <item>
+      <label><![CDATA[Drag item 2 Catagory 1]]></label>
+      <target>1</target>
+    </item>
+  </draggables>
+  <feedback>
+    <item>
+      <text><![CDATA[Feedback Correct]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Feedback Incorrect (1st Attempt).</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Feedback Incorrect (2nd Attempt).</p>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

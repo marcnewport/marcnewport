@@ -14,11 +14,11 @@
           <id>R04</id>
           <type>mp_resource_image</type>
           <title><![CDATA[User icon]]></title>
-          <content><![CDATA[profile.gif]]></content>
-          <size>552</size>
+          <content><![CDATA[profile-1.jpg]]></content>
+          <size>767</size>
           <ext>gif</ext>
-          <width>75</width>
-          <height>75</height>
+          <width>200</width>
+          <height>200</height>
           <alt_text></alt_text>
         </item>
       </image>
@@ -29,14 +29,14 @@
       <description><![CDATA[This role can access the non assessment topics.]]></description>
       <image>
         <item>
-          <id>R04</id>
+          <id>R09</id>
           <type>mp_resource_image</type>
           <title><![CDATA[User icon]]></title>
-          <content><![CDATA[profile.gif]]></content>
-          <size>552</size>
+          <content><![CDATA[profile-2.jpg]]></content>
+          <size>878</size>
           <ext>gif</ext>
-          <width>75</width>
-          <height>75</height>
+          <width>200</width>
+          <height>200</height>
           <alt_text></alt_text>
         </item>
       </image>

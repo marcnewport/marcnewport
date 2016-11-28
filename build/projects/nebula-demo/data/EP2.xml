@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>EP2</id>
+  <type>mp_explore</type>
+  <title><![CDATA[Explore page with one image]]></title>
+  <main><![CDATA[Lorem ipsum dolor sit amet maiores. Diam faucibus nec gravida faucibus vestibulum. Commodo maecenas wisi. Pretium arcu nascetur. Ornare nulla itaque accumsan sem nulla dolor amet in vitae aliquam pede.]]></main>
+  <image>
+    <path><![CDATA[9L-mm-videostill.jpg]]></path>
+    <width>465</width>
+    <height>262</height>
+    <alt_text>MMP Image Resource Alt Text</alt_text>
+  </image>
+  <information>
+    <item>
+      <label><![CDATA[Eget neque praesent. Diam blandit libero.]]></label>
+      <text><![CDATA[Pellentesque ut eget. Augue a ut. Eu wisi aliquet. Bibendum sollicitudin vivamus maecenas blandit venenatis. Quis cras ac elit urna turpis magna montes nostra. Est in eros a et fermentum amet amet habitasse mi wisi per do<a href="#" class="glossary-term" name="Lorem">lorem</a> varius risusPellentesque ut eget. Augue a ut. Eu wisi aliquet. Bibendum sollicitudin vivamus maecenas blandit venenatis.]]></text>
+    </item>
+    <item>
+      <label><![CDATA[Eget neque praesent. Diam blandit libero.]]></label>
+      <text><![CDATA[Pellentesque ut eget. Augue a ut. Eu wisi aliquet. Bibendum sollicitudin vivamus maecenas.]]></text>
+    </item>
+    <item>
+      <label><![CDATA[Eget neque praesent. Diam blandit libero.]]></label>
+      <text><![CDATA[Pellentesque ut eget. Augue a ut. Eu wisi aliquet. Bibendum sollicitudin vivamus maecenas blandit venenatis.]]></text>
+    </item>
+    <item>
+      <label><![CDATA[Pellentesque ut eget. Augue a ut. Eu wisi aliquet. Bibendum sollicitudin vivamus maecenas blandit venenatis.Pellentesque ut eget.]]></label>
+      <text></text>
+    </item>
+    <item>
+      <label><![CDATA[Pellentesque ut eget. Augue a ut. Eu wisi aliquet. Bibendum sollicitudin vivamus maecenas blandit venenatis.]]></label>
+      <text></text>
+    </item>
+  </information>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

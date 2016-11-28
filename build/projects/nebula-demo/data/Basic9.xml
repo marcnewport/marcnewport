@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic9</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic Page with Horizontal Image Full Width]]></title>
+  <main><![CDATA[<p>Non modo carum sibi quemque, verum etiam vehementer carum esse? An vero, inquit, quisquam potest probare, quod perceptfum, quod.</p>]]></main>
+  <assets>
+    <item>
+      <id>RP14</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Full Width Image]]></title>
+      <content><![CDATA[9L-basic-fullscreen.jpg]]></content>
+      <size>147199</size>
+      <ext>jpg</ext>
+      <width>709</width>
+      <height>345</height>
+      <alt_text></alt_text>
+    </item>
+  </assets>
+  <basic_type>image_full_width</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>TF3</id>
+  <type>mp_true_false</type>
+  <title><![CDATA[True False - Knowledge Check]]></title>
+  <question><![CDATA[<p>Quis purus odio ipsum laoreet odio.</p>]]></question>
+  <max_attempts>1</max_attempts>
+  <responses>
+    <item>
+      <statement><![CDATA[Eu sit lectus luctus odio eget. (T)]]></statement>
+      <correct>1</correct>
+    </item>
+    <item>
+      <statement><![CDATA[Platea fermentum mi suspendisse tellus imperdiet. (T)]]></statement>
+      <correct>1</correct>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[That is correct. Select <strong>Next</strong> to continue.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Please select <strong>Next</strong> to continue.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Please select <strong>Next</strong> to continue.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

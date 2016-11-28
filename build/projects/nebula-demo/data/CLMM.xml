@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>CLMM</id>
+  <type>mp_multiple_media</type>
+  <title><![CDATA[Multimedia pop up]]></title>
+  <button_label><![CDATA[Media]]></button_label>
+  <media>
+    <item>
+      <item>
+        <id>RP4</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with no Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+        <description><![CDATA[<p>Etiam malesuada sollicitudin sem, ut semper lacus efficitur vitae. Nunc vestibulum lectus vitae volutpat pellentesque. Nullam in magna accumsan, facilisis ante ac, euismod tellus. Nunc bibendum sapien a mauris pulvinar hendrerit. Suspendisse sodales, mauris fermentum tincidunt consectetur, nulla erat aliquet metus, et dictum diam felis in nibh. Aliquam gravida pretium orci eget laoreet. Mauris dolor velit, congue quis facilisis eu, porttitor eget neque.</p>
+<p>Integer euismod consectetur ipsum vitae vehicula. Donec congue vitae lacus at fermentum. Nullam lobortis, ipsum quis elementum fermentum, lectus risus porta purus, at tincidunt diam nibh eu lectus. Nunc lobortis consectetur felis luctus porta. Sed placerat, augue ac ultrices finibus, eros augue elementum mauris, vitae tincidunt massa nunc eu quam. Suspendisse elit lorem, bibendum vel consequat ut, blandit nec ligula. Pellentesque ut facilisis nunc, non ultrices tellus. In feugiat sed risus vitae aliquam.</p>]]></description>
+      </item>
+      <description><![CDATA[Lorem ipsum dolor. Sit amet ut ut odio massa. Enim tincidunt vitae. Sit habitant iaculis sodales et sed aliquam a vel sed mattis id blandit odio odio viverra in purus. Vehicula tortor non. Nunc turpis ultrices. Vel ipsum ut. Lorem cras metus ante integer vel inceptos aliquam aenean accumsan]]></description>
+      <thumb>9L-mm-popup-thumb3_0.jpg</thumb>
+      <thumb_alt></thumb_alt>
+    </item>
+  </media>
+</root>

@@ -1,0 +1,84 @@
+/*
+ * decision tree
+ */
+#page.mp-decision-tree {
+
+  #content > .inner {
+    background: url(../files/skin/loader.gif) no-repeat center center;
+  }
+
+  #activity {
+    overflow: hidden;
+  }
+
+  #background-image {
+    position: relative;
+  }
+
+  #background-image img {
+    float: left;
+  }
+
+  #background-image .hotspot {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: $primary-color;
+    margin: -15px 0 0 -15px;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 19px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 18px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+
+    span {
+      float: left;
+      font-size: 24px;
+      width: 36px;
+      line-height: 36px;
+    }
+  }
+
+  #background-image.disabled .hotspot,
+  #background-image.disabled .hotspot:hover {
+    /*background-color: $dark-grey-color;*/
+  }
+
+  #background-image .hotspot:hover,
+  #background-image .hotspot.selected,
+  #background-image.disabled .hotspot.selected {
+    background-color: $secondary-color;
+  }
+
+  #feedback .tab {
+    //TODO does this exist?
+    background-image: url(../files/skin/feedback-tab-decision-tree.png);
+    height: 85px;
+    right: -27px;
+  }
+
+  #feedback .tab:hover {
+    background-position: 0 -85px;
+  }
+
+  #feedback.closed .tab {
+    background-position: 0 -170px;
+  }
+
+  #feedback.closed .tab:hover {
+    background-position: 0 -255px;
+  }
+
+  #feedback h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  #decision-navigation a {
+    margin-right: 1em;
+    cursor: pointer;
+  }
+}

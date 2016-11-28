@@ -1,0 +1,126 @@
+/*
+ * Drag and drop sort activity page
+ */
+#page.mp-drag-drop-sort {
+
+  #intro {
+    max-height: 25%;
+    overflow: auto;
+    margin-bottom: 15px;
+
+    // Remove margin from the last element within the intro text
+    & > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  #drag-container {
+    overflow: hidden;
+
+    ul.draggables {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 200px;
+    }
+
+    .drag-item {
+      width: 163px;
+      padding: 5px 15px 5px 20px;
+      margin-bottom: 2px;
+      border: 1px solid $dark-grey-color;
+      background-color: #FFFFFF;
+      border-radius: $button-radius;
+      cursor: pointer;
+      position: relative;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      &.grabbed {
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    #drags {
+      margin-top: 1.6em;
+      float: left;
+
+      .drag-item {
+        display: none;
+      }
+
+      .drag-item:first-child {
+        display: block !important;
+      }
+    }
+
+    #targets {
+      position: relative;
+      width: 630px;
+      float: right;
+      height: 100%;
+
+      #targets-drops {
+        float: left;
+        height: 86%;
+      }
+
+      .title {
+        float: left;
+        width: 200px;
+        margin-left: 5px;
+        padding: 0 2px;
+
+        h3 {
+          font: normal 1.1em $body-font-family;
+          margin-bottom: 0.2em;
+        }
+      }
+
+      .target {
+        float: left;
+        width: 200px;
+        height: 100%;
+        padding: 2px;
+        margin-left: 5px;
+        background-color: $grey-color;
+
+        .draggables {
+          height: 100%;
+        }
+      }
+
+      &.final {
+
+        .correct:before {
+          font-family: 'icomoon';
+        	speak: none;
+        	font-style: normal;
+        	font-weight: normal;
+        	font-variant: normal;
+        	text-transform: none;
+        	line-height: 1;
+        	/* Better Font Rendering */
+        	-webkit-font-smoothing: antialiased;
+        	-moz-osx-font-smoothing: grayscale;
+          content: "\e600";
+          color: $secondary-color;
+          font-size: 16px;
+          position: absolute;
+          left: 2px;
+          top: 6px;
+        }
+      }
+    }
+
+    .clear {
+      clear: both;
+    }
+  }
+
+  #btn-submit {
+    margin-top: 5px;
+  }
+}

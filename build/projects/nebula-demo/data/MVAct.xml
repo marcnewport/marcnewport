@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>MVAct</id>
+  <type>mp_mid_video_activity</type>
+  <title><![CDATA[Mid-video Activity]]></title>
+  <main><![CDATA[Cras lacinia venenatis ultricies. Maecenas laoreet neque odio, sit amet aliquam sem consectetur cursus. Pellentesque vel libero massa. Etiam sit amet dolor sit amet metus tristique consectetur non quis metus. Cras massa ipsum, eleifend eu viverra nec, imperdiet sed elit. Donec sed tellus nisl. Vestibulum leo arcu, euismod ac venenatis vel, tincidunt vitae felis. Curabitur quis semper nunc, ut ultricies lectus.]]></main>
+  <video>
+    <item>
+      <id>RP3</id>
+      <type>mp_resource_video</type>
+      <title><![CDATA[External Video with no Image]]></title>
+      <streaming>1</streaming>
+      <address>//player.vimeo.com/video/94659157</address>
+      <description><![CDATA[Duis et arcu urna. Pellentesque ut imperdiet sem. Praesent lacinia mauris vel consequat egestas. Etiam non nibh tristique, mattis nunc quis, vehicula diam. Etiam sit amet mauris vel ligula maximus iaculis sed at mi. Curabitur urna nisi, iaculis eu auctor ac, tincidunt non erat. Aliquam vel magna vulputate elit laoreet cursus.]]></description>
+    </item>
+  </video>
+  <timecodes>
+    <item>
+      <id>MVA1T2</id>
+      <time>6</time>
+      <activities>
+        <item>
+          <id>MVA1T2A1</id>
+          <type>mp_timecode_multiple_choice</type>
+        </item>
+        <item>
+          <id>MVA1T1A2</id>
+          <type>mp_timecode_text_dialogue</type>
+        </item>
+      </activities>
+    </item>
+    <item>
+      <id>MVA1T3</id>
+      <time>9</time>
+      <activities>
+        <item>
+          <id>MVA1T3A1</id>
+          <type>mp_timecode_true_false</type>
+        </item>
+      </activities>
+    </item>
+  </timecodes>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

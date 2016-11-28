@@ -4,7 +4,7 @@
   <type>mp_introduction</type>
   <title><![CDATA[Introduction]]></title>
   <module><![CDATA[<p>Nebula is a web application that is SCORM 1.2 compliant for use in online learning platforms such as <a href="https://moodle.org/"  target="_blank">Moodle</a>. Nebula is an HTML5 application and is optimised for use on desktop, laptop, and tablets.</p>
-<p>Nebula has been developed to comply with WCAG AA standards (assuming alternative media has been supplied).</p>]]></module>
+<p>Nebula has been developed to comply with <a href="#" class="glossary-term" name="WCAG">WCAG</a> AA standards (assuming alternative media has been supplied).</p>]]></module>
   <learn_about_title><![CDATA[You'll Learn]]></learn_about_title>
   <learn_about><![CDATA[This is a demo module show casing the variety of page types and interactions available in Nebula. There are many configuration options available making it a flexible tool to build an online learning module. Nebula also has a theme builder so you can choose colors, fonts and other graphical features.]]></learn_about>
   <get_started_title><![CDATA[Getting Started]]></get_started_title>

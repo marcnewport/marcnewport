@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FT5</id>
+  <type>mp_free_text</type>
+  <title><![CDATA[Free text with image and multiple questions]]></title>
+  <scenario><![CDATA[<p>Purus ligula nunc. Tempor non augue velit nam tellus blandit molestie est. Consequat justo <a href="#" class="glossary-term" name="Lorem">lorem</a>.</p>
+<p class="textblockalert">Montes urna odio <a href="#" class="glossary-term" name="Lorem">lorem</a> convallis suscipit.</p>]]></scenario>
+  <questions>
+    <question>
+      <text><![CDATA[Mauris cursus elementum eget velit tortor tincidunt vulputate morbi?]]></text>
+    </question>
+    <question>
+      <text><![CDATA[Mauris pellentesque egestas. Per eros proin. Sit dolore morbi suscipit urna nulla. Ut placerat eu?]]></text>
+    </question>
+  </questions>
+  <media>
+    <item>
+      <id>RP6</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Portrait Image]]></title>
+      <content><![CDATA[9L-basic-portrait.jpg]]></content>
+      <size>88044</size>
+      <ext>jpg</ext>
+      <width>250</width>
+      <height>336</height>
+      <alt_text></alt_text>
+      <description><![CDATA[Portrait image description.]]></description>
+    </item>
+  </media>
+  <feedback>
+    <item>
+      <text><![CDATA[Nascetur leo non. Potenti scelerisque nulla. Interdum morbi lectus dui aliquam cras eleifend class enim natoque ligula vel. Sed arcu neque a aliquam auctor nibh nunc commodo integer sed enim. Habitasse justo accumsan sit lectus adipiscing faucibus in in. Proin lobortis wisi interdum metus et. Et proin felis quisque at sit. Sociosqu urna mauris. Amet sit ac. A cursus leo. Magna eu sed. Urna venenatis consectetuer eget ultrices aliquet. Nunc fusce sed in in tortor varius euismod in scelerisque pellentesque integer. Nonummy fusce eros. Maecenas volutpat ac eros dui urna convallis libero nibh neque laoreet id cursus rutrum orci. Viverra dolorum nibh pellentesque adipiscing auctor diam<a href="#" class="glossary-term" name="Lorem">lorem</a> vestibulum ac augue elementum tellus.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Nascetur leo non. Potenti scelerisque nulla. Interdum morbi lectus dui aliquam cras eleifend class enim natoque ligula vel. Sed arcu neque a aliquam auctor nibh nunc commodo integer sed enim. Habitasse justo accumsan sit lectus adipiscing faucibus in in. Proin lobortis wisi interdum metus et. Et proin felis quisque at sit. Sociosqu urna mauris. Amet sit ac. A cursus leo. Magna eu sed. Urna venenatis consectetuer eget ultrices aliquet. Nunc fusce sed in in tortor varius euismod in scelerisque pellentesque integer. Nonummy fusce eros. Maecenas volutpat ac eros dui urna convallis libero nibh neque laoreet id cursus rutrum orci. Viverra dolorum nibh pellentesque adipiscing auctor diam<a href="#" class="glossary-term" name="Lorem">lorem</a> vestibulum ac augue elementum tellus.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Nascetur leo non. Potenti scelerisque nulla. Interdum morbi lectus dui aliquam cras eleifend class enim natoque ligula vel. Sed arcu neque a aliquam auctor nibh nunc commodo integer sed enim. Habitasse justo accumsan sit lectus adipiscing faucibus in in. Proin lobortis wisi interdum metus et. Et proin felis quisque at sit. Sociosqu urna mauris. Amet sit ac. A cursus leo. Magna eu sed. Urna venenatis consectetuer eget ultrices aliquet. Nunc fusce sed in in tortor varius euismod in scelerisque pellentesque integer. Nonummy fusce eros. Maecenas volutpat ac eros dui urna convallis libero nibh neque laoreet id cursus rutrum orci. Viverra dolorum nibh pellentesque adipiscing auctor diam<a href="#" class="glossary-term" name="Lorem">lorem</a> vestibulum ac augue elementum tellus.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

@@ -1,0 +1,128 @@
+/*
+ * Click scene
+ */
+#page.mp-click-scene {
+
+  .page-title h2 {
+    min-width: 280px;
+  }
+
+  #main-text {
+    overflow: auto;
+    float: left;
+  }
+
+  #scene {
+    float: right;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      float: left;
+    }
+
+    .hotspot {
+      width: 0;
+      height: 0;
+      padding: 34px 34px 0 0;
+      border-left: 3px solid $secondary-color;
+      overflow: hidden;
+      background: url(../files/skin/icon-sprite-search-scene.png) no-repeat 0 0 $primary-color;
+      cursor: pointer;
+
+      &:hover {
+        border-left: 5px solid $secondary-color;
+      }
+
+      &.complete {
+        background-position: 0 -34px;
+        cursor: default;
+
+        &:hover {
+          border-left: 3px solid $secondary-color;
+        }
+      }
+    }
+
+    a#btn-reset {
+      position: absolute;
+      right: 10px;
+      bottom: 5px;
+      font-family: Verdana;
+      color: #FFFFFF;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  #feedback .interactivity {
+    display: none;
+  }
+}
+
+
+
+/*
+ * mp-hotspot-multiple-choice
+ */
+#hs-popup.mp-hotspot-multiple-choice {
+
+  #activity {
+
+    .response {
+      margin-top: 2px;
+      margin-bottom: 10px;
+      position: relative;
+      overflow: hidden;
+
+      label {
+        float: left;
+        margin-left: 29px;
+        cursor: pointer;
+
+        input,
+        .custom-input {
+          position: absolute;
+          top: 2px;
+          left: 2px;
+        }
+
+        p:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &.completed .response {
+
+      &.correct {
+        .custom-input {
+          border-color: $secondary-color;
+
+          &:after {
+            background-color: $secondary-color;
+          }
+        }
+
+        // &.checked:before {
+        //   font-family: 'icomoon';
+        // 	speak: none;
+        // 	font-style: normal;
+        // 	font-weight: normal;
+        // 	font-variant: normal;
+        // 	text-transform: none;
+        // 	line-height: 1;
+        // 	-webkit-font-smoothing: antialiased;
+        // 	-moz-osx-font-smoothing: grayscale;
+        //   content: "\e600";
+        //   color: $secondary-color;
+        //   position: absolute;
+        //   top: 2px;
+        //   left: 10px;
+        // }
+      }
+    }
+  }
+}

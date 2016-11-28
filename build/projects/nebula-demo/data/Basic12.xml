@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic12</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic page with image and quotes]]></title>
+  <main><![CDATA[<p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+<p class="textblockquote">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+<p class="textblockquote">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></main>
+  <assets>
+    <item>
+      <id>RP6</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Portrait Image]]></title>
+      <content><![CDATA[9L-basic-portrait.jpg]]></content>
+      <size>88044</size>
+      <ext>jpg</ext>
+      <width>250</width>
+      <height>336</height>
+      <alt_text></alt_text>
+      <description><![CDATA[Portrait image description.]]></description>
+    </item>
+  </assets>
+  <basic_type>image_inline</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FT9</id>
+  <type>mp_free_text</type>
+  <title><![CDATA[Free text 1 question hosted video]]></title>
+  <scenario><![CDATA[<p>Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. <br /> </p>]]></scenario>
+  <questions>
+    <question>
+      <text><![CDATA[<p>Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa?<br /> </p>]]></text>
+    </question>
+  </questions>
+  <description><![CDATA[<p>Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. <br /> </p>]]></description>
+  <media>
+    <item>
+      <id>RP3</id>
+      <type>mp_resource_video</type>
+      <title><![CDATA[External Video with no Image]]></title>
+      <streaming>1</streaming>
+      <address>//player.vimeo.com/video/94659157</address>
+      <description><![CDATA[Duis et arcu urna. Pellentesque ut imperdiet sem. Praesent lacinia mauris vel consequat egestas. Etiam non nibh tristique, mattis nunc quis, vehicula diam. Etiam sit amet mauris vel ligula maximus iaculis sed at mi. Curabitur urna nisi, iaculis eu auctor ac, tincidunt non erat. Aliquam vel magna vulputate elit laoreet cursus.]]></description>
+    </item>
+  </media>
+  <feedback>
+    <item>
+      <text><![CDATA[<p>Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. <br /> </p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. <br /> </p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. <br /> </p>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

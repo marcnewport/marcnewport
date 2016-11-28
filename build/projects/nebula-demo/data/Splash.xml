@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Splash</id>
+  <type>mp_splash</type>
+  <title><![CDATA[Negat enim summo]]></title>
+  <credits_link></credits_link>
+  <credits><![CDATA[Sit hoc ultimum bonorum, quod nunc a me defenditur; Equidem etiam Epicurum, in physicis quidem, Democriteum puto. Eodem modo is enim tibi nemo dabit, quod, expetendum sit, id esse laudabile. Duo Reges: constructio interrete. Ita multa dicunt, quae vix intellegam. Nunc dicam de voluptate, nihil scilicet novi, ea tamen, quae te ipsum probaturum esse confidam. Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae.]]></credits>
+  <slides>
+    <slide>
+      <alt_text><![CDATA[Horse head nebula]]></alt_text>
+      <image><![CDATA[slide1.jpg]]></image>
+      <width>990</width>
+      <height>400</height>
+    </slide>
+    <slide>
+      <alt_text><![CDATA[The moon]]></alt_text>
+      <image><![CDATA[slide2.jpg]]></image>
+      <width>990</width>
+      <height>400</height>
+    </slide>
+  </slides>
+</root>

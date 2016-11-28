@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>BPMM</id>
+  <type>mp_multiple_media</type>
+  <title><![CDATA[Multi Media Pop up with Audio and Video]]></title>
+  <button_label><![CDATA[Media]]></button_label>
+  <media>
+    <item>
+      <item>
+        <id>RP7</id>
+        <type>mp_resource_audio</type>
+        <title><![CDATA[Audio with no image]]></title>
+        <content><![CDATA[placeholder-audio_0.mp3]]></content>
+        <size>162742</size>
+        <ext>mp3</ext>
+        <streaming>0</streaming>
+      </item>
+      <description><![CDATA[Audio File]]></description>
+      <thumb>placeholder-video-thumbnail_3.jpg</thumb>
+      <thumb_alt><![CDATA[This is some alt text]]></thumb_alt>
+    </item>
+    <item>
+      <item>
+        <id>RP3</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[External Video with no Image]]></title>
+        <streaming>1</streaming>
+        <address>//player.vimeo.com/video/94659157</address>
+        <description><![CDATA[Duis et arcu urna. Pellentesque ut imperdiet sem. Praesent lacinia mauris vel consequat egestas. Etiam non nibh tristique, mattis nunc quis, vehicula diam. Etiam sit amet mauris vel ligula maximus iaculis sed at mi. Curabitur urna nisi, iaculis eu auctor ac, tincidunt non erat. Aliquam vel magna vulputate elit laoreet cursus.]]></description>
+      </item>
+      <description><![CDATA[External Video with thumbnail Image]]></description>
+      <thumb>placeholder-video-thumbnail_4.jpg</thumb>
+      <thumb_alt><![CDATA[This is also some alt text]]></thumb_alt>
+    </item>
+    <item>
+      <item>
+        <id>RP4</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with no Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+        <description><![CDATA[<p>Etiam malesuada sollicitudin sem, ut semper lacus efficitur vitae. Nunc vestibulum lectus vitae volutpat pellentesque. Nullam in magna accumsan, facilisis ante ac, euismod tellus. Nunc bibendum sapien a mauris pulvinar hendrerit. Suspendisse sodales, mauris fermentum tincidunt consectetur, nulla erat aliquet metus, et dictum diam felis in nibh. Aliquam gravida pretium orci eget laoreet. Mauris dolor velit, congue quis facilisis eu, porttitor eget neque.</p>
+<p>Integer euismod consectetur ipsum vitae vehicula. Donec congue vitae lacus at fermentum. Nullam lobortis, ipsum quis elementum fermentum, lectus risus porta purus, at tincidunt diam nibh eu lectus. Nunc lobortis consectetur felis luctus porta. Sed placerat, augue ac ultrices finibus, eros augue elementum mauris, vitae tincidunt massa nunc eu quam. Suspendisse elit lorem, bibendum vel consequat ut, blandit nec ligula. Pellentesque ut facilisis nunc, non ultrices tellus. In feugiat sed risus vitae aliquam.</p>]]></description>
+      </item>
+      <description><![CDATA[Attached Video with thubnail image.]]></description>
+      <thumb>placeholder-video-thumbnail_5.jpg</thumb>
+      <thumb_alt></thumb_alt>
+    </item>
+  </media>
+</root>

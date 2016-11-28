@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>INT</id>
+  <type>mp_topic</type>
+  <title><![CDATA[Introduction]]></title>
+  <roles/>
+  <enable_menu>1</enable_menu>
+  <enable_resources>1</enable_resources>
+  <enable_case_study>1</enable_case_study>
+  <enable_my_notes>1</enable_my_notes>
+  <force_order>false</force_order>
+  <assessed>false</assessed>
+  <knowledge_check/>
+  <resources>
+    <group type="review">
+      <item>
+        <id>RP1</id>
+        <type>mp_resource_audio</type>
+        <title><![CDATA[Audio with Image]]></title>
+        <content><![CDATA[placeholder-audio.mp3]]></content>
+        <size>162742</size>
+        <ext>mp3</ext>
+        <streaming>0</streaming>
+        <image>
+          <content><![CDATA[9L-basic-landscape_0.jpg]]></content>
+          <alt_text></alt_text>
+          <size>133053</size>
+          <ext>jpg</ext>
+          <width>498</width>
+          <height>337</height>
+        </image>
+        <description><![CDATA[Description]]></description>
+      </item>
+    </group>
+    <group type="other">
+      <item>
+        <id>RP2</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video_1.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+      </item>
+    </group>
+  </resources>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>MC1</id>
+  <type>mp_multiple_choice</type>
+  <title><![CDATA[Multiple Choice Page]]></title>
+  <scenario><![CDATA[Equidem e Cn. Sed ea mala virtuti magnitudine obruebantur. Bonum valitudo: miser morbus..]]></scenario>
+  <question><![CDATA[<p>Num igitur utiliorem tibi hunc Triarium putas esse posse, quam si tua sint Puteolis granaria?Ille incendat?</p>]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <correct>4</correct>
+    <item>
+      <option><![CDATA[Scio enim esse quosdam, qui quavis lingua philosophari possint;]]></option>
+      <feedback><![CDATA[Option 1 Feedback]]></feedback>
+      <why><![CDATA[Nam si beatus umquam fuisset, beatam vitam usque ad illum a Cyro extructum rogum pertulisset.]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Quia dolori non voluptas contraria est, sed doloris privatio]]></option>
+      <feedback><![CDATA[Option 2 Feedback]]></feedback>
+      <why><![CDATA[Itaque et vivere vitem et mori dicimus arboremque et novellan et vetulam et vigere et senescere.]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Sin aliud quid voles, postea. Id mihi magnum videtur.]]></option>
+      <why><![CDATA[Rationis enim perfectio est virtus; Negat enim summo bono afferre incrementum diem. Illi enim inter se dissentiunt. Non est igitur voluptas bonum. ]]></why>
+    </item>
+    <item>
+      <option><![CDATA[(c) Zenonis est, inquam, hoc Stoici.]]></option>
+      <why><![CDATA[Quare si potest esse beatus is, qui est in asperis reiciendisque rebus, potest is quoque esse.]]></why>
+    </item>
+  </responses>
+  <media>
+    <item>
+      <id>RP1</id>
+      <type>mp_resource_audio</type>
+      <title><![CDATA[Audio with Image]]></title>
+      <content><![CDATA[placeholder-audio.mp3]]></content>
+      <size>162742</size>
+      <ext>mp3</ext>
+      <streaming>0</streaming>
+      <image>
+        <content><![CDATA[9L-basic-landscape_0.jpg]]></content>
+        <alt_text></alt_text>
+        <size>133053</size>
+        <ext>jpg</ext>
+        <width>498</width>
+        <height>337</height>
+      </image>
+      <description><![CDATA[Description]]></description>
+    </item>
+  </media>
+  <feedback>
+    <item>
+      <text><![CDATA[<p>That's correct!</p>
+<p> </p>
+<p>Select <strong>Next</strong> to continue.</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>That is incorrect.</p>
+<p class="textblockalert">Keep in mind...</p>
+<p>Please <strong>try again</strong>.</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is still not correct. Please review the <strong>why feedback</strong> and then select <strong>Next </strong>to continue.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

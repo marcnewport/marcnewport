@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>reflectreview</id>
+  <type>mp_reflect_and_review</type>
+  <title><![CDATA[Reflect and Review]]></title>
+  <options>
+    <option><![CDATA[Option 1]]></option>
+    <option><![CDATA[Option 2]]></option>
+    <option><![CDATA[Option 3]]></option>
+    <option><![CDATA[Option 4]]></option>
+    <option><![CDATA[Option 5]]></option>
+  </options>
+  <tabs>
+    <tab>
+      <title><![CDATA[Tab 1 Title]]></title>
+      <type>intro</type>
+      <content><![CDATA[Nulla quis auctor lacus. Etiam nunc libero, auctor eu consequat sit amet, hendrerit id felis. Integer vehicula iaculis purus, sed imperdiet justo mollis vel. Praesent imperdiet ultricies ipsum, eu tincidunt diam interdum in. Phasellus vulputate erat sed luctus tincidunt. Vivamus vel condimentum augue. Mauris maximus efficitur erat, ut sagittis odio. In hac habitasse platea dictumst. Sed in nunc aliquet, iaculis mi in, dictum purus. Nam nec libero at est sollicitudin facilisis non id leo. Aenean ac ornare sapien.]]></content>
+    </tab>
+    <tab>
+      <title><![CDATA[Tab 2 Title]]></title>
+      <type>reflect</type>
+      <statement>
+        <question><![CDATA[Suspendisse iaculis eros pulvinar sapien euismod tincidunt.]]></question>
+        <feedback><![CDATA[Nulla quis auctor lacus. Etiam nunc libero, auctor eu consequat sit amet, hendrerit id felis. Integer vehicula iaculis purus, sed imperdiet justo mollis vel. Praesent imperdiet ultricies ipsum, eu tincidunt diam interdum in. Phasellus vulputate erat sed luctus tincidunt. Vivamus vel condimentum augue. Mauris maximus efficitur erat, ut sagittis odio. In hac habitasse platea dictumst. Sed in nunc aliquet, iaculis mi in, dictum purus. Nam nec libero at est sollicitudin facilisis non id leo. Aenean ac ornare sapien.]]></feedback>
+      </statement>
+      <statement>
+        <question><![CDATA[Praesent gravida bibendum risus, quis faucibus ante rhoncus ac. Phasellus ornare ut eros eu pharetra.]]></question>
+        <feedback><![CDATA[Phasellus vulputate erat sed luctus tincidunt. Vivamus vel condimentum augue. Mauris maximus efficitur erat, ut sagittis odio. In hac habitasse platea dictumst. Sed in nunc aliquet, iaculis mi in, dictum purus. Nam nec libero at est sollicitudin facilisis non id leo. Aenean ac ornare sapien.]]></feedback>
+      </statement>
+      <statement>
+        <question><![CDATA[Praesent congue egestas augue, vitae mattis lectus mattis eget. Nullam tincidunt nibh sit amet lorem tincidunt dapibus. Morbi diam neque, tincidunt nec orci sollicitudin, sollicitudin vestibulum ex.]]></question>
+        <feedback><![CDATA[Nulla quis auctor lacus. Etiam nunc libero, auctor eu consequat sit amet, hendrerit id felis. Integer vehicula iaculis purus, sed imperdiet justo mollis vel. Praesent imperdiet ultricies ipsum, eu tincidunt diam interdum in.]]></feedback>
+      </statement>
+    </tab>
+    <tab>
+      <title><![CDATA[Tab 3 Title]]></title>
+      <type>review</type>
+      <question><![CDATA[Etiam nunc libero, auctor eu consequat sit amet, hendrerit id felis. Integer vehicula iaculis purus, sed imperdiet justo mollis vel. Praesent imperdiet ultricies ipsum, eu tincidunt diam interdum in. Phasellus vulputate erat sed luctus tincidunt.]]></question>
+    </tab>
+  </tabs>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

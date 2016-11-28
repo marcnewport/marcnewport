@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>DT</id>
+  <type>mp_decision_tree</type>
+  <title><![CDATA[Decision Tree]]></title>
+  <decision_points>
+    <item>
+      <id>DP1</id>
+      <type>mp_decision_point</type>
+      <title><![CDATA[What would you do?]]></title>
+      <introduction_text><![CDATA[<p>You are deep frying chips and the phone rings. You rush to answer it and when you return, the saucepan of oil is on fire. </p>
+<p>What is the best thing to do? Select one of the two <strong>Decision Point Hot Spots</strong>. </p>]]></introduction_text>
+      <background_image>
+        <item>
+          <id>RP25</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[Big-fire]]></title>
+          <content><![CDATA[big_fire%20%281%29.jpg]]></content>
+          <size>147931</size>
+          <ext>jpg</ext>
+          <width>825</width>
+          <height>355</height>
+          <alt_text></alt_text>
+        </item>
+      </background_image>
+      <hotspots>
+        <item>
+          <id>DP1HS1</id>
+          <type>mp_decision_point_hs</type>
+          <title><![CDATA[Turn the gas off]]></title>
+          <left>700</left>
+          <top>250</top>
+          <link>DP2</link>
+          <feedback><![CDATA[If you want to lock in <em>'Turn the gas off'</em> select <strong>Continue</strong>.]]></feedback>
+          <resource>
+            <item>
+              <id>RP8</id>
+              <type>mp_resource_document</type>
+              <title><![CDATA[Placeholder PDF]]></title>
+              <content><![CDATA[Placeholder.pdf]]></content>
+              <size>35384</size>
+              <ext>pdf</ext>
+            </item>
+          </resource>
+        </item>
+        <item>
+          <id>DPHS2-2</id>
+          <type>mp_decision_point_hs</type>
+          <title><![CDATA[Spray water on it]]></title>
+          <left>700</left>
+          <top>90</top>
+          <link>DP3</link>
+          <feedback><![CDATA[If you want to lock in <em>'Spray water on it'</em> select <strong>Continue</strong>.]]></feedback>
+        </item>
+      </hotspots>
+    </item>
+    <item>
+      <id>DP2</id>
+      <type>mp_decision_point</type>
+      <title><![CDATA[Correct choice]]></title>
+      <introduction_text><![CDATA[<p>That's the right choice. If it is safe for you to turn off the gas or power do that first. As the fire may be uncontrollable and move around as it is blown by the breeze it would be wise to cover your arm  in a thick damp towel as you reach forward to turn the gas off. </p>
+<p>Now make your next choice. There is still some flame in the frypan - what should you do now?</p>
+<p> </p>]]></introduction_text>
+      <background_image>
+        <item>
+          <id>RP27</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[Small fire]]></title>
+          <content><![CDATA[small_fire%20%282%29.jpg]]></content>
+          <size>148076</size>
+          <ext>jpg</ext>
+          <width>825</width>
+          <height>355</height>
+          <alt_text></alt_text>
+        </item>
+      </background_image>
+      <hotspots>
+        <item>
+          <id>DPHS3</id>
+          <type>mp_decision_point_hs</type>
+          <title><![CDATA[Dampen the fire ]]></title>
+          <left>700</left>
+          <top>250</top>
+          <link>DP4</link>
+          <feedback><![CDATA[To lock in <em>'Dampen the fire'</em> select <strong>Continue</strong>.]]></feedback>
+        </item>
+        <item>
+          <id>DPHS4</id>
+          <type>mp_decision_point_hs</type>
+          <title><![CDATA[Call the fire brigade]]></title>
+          <left>700</left>
+          <top>90</top>
+          <link>DP5</link>
+          <feedback><![CDATA[To lock in <em>'Call the fire brigade'</em> select <strong>Continue</strong>.]]></feedback>
+        </item>
+      </hotspots>
+    </item>
+    <item>
+      <id>DP4</id>
+      <type>mp_decision_point</type>
+      <title><![CDATA[Well chosen]]></title>
+      <introduction_text><![CDATA[<p>Once again, you have made the right choices and saved your home. Excellent work!</p>
+<p>Select <strong>Next</strong> to continue. </p>
+<p> </p>]]></introduction_text>
+      <background_image>
+        <item>
+          <id>RP29</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[Happy-home]]></title>
+          <content><![CDATA[safe_house.jpg]]></content>
+          <size>112735</size>
+          <ext>jpg</ext>
+          <width>825</width>
+          <height>355</height>
+          <alt_text></alt_text>
+        </item>
+      </background_image>
+      <hotspots/>
+    </item>
+    <item>
+      <id>DP3</id>
+      <type>mp_decision_point</type>
+      <title><![CDATA[Wrong choice!]]></title>
+      <introduction_text><![CDATA[<p>Throwing water on an oil fire is one of the worst things you could do as even a small amount of water can create a fire ball which could cause a serious fire.</p>
+<p>Select <strong>Previous</strong> and try again.</p>]]></introduction_text>
+      <background_image>
+        <item>
+          <id>RP28</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[Burning-house]]></title>
+          <content><![CDATA[burning-house.jpg]]></content>
+          <size>159088</size>
+          <ext>jpg</ext>
+          <width>825</width>
+          <height>355</height>
+          <alt_text></alt_text>
+        </item>
+      </background_image>
+      <hotspots/>
+    </item>
+    <item>
+      <id>DP5</id>
+      <type>mp_decision_point</type>
+      <title><![CDATA[That's not the best choice. ]]></title>
+      <introduction_text><![CDATA[<p>That is not the best option in this situation. As the fire has reduced in size it is manageable. </p>
+<p>Select <strong>Previous</strong> and try again.</p>]]></introduction_text>
+      <background_image>
+        <item>
+          <id>RP27</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[Small fire]]></title>
+          <content><![CDATA[small_fire%20%282%29.jpg]]></content>
+          <size>148076</size>
+          <ext>jpg</ext>
+          <width>825</width>
+          <height>355</height>
+          <alt_text></alt_text>
+        </item>
+      </background_image>
+      <hotspots/>
+    </item>
+  </decision_points>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

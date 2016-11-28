@@ -152,14 +152,50 @@
       <pass_mark>75</pass_mark>
       <disabled_navigation_opacity>0</disabled_navigation_opacity>
     </settings>
+    <panels>
+      <my_notes>
+        <tabs>
+          <tab>
+            <id>my</id>
+            <label><![CDATA[My notes]]></label>
+            <description><![CDATA[<p>As you work through this module, your answers to free text questions will be saved here. You must remember to print these before you exit the module.</p>]]></description>
+            <display>1</display>
+          </tab>
+          <tab>
+            <id>action</id>
+            <label><![CDATA[Actions]]></label>
+            <description><![CDATA[Use this space to note down]]></description>
+            <display>0</display>
+          </tab>
+          <tab>
+            <id>other</id>
+            <label><![CDATA[Others stuff]]></label>
+            <description><![CDATA[<p>Use this space to capture any other notes you wish to save. You must remember to print these before you exit the module.</p>]]></description>
+            <display>1</display>
+          </tab>
+        </tabs>
+      </my_notes>
+    </panels>
     <resources>
       <glossary>
         <id>GLOSSARY</id>
         <type>mp_glossary</type>
         <title><![CDATA[Glossary]]></title>
         <item>
-          <term>Persem</term>
-          <definition><![CDATA[Contineo me ab exemplis.]]></definition>
+          <term>WCAG</term>
+          <definition><![CDATA[The Web Content Accessibility Guidelines, often abbreviated to WCAG, are a series of guidelines for improving web accessibility.]]></definition>
+        </item>
+        <item>
+          <term>W3C</term>
+          <definition><![CDATA[The World Wide Web Consortium is the main international standards organization for the World Wide Web.]]></definition>
+        </item>
+        <item>
+          <term>HTML</term>
+          <definition><![CDATA[Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.]]></definition>
+        </item>
+        <item>
+          <term>CSS</term>
+          <definition><![CDATA[CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.]]></definition>
         </item>
       </glossary>
     </resources>

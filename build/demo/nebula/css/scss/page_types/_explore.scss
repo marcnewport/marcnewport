@@ -2,7 +2,7 @@
  * Explore page
  */
 #page.mp-explore {
-  
+
   #content .inner {
     position: relative;
     overflow: auto;
@@ -25,7 +25,7 @@
   .left-column ul li {
     list-style: none;
     margin: 0;
-    
+
     &:last-child .link {
       border-bottom: none;
     }
@@ -37,7 +37,7 @@
     width: 100%;
     text-decoration: none;
     color: $secondary-color;
-    font: bold 0.85em $button-font-family;
+    font-weight: bold;
     position: relative;
     border-bottom: 1px dashed $dark-grey-color;
   }
@@ -48,7 +48,7 @@
 
   .left-column .link.active {
     color: $primary-color;
-    
+
     &:after {
       @include button-icon('right');
       position: absolute;
@@ -75,19 +75,41 @@
     margin-top: -15px;
     background: $grey-color;
     color: #000000;
-  }
 
-  .right-column .inner-wrap {
-    margin: 15px;
-    overflow: auto;
-    overflow-y: hidden;
-  }
+    .inner-wrap {
+      margin: 15px;
+      overflow: auto;
+      overflow-y: hidden;
+    }
 
-  .right-column .inner-wrap .panel h4 {
-    color: #000000;
-  }
-  
-  .right-column .inner-wrap .panel img {
-    margin: 10px 0;
+    .panel {
+      overflow-x: hidden;
+
+      h4 {
+        color: #000000;
+      }
+
+      // removing margin for last element so it doesn't force a scroll bar
+      *:last-child {
+        margin-bottom: 0;
+      }
+
+      &.panel-image-top img {
+        margin-bottom: 10px;
+        display: block;
+      }
+      &.panel-image-right img {
+        float: right;
+        margin: 0 0 10px 10px;
+      }
+      &.panel-image-bottom img {
+        margin-top: 10px;
+        display: block;
+      }
+      &.panel-image-left img {
+        float: left;
+        margin: 0 10px 10px 0;
+      }
+    }
   }
 }

@@ -1,0 +1,359 @@
+/*
+ * Overlay modal popup
+ */
+#modal-overlay {
+  position: absolute;
+  z-index: 180;
+  background-color: $grey-color;
+  display: none;
+  color: #000000;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+#modal-overlay > .title {
+  float: left;
+  width: 100%;
+}
+
+#modal-overlay .title .inner {
+  margin: 15px 30px;
+}
+
+#modal-overlay .title .inner h3 {
+  color: $primary-color;
+  font-size: 1.3em;
+  outline: none;
+}
+
+#modal-overlay #btn-next-topic-confirm,
+#modal-overlay #btn-exit-confirm,
+#modal-overlay #btn-overlay-close,
+#modal-overlay #btn-ok {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  font: bold 12px $button-font-family;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $primary-color;
+}
+
+#modal-overlay #btn-next-topic-confirm,
+#modal-overlay #btn-exit-confirm,
+#modal-overlay #btn-ok {
+  right: auto;
+}
+
+#modal-overlay #btn-next-topic-confirm:hover,
+#modal-overlay #btn-exit-confirm:hover,
+#modal-overlay #btn-overlay-close:hover {
+  text-decoration: underline;
+}
+
+#modal-overlay .content {
+  margin: 10px 25px 35px 30px;
+  padding-right: 10px;
+  overflow: auto;
+
+  a {
+    color: $body-link-color;
+
+    &:hover {
+      color: $body-link-rollover;
+      text-decoration: none;
+    }
+  }
+}
+
+#modal-overlay .transcript-content {
+  background-color: #FFFFFF !important;
+  color: $body-font-color !important;
+}
+#modal-overlay .transcript-button {
+  border-color: #FFFFFF !important;
+}
+
+
+#content #btn-video {
+  float: left;
+  padding-top: 25px;
+}
+
+/*
+ * multi-media overlay
+ */
+#modal-overlay.mmp #btn-overlay-close {
+  width: 165px;
+  height: 28px;
+  padding: 2px 20px;
+  position: absolute;
+  bottom: -32px;
+  right: 0;
+  background: $modal-panels-button-background;
+  z-index: 10;
+  color: $modal-panels-button-color;
+  text-decoration: none;
+  font: bold 12px/28px $button-font-family;
+  text-transform: uppercase;
+  text-align: right;
+  border-radius: 0 0 0 $button-radius-medium;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+
+  &:after {
+    @include button-icon('up');
+  }
+}
+
+#modal-overlay.mmp #btn-overlay-close:hover {
+  padding: 4px 20px 0 20px;
+}
+
+#modal-overlay.mmp .content {
+  overflow: auto;
+}
+
+#modal-overlay .single-video .inner {
+  height: 330px;
+  margin-top: 90px;
+}
+
+#modal-overlay .single-video .overlay-content {
+  height: 330px;
+}
+
+#modal-overlay .single-video .inner h2 {
+  margin-bottom: 15px;
+}
+
+#modal-overlay .multi-video .btn-media {
+  width: 220px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 0 10px 15px 0;
+  cursor: pointer;
+
+  .thumb {
+    width: 115px;
+    height: 65px;
+    overflow: hidden;
+    margin-right: 5px;
+    position: relative;
+    float: left;
+    border: 2px solid transparent;
+
+    img {
+      float: left;
+    }
+  }
+
+  &.selected .thumb {
+    border-color: $secondary-color;
+  }
+}
+
+#modal-overlay .multi-video .btn-media a {
+  float: left;
+  color: #000000;
+  text-decoration: none;
+  width: 95px;
+}
+
+#modal-overlay .multi-video #multi-player,
+#modal-overlay .multi-video .jwplayer-wrap {
+  float: left;
+  clear: both;
+  z-index: 2;
+}
+
+
+
+/*
+ * help overlay
+ */
+#help-content {
+  padding: 0;
+}
+
+#help-content .help-item {
+  margin-bottom: 3px;
+  overflow: hidden;
+  background: #FFFFFF;
+  list-style: none;
+}
+
+#help-content .help-item a.title {
+  cursor: pointer;
+  float: left;
+  width: 100%;
+  height: 43px;
+  font-size: 1.13em;
+  line-height: 43px;
+  background-color: $accordion-button-color;
+  color: $accordion-button-text;
+  text-decoration: none;
+  overflow: hidden;
+  text-indent: 17px;
+  //padding: 0 17px;
+
+  &:before {
+    @include button-icon('right');
+    left: -7px;
+  }
+}
+
+#help-content .help-item a.title span {
+  float: left;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+#help-content .help-item a.title:hover,
+#help-content .help-item a.title:focus {
+  background-color: $accordion-button-rollover;
+}
+
+#help-content .help-item.open a.title {
+  &:before {
+    @include button-icon('down');
+    left: -7px;
+  }
+}
+
+#help-content .help-item .help-item-content {
+  margin: 30px 20px 30px 30px;
+  padding-right: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+#help-content .help-item .image {
+  padding: 5px 0 20px 20px;
+  width: 140px;
+  float: left;
+  display: inline-block;
+}
+
+#help-content .help-item .text {
+  padding-left: 15px;
+  width: 430px;
+  float: left;
+  display: inline-block;
+}
+
+
+
+/*
+ * Exit overlay
+ */
+#exit-box {
+  background: #FFFFFF;
+  width: 380px;
+  margin: 200px auto 0 auto;
+  overflow: hidden;
+}
+
+#exit-box .title {
+  height: 44px;
+  color: $primary-color;
+  font-size: 1.5em;
+  line-height: 44px;
+  padding: 0 15px;
+}
+
+#exit-box .content {
+  margin: 0 15px 15px;
+  max-height: 280px;
+  overflow: auto;
+  padding-right: 10px;
+}
+
+
+
+/*
+ * Feedback overlay and button
+ */
+.loading #feedback {
+  display: none;
+}
+
+#feedback {
+  position: absolute;
+  left: 135px;
+  top: 45px;
+  width: 350px;
+  overflow: hidden;
+  background: $grey-color;
+  color: #000000;
+  z-index: 150;
+  border-radius: 0 0 0 $button-radius-medium;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+#feedback.open {
+  z-index: 175;
+}
+
+#feedback #feedback-content {
+  padding: 20px 25px 30px 25px;
+  overflow: hidden;
+}
+
+#feedback #feedback-txt {
+  max-height: 323px;
+  overflow: auto;
+  color: #000000;
+}
+
+#feedback #feedback-txt a {
+  color: #000000;
+}
+
+#feedback .feedback-footer {
+  background-color: $modal-panels-button-background;
+  color: $modal-panels-button-color;
+  clear: both;
+  overflow: hidden;
+}
+
+#feedback .feedback-button {
+  margin: 15px 15px 0 0;
+  color: $primary-color;
+  font-weight: bold;
+  float: left;
+  display: none;
+  background: none;
+}
+
+#feedback .feedback-button:hover {
+  text-decoration: none;
+}
+
+#feedback .feedback-footer .feedback-button {
+  height: 30px;
+  padding: 0 10px;
+  margin: 0 15px 0 0;
+  font: bold 12px/30px $button-font-family;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $modal-panels-button-color;
+  background: none;
+  float: right;
+  transition: padding 0.1s;
+
+  &:after {
+    @include button-icon('right');
+  }
+}
+
+#feedback .feedback-footer .feedback-button:hover {
+  padding: 0 8px 0 12px;
+}
+
+#feedback .feedback-footer .btn-feedback-hide.feedback-button:after {
+  @include button-icon('up');
+}
+
+#feedback .feedback-footer .btn-feedback.feedback-button:after {
+  @include button-icon('down');
+}

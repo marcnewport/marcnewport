@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>ID1</id>
+  <type>mp_drag_drop_match</type>
+  <title><![CDATA[Title]]></title>
+  <scenario><![CDATA[Scenario]]></scenario>
+  <max_attempts>2</max_attempts>
+  <targets>
+    <item>
+      <title><![CDATA[Statement]]></title>
+    </item>
+    <item>
+      <title><![CDATA[Statement 2]]></title>
+    </item>
+    <item>
+      <title><![CDATA[Statement 3]]></title>
+    </item>
+    <item>
+      <title><![CDATA[Statement 4]]></title>
+    </item>
+  </targets>
+  <draggables>
+    <item>
+      <label><![CDATA[Match 3]]></label>
+      <target>3</target>
+    </item>
+    <item>
+      <label><![CDATA[Match 4]]></label>
+      <target>4</target>
+    </item>
+    <item>
+      <label><![CDATA[Ma\tch 2]]></label>
+      <target>2</target>
+    </item>
+    <item>
+      <label><![CDATA[Match1]]></label>
+      <target>1</target>
+    </item>
+  </draggables>
+  <feedback>
+    <item>
+      <text><![CDATA[Well Done]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Try harder]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Go hame]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

@@ -23,6 +23,9 @@
       position: absolute;
       left: 0;
       top: 0;
+      object-fit: cover;
+      min-width: 100%;
+      min-height: 100%;
     }
 
     .page-title {
@@ -151,6 +154,11 @@
           text-align: center;
           display: none;
           padding: 5px 36px 5px 10px;
+          line-height: 1.2em;
+
+          p {
+            margin: 0;
+          }
         }
 
         &:hover {
@@ -211,7 +219,7 @@
       }
 
       .score-description {
-        font-size: 0.8em;
+        font-size: 0.85em;
         padding-top: 1em;
       }
 
@@ -240,17 +248,17 @@
 
 // this is ugly as hell, but its the most efficient way to overwrite the usual design paradigms
 #modal-overlay.mp-main-menu {
-  width: 800px !important;
+  // width: 800px !important;
   background-color: transparent;
   box-shadow: none;
-  left: 100px !important;
+  // left: 100px !important;
 
   .title {
     display: none;
   }
 
   .content {
-    width: 740px !important;
+    // width: 740px !important;
     overflow: hidden;
   }
 }

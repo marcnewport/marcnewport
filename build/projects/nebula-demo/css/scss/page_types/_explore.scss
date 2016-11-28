@@ -1,0 +1,93 @@
+/*
+ * Explore page
+ */
+#page.mp-explore {
+  
+  #content .inner {
+    position: relative;
+    overflow: auto;
+  }
+
+  #main-text {
+    margin-bottom: 25px;
+  }
+
+  .left-column {
+    width: 40%;
+    float: left;
+    position: relative;
+  }
+
+  .left-column ul {
+    padding: 0;
+  }
+
+  .left-column ul li {
+    list-style: none;
+    margin: 0;
+    
+    &:last-child .link {
+      border-bottom: none;
+    }
+  }
+
+  .left-column .link {
+    padding: 12px 0;
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: $secondary-color;
+    font: bold 0.85em $button-font-family;
+    position: relative;
+    border-bottom: 1px dashed $dark-grey-color;
+  }
+
+  .left-column .link.viewed {
+    color: #757677;
+  }
+
+  .left-column .link.active {
+    color: $primary-color;
+    
+    &:after {
+      @include button-icon('right');
+      position: absolute;
+      left: auto;
+      right: -15px;
+      top: 14px;
+    }
+  }
+
+  .left-column .link:hover,
+  .left-column .link.viewed:hover,
+  .left-column .link:focus,
+  .left-column .link.viewed:focus {
+    color: $primary-color;
+  }
+
+  .left-column ul li span {
+    padding: 10px 0;
+    float: left;
+  }
+
+  .right-column {
+    width: 57%;
+    margin-top: -15px;
+    background: $grey-color;
+    color: #000000;
+  }
+
+  .right-column .inner-wrap {
+    margin: 15px;
+    overflow: auto;
+    overflow-y: hidden;
+  }
+
+  .right-column .inner-wrap .panel h4 {
+    color: #000000;
+  }
+  
+  .right-column .inner-wrap .panel img {
+    margin: 10px 0;
+  }
+}

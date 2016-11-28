@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FT4</id>
+  <type>mp_free_text</type>
+  <title><![CDATA[Free text with video multiple questions]]></title>
+  <scenario><![CDATA[Mauris erat quisque. Metus sit sit eu nullam.]]></scenario>
+  <questions>
+    <question>
+      <text><![CDATA[Consectetuer vel sem lobortis est?]]></text>
+    </question>
+    <question>
+      <text><![CDATA[Nibh porttitor aliquet. Dui cursus penatibus sed lobortis blandit?]]></text>
+    </question>
+  </questions>
+  <description><![CDATA[Amet velit libero. Suscipit et eget eget eleifend et. Libero tempus odio. Etiam commodo nec. Nisl diam ornare. Tellus vestibulum duis.]]></description>
+  <media>
+    <item>
+      <id>RP3</id>
+      <type>mp_resource_video</type>
+      <title><![CDATA[External Video with no Image]]></title>
+      <streaming>1</streaming>
+      <address>//player.vimeo.com/video/94659157</address>
+      <description><![CDATA[Duis et arcu urna. Pellentesque ut imperdiet sem. Praesent lacinia mauris vel consequat egestas. Etiam non nibh tristique, mattis nunc quis, vehicula diam. Etiam sit amet mauris vel ligula maximus iaculis sed at mi. Curabitur urna nisi, iaculis eu auctor ac, tincidunt non erat. Aliquam vel magna vulputate elit laoreet cursus.]]></description>
+    </item>
+  </media>
+  <feedback>
+    <item>
+      <text><![CDATA[A molestie nulla cras facilisis dolor. Et id sed amet dapibus sollicitudin. Mollis maecenas non. Ac quis condimentum a donec accumsan dictumst at at ante sed vehicula. Ut suspendisse risus. Totam ligula justo. Magna et libero. Nisl praesent blandit. Ullamcorper auctor lacinia integer quam maecenas. Erat donec posuere feugiat ipsum ante. Donec euismod sapien. Ultricies quis dui suspendisse vel vel justo arcu ligula. Nulla dolorum ligula malesuada convallis pellentesque nec at nobis dui nec nec. Ut mauris proin massa pellentesque curabitur. Arcu donec et. Non nunc tristique. Magna luctus ipsum neque id ipsum pede sapien erat sapien vestibulum nunc ut habitasse praesent vestibulum congue ut. Phasellus convallis vivamus]]></text>
+    </item>
+    <item>
+      <text><![CDATA[A molestie nulla cras facilisis dolor. Et id sed amet dapibus sollicitudin. Mollis maecenas non. Ac quis condimentum a donec accumsan dictumst at at ante sed vehicula. Ut suspendisse risus. Totam ligula justo. Magna et libero. Nisl praesent blandit. Ullamcorper auctor lacinia integer quam maecenas. Erat donec posuere feugiat ipsum ante. Donec euismod sapien. Ultricies quis dui suspendisse vel vel justo arcu ligula. Nulla dolorum ligula malesuada convallis pellentesque nec at nobis dui nec nec. Ut mauris proin massa pellentesque curabitur. Arcu donec et. Non nunc tristique. Magna luctus ipsum neque id ipsum pede sapien erat sapien vestibulum nunc ut habitasse praesent vestibulum congue ut. Phasellus convallis vivamus]]></text>
+    </item>
+    <item>
+      <text><![CDATA[A molestie nulla cras facilisis dolor. Et id sed amet dapibus sollicitudin. Mollis maecenas non. Ac quis condimentum a donec accumsan dictumst at at ante sed vehicula. Ut suspendisse risus. Totam ligula justo. Magna et libero. Nisl praesent blandit. Ullamcorper auctor lacinia integer quam maecenas. Erat donec posuere feugiat ipsum ante. Donec euismod sapien. Ultricies quis dui suspendisse vel vel justo arcu ligula. Nulla dolorum ligula malesuada convallis pellentesque nec at nobis dui nec nec. Ut mauris proin massa pellentesque curabitur. Arcu donec et. Non nunc tristique. Magna luctus ipsum neque id ipsum pede sapien erat sapien vestibulum nunc ut habitasse praesent vestibulum congue ut. Phasellus convallis vivamus]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

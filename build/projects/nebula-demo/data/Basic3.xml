@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic3</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic Page with Audio and Image]]></title>
+  <main><![CDATA[<p>Peccata paria. Quae similitudo in genere etiam humano apparet. Verum hoc idem saepe faciamus. Nullus est igitur cuiusquam dies natalis. At hoc in eo M. Rhetorice igitur, inquam, nos mavis quam dialectice disputare?</p>]]></main>
+  <assets>
+    <item>
+      <id>RP1</id>
+      <type>mp_resource_audio</type>
+      <title><![CDATA[Audio with Image]]></title>
+      <content><![CDATA[placeholder-audio.mp3]]></content>
+      <size>162742</size>
+      <ext>mp3</ext>
+      <streaming>0</streaming>
+      <image>
+        <content><![CDATA[9L-basic-landscape_0.jpg]]></content>
+        <alt_text></alt_text>
+        <size>133053</size>
+        <ext>jpg</ext>
+        <width>498</width>
+        <height>337</height>
+      </image>
+      <description><![CDATA[Description]]></description>
+    </item>
+  </assets>
+  <basic_type>audio_image</basic_type>
+  <media_description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, massa adipiscing mollis lacinia, magna arcu tincidunt enim, eget tincidunt urna quam quis turpis. In eget facilisis nunc. Vestibulum rutrum sapien ac ante hendrerit aliquet. Quisque ut hendrerit dolor. Integer bibendum id ligula id placerat. Morbi vulputate placerat pulvinar. Ut pellentesque lectus arcu. Donec dictum dapibus]]></media_description>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>
