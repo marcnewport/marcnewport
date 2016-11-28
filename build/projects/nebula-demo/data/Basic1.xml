@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic1</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic Page with Text Only]]></title>
+  <main><![CDATA[<p class="textblockquote"><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet, consectetur adipiscing elit. Isto modo ne improbos quidem, si essent boni viri. Videamus igitur sententias eorum, tum ad verba redeamus. Duo Reges: constructio interrete. Et non ex maxima parte de tota iudicabis? Itaque hic ipse iam pridem est reiectus; Indicant pueri, in quibus ut in speculis natura cernitur. Qui potest igitur habitare in beata vita summi mali metus? Quae similitudo in genere etiam humano apparet.</p>
+<p>Vide, quantum, inquam, fallare, <a href="#" class="glossary-term" name="Torquate">Torquate</a>. <a href="http://www.kineo.com/au/%20"  target="_blank">Intellego</a> quid velit. Ut pulsi recurrant? Dic in quovis conventu te omnia facere, ne doleas.</p>
+<ol>
+<li>Si longus, levis dictata sunt.</li>
+<li>Itaque sensibus rationem adiunxit et ratione effecta sensus non reliquit.</li>
+<li>Sic, et quidem diligentius saepiusque ista loquemur inter nos agemusque communiter.</li>
+<li>Gracchum patrem non beatiorem fuisse quam fillum, cum alter stabilire rem publicam studuerit, alter evertere.</li>
+</ol>
+<p class="textblockalert">Tecum optime, deinde etiam cum mediocri amico. Quod cum dixissent, ille contra. Cuius quidem, quoniam Stoicus fuit, sententia condemnata mihi videtur esse inanitas ista verborum. Honesta oratio, Socratica,</p>]]></main>
+  <assets/>
+  <basic_type>text_only</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

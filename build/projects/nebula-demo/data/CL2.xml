@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>CL2</id>
+  <type>mp_checklist</type>
+  <title><![CDATA[Check List - Knowledge check]]></title>
+  <question><![CDATA[<p>Laoreet vel euismod nullam pellentesque ipsum per at lectus sodales nonummy irure nec fringilla quam?</p>]]></question>
+  <max_attempts>1</max_attempts>
+  <responses>
+    <item>
+      <option><![CDATA[Pretium et cursus euismod auctor non ullamcorper mattis imperdiet magna ut tellus leo consectetuer placerat. ]]></option>
+      <correct>0</correct>
+    </item>
+    <item>
+      <option><![CDATA[Vivamus non ipsum ut purus magnis turpis iaculis morbi in nec scelerisque. (c)]]></option>
+      <correct>1</correct>
+    </item>
+    <item>
+      <option><![CDATA[Justo vitae habitant.]]></option>
+      <correct>0</correct>
+    </item>
+    <item>
+      <option><![CDATA[Sodales sodales quam. (c)]]></option>
+      <correct>1</correct>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[<p>That is correct! Please select<strong> Next</strong> to continue.</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Select <strong>Next</strong> to continue.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Select<strong> Next</strong> to continue.]]></text>
+    </item>
+  </feedback>
+  <resources>
+    <group type="essential">
+      <item>
+        <type>essential</type>
+        <title>Essential Information</title>
+        <content><![CDATA[CL1]]></content>
+      </item>
+    </group>
+  </resources>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

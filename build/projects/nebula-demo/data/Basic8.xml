@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic8</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic Page Horizontal Image Inline]]></title>
+  <main><![CDATA[<p>Hastam. Sed quot homines, tot sententiae;</p>
+<ul>
+<li>Nec vero sum nescius esse utilitatem in historia, non modo voluptatem.</li>
+<li>Theophrastum tamen adhibeamus ad pleraque, dum modo</li>
+<li>Plus in virtute teneamus, quam ille tenuit, firmitatis et roboris.</li>
+</ul>]]></main>
+  <assets>
+    <item>
+      <id>RP5</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Landscape Image]]></title>
+      <content><![CDATA[9L-basic-landscape.jpg]]></content>
+      <size>133053</size>
+      <ext>jpg</ext>
+      <width>498</width>
+      <height>337</height>
+      <alt_text></alt_text>
+    </item>
+  </assets>
+  <basic_type>image_inline</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

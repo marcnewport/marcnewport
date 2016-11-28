@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>CA</id>
+  <type>mp_click_scene</type>
+  <title><![CDATA[Click Activity]]></title>
+  <main><![CDATA[<p>Et quidem saepe quaerimus verbum Latinum par Graeco et quod idem valeat.</p>
+<p>Venit enim mihi Platonis in mentem, quem accepimus primum hic disputare solitum.</p>
+<p class="textblockquote">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>]]></main>
+  <asset>
+    <item>
+      <id>RP5</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Landscape Image]]></title>
+      <content><![CDATA[9L-basic-landscape.jpg]]></content>
+      <size>133053</size>
+      <ext>jpg</ext>
+      <width>498</width>
+      <height>337</height>
+      <alt_text></alt_text>
+    </item>
+  </asset>
+  <hotspots>
+    <item>
+      <id>CSHS</id>
+      <title>Click Scene Hot Spot</title>
+      <top>150</top>
+      <left>150</left>
+      <activities>
+        <item>
+          <id>HSMC</id>
+          <type>mp_hotspot_multiple_choice</type>
+        </item>
+      </activities>
+    </item>
+  </hotspots>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

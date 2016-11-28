@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>SP</id>
+  <type>mp_summary</type>
+  <title><![CDATA[Summary Page]]></title>
+  <pass_text><![CDATA[<p><strong>Well done!</strong></p>
+<p><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor. Sit amet feugiat vestibulum egestas lacus. Sodales nulla dolor. Vitae lobortis nisl adipiscing dis ut. Volutpat mauris a gravida wisi nulla odio semper penatibus. Aenean suspendisse</p>]]></pass_text>
+  <fail_text><![CDATA[<p>Aliquet leo dui mus tortor duis integer ante enim. Parturient mauris malesuada urna odio pellentesque</p>
+<p>Please try again.</p>]]></fail_text>
+  <show_score>none</show_score>
+  <reviewable>1</reviewable>
+  <button_heading><![CDATA[What would you like to do now.]]></button_heading>
+  <summary_title><![CDATA[Final tip]]></summary_title>
+  <directors_tip><![CDATA[<p>Nunc magna turpis lacus nulla mauris. Purus non mattis duis eget sit nonummy lobortis metus. Elit odio neque at at diamlorem. Natoque condimentum sociosqu. Sit ut augue. Tortor quisque rutrum.</p>]]></directors_tip>
+  <include_image>1</include_image>
+  <media>
+    <title><![CDATA[Media title]]></title>
+    <item>
+      <id>RP5</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Landscape Image]]></title>
+      <content><![CDATA[9L-basic-landscape.jpg]]></content>
+      <size>133053</size>
+      <ext>jpg</ext>
+      <width>498</width>
+      <height>337</height>
+      <alt_text></alt_text>
+    </item>
+  </media>
+</root>

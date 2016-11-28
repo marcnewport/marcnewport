@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic4</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic Page with Audio no image]]></title>
+  <main><![CDATA[<p>Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Duo Reges: constructio interrete. Haec bene dicuntur, nec ego repugno, sed inter sese ipsa pugnant. Rapior illuc, revocat autem Antiochus, nec est praeterea, quem audiamus. Utrum igitur tibi litteram videor an totas paginas commovere? Ut id aliis narrare gestiant?</p>]]></main>
+  <assets>
+    <item>
+      <id>RP7</id>
+      <type>mp_resource_audio</type>
+      <title><![CDATA[Audio with no image]]></title>
+      <content><![CDATA[placeholder-audio_0.mp3]]></content>
+      <size>162742</size>
+      <ext>mp3</ext>
+      <streaming>0</streaming>
+    </item>
+  </assets>
+  <basic_type>audio</basic_type>
+  <media_description><![CDATA[Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Duo Reges.]]></media_description>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

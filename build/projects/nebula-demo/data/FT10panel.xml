@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FT10panel</id>
+  <type>mp_multiple_media</type>
+  <title><![CDATA[Free text with image in media panel]]></title>
+  <button_label><![CDATA[Image]]></button_label>
+  <media>
+    <item>
+      <item>
+        <id>MMPIMG</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[MMP Image]]></title>
+        <content><![CDATA[9L-mm-videostill.jpg]]></content>
+        <size>113233</size>
+        <ext>jpg</ext>
+        <width>465</width>
+        <height>262</height>
+        <alt_text><![CDATA[MMP Image Resource Alt Text]]></alt_text>
+        <description><![CDATA[MMP Image Resource Description]]></description>
+      </item>
+    </item>
+  </media>
+</root>

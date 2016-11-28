@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>MVA1T2A1</id>
+  <type>mp_timecode_multiple_choice</type>
+  <title><![CDATA[Activity 2]]></title>
+  <question><![CDATA[Question]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <item>
+      <text><![CDATA[Option 1]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Option 2]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Option 3]]></text>
+    </item>
+  </responses>
+  <correct>1</correct>
+  <feedback>
+    <item>
+      <text><![CDATA[Feedback Correct]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Feedback Incorrect 1]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Feedback Incorrect Final]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

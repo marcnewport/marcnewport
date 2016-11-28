@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FV</id>
+  <type>mp_fullscreen_video</type>
+  <title><![CDATA[How the GP will download and view clinical documents]]></title>
+  <video>
+    <item>
+      <id>RP2</id>
+      <type>mp_resource_video</type>
+      <title><![CDATA[Attached Video with Image]]></title>
+      <streaming>0</streaming>
+      <content><![CDATA[placeholder-video_1.mp4]]></content>
+      <size>3359589</size>
+      <ext>mp4</ext>
+    </item>
+  </video>
+  <autoplay>0</autoplay>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

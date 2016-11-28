@@ -1,0 +1,44 @@
+//as we are using a php sass compiler which does not impliment the import rule correctly
+//we have to write the import rule in a particular way...
+//-single quotes only
+//-include underscores
+//-include file extension
+@charset 'UTF-8';
+
+@import '_icons.scss';
+@import '_variables.scss';
+
+@import '_reset.scss';
+@import '_panels.scss';
+@import '_overlays.scss';
+
+@import 'page_types/_general.scss';
+@import 'page_types/_audio_stories.scss';
+@import 'page_types/_basic.scss';
+@import 'page_types/_branching_menu.scss';
+@import 'page_types/_checklist.scss';
+@import 'page_types/_click_scene.scss';
+@import 'page_types/_decision_tree.scss';
+@import 'page_types/_demonstration.scss';
+@import 'page_types/_diagram.scss';
+@import 'page_types/_drag_drop_match.scss';
+@import 'page_types/_drag_drop_scene.scss';
+@import 'page_types/_drag_drop_sort.scss';
+@import 'page_types/_explore.scss';
+@import 'page_types/_free_text.scss';
+@import 'page_types/_image_multiple_choice.scss';
+@import 'page_types/_introduction.scss';
+@import 'page_types/_media_page.scss';
+@import 'page_types/_mid_video_activity.scss';
+@import 'page_types/_multiple_choice.scss';
+@import 'page_types/_reorder.scss';
+@import 'page_types/_role_choice.scss';
+@import 'page_types/_search_scene.scss';
+@import 'page_types/_splash.scss';
+@import 'page_types/_summary.scss';
+@import 'page_types/_table_activity.scss';
+@import 'page_types/_transition.scss';
+@import 'page_types/_true_false.scss';
+@import 'page_types/_reflect_and_review.scss';
+
+@import '_navigation_top.scss';

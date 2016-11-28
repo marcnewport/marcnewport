@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FTMM</id>
+  <type>mp_multiple_media</type>
+  <title><![CDATA[Multimedia Panel]]></title>
+  <button_label><![CDATA[Media]]></button_label>
+  <media>
+    <item>
+      <item>
+        <id>RP2</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[Attached Video with Image]]></title>
+        <streaming>0</streaming>
+        <content><![CDATA[placeholder-video_1.mp4]]></content>
+        <size>3359589</size>
+        <ext>mp4</ext>
+      </item>
+      <description><![CDATA[Mauris erat quisque. Metus sit sit eu nullam turpis nulla vitae vitae felis nec nulla. Nulla mauris blandit.]]></description>
+      <thumb>9L-mm-popup-thumb2_1.jpg</thumb>
+      <thumb_alt></thumb_alt>
+    </item>
+  </media>
+</root>

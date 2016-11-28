@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>CL3</id>
+  <type>mp_checklist</type>
+  <title><![CDATA[Check list with multimedia pop up]]></title>
+  <scenario><![CDATA[<p><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet nec. Consectetuer integer leo. Venenatis quam mi nulla cras viverra quos purus sit. Sollicitudin quasi.</p>
+Review the media on the panel before answering the question.
+<p> </p>]]></scenario>
+  <question><![CDATA[Risus a sit eget nulla feugiat arcu nulla proin?]]></question>
+  <max_attempts>3</max_attempts>
+  <responses>
+    <item>
+      <option><![CDATA[Lorem ipsum dolor. (C)]]></option>
+      <why><![CDATA[Arcu hendrerit quis aliquet pede a]]></why>
+      <correct>1</correct>
+    </item>
+    <item>
+      <option><![CDATA[Vel massa in ac lacinia ac quis lacinia tristique in nisl nec.]]></option>
+      <why><![CDATA[Vehicula etiam quisque venenatis a sapien.]]></why>
+      <correct>0</correct>
+    </item>
+    <item>
+      <option><![CDATA[Fusce metus morbi bibendum eu nec. (C)]]></option>
+      <why><![CDATA[Donec luctus dis dui nostra arcu volutpat ac in nisl elit orci odio quisque interdum mollis amet ipsum.]]></why>
+      <correct>1</correct>
+    </item>
+    <item>
+      <option><![CDATA[Magna dapibus vel fermentum ante nibh.]]></option>
+      <why><![CDATA[Eu aliquam nisl mollit nulla scelerisque vestibulum rutrum wisi in nec lobortis.]]></why>
+      <correct>0</correct>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[That is correct. Please select <strong>Next</strong> to continue.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Please <strong>try again</strong>.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is still incorrect. Please review the <strong>why feedback</strong> then select <strong>Next</strong> to continue.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

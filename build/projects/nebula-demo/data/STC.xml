@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>STC</id>
+  <type>mp_search_scene</type>
+  <title><![CDATA[Search the scene]]></title>
+  <main><![CDATA[<p>Quid est, quod ab ea absolvi et perfici debeat? Dici enim nihil potest verius. Tollenda est atque extrahenda radicitus. Illa sunt similia: hebes acies est cuipiam oculorum, corpore alius senescit; Laelius clamores sofòw ille so lebat Edere compellans gumias ex ordine nostros.</p>
+<p>Donec arcu massa, congue at turpis sit amet, luctus aliquet mi. Suspendisse eget aliquam enim, a lobortis dui. In at lacus facilisis nisi porta imperdiet vitae sed est. Ut nibh ante, commodo vel blandit vel, pulvinar eu nulla. Etiam sed neque quis mauris auctor elementum. Nam lacinia lacus molestie, aliquet nunc id, viverra risus. Nam tempor, tellus vitae auctor tristique, urna lectus iaculis augue, a aliquet magna ligula a justo. Curabitur felis massa, feugiat in hendrerit vitae, tempor quis <a href="#" class="glossary-term" name="Lorem">lorem</a>. Nullam mi nibh, vehicula ut nibh ac, rhoncus sagittis magna. Nullam commodo commodo nulla, nec venenatis velit pharetra eget. Phasellus eget malesuada ligula, a ornare tortor. Nulla lacinia turpis et nisi vestibulum, quis rutrum ipsum tincidunt. Nam quam metus, rutrum eu pretium quis, dictum at diam. Ut id justo arcu. Nunc tristique massa at dui volutpat feugiat. Suspendisse tincidunt rutrum metus id consequat.</p>
+<p>In velit velit, aliquam ac elit a, vulputate ultricies purus. Suspendisse in sapien in eros porttitor placerat ac sit amet tellus. Curabitur non molestie nulla. Sed erat quam, scelerisque eget tempor id, fermentum non dolor. Duis lectus ligula, aliquam a augue eget, congue condimentum <a href="#" class="glossary-term" name="Lorem">lorem</a>. Pellentesque mattis semper laoreet. Aenean interdum, diam vel bibendum condimentum, nulla arcu malesuada mi, ac luctus ipsum eros eget justo. Proin vitae nisl et risus ultricies suscipit ornare ut sapien. Suspendisse feugiat nunc vitae eleifend tincidunt. Cras orci sem, venenatis vestibulum congue in, pellentesque a elit. Vestibulum sed mi mauris. Vestibulum vitae laoreet erat. Donec tristique aliquet metus, eget scelerisque nulla auctor ut. Proin suscipit, enim ac tincidunt tristique, neque dui eleifend mi, quis posuere lacus ante sed tellus.</p>]]></main>
+  <asset>
+    <item>
+      <id>RP5</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Landscape Image]]></title>
+      <content><![CDATA[9L-basic-landscape.jpg]]></content>
+      <size>133053</size>
+      <ext>jpg</ext>
+      <width>498</width>
+      <height>337</height>
+      <alt_text></alt_text>
+    </item>
+  </asset>
+  <hotspots>
+    <item>
+      <title><![CDATA[Lorem ipsum]]></title>
+      <label><![CDATA[Dolor sit amet, consectetur adipiscing elit. Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset. Nam adhuc, meo fortasse vitio, quid ego quaeram non perspicis.]]></label>
+      <top>90</top>
+      <left>90</left>
+    </item>
+  </hotspots>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

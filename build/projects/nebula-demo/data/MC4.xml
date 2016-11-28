@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>MC4</id>
+  <type>mp_multiple_choice</type>
+  <title><![CDATA[Multiple Choice Knowledge Check]]></title>
+  <question><![CDATA[Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur?]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <correct>3</correct>
+    <item>
+      <option><![CDATA[Non laboro, inquit, de nomine. ]]></option>
+    </item>
+    <item>
+      <option><![CDATA[Sed fac ista esse non inportuna]]></option>
+    </item>
+    <item>
+      <option><![CDATA[(c) Tollenda est atque extrahenda radicitus. ]]></option>
+    </item>
+    <item>
+      <option><![CDATA[Sed quanta sit alias, nunc tantum possitne esse tanta.]]></option>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[That is correct! Please select <strong>Next</strong> to continue]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Please select <strong>Next</strong> to continue.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Please select <strong>Next</strong> to continue.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>CL1</id>
+  <type>mp_checklist</type>
+  <title><![CDATA[Check list Activity]]></title>
+  <scenario><![CDATA[Pellentesque ac eu amet eget integer. Morbi curae dui nec eu <a href="#" class="glossary-term" name="Lorem">lorem</a>. Enim sed nascetur. Velit proin bibendum proin et arcu consequat id vulputate morbi velit fermentum volutpat]]></scenario>
+  <question><![CDATA[Ut consectetuer sed. Nostrum vehicula leo]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <item>
+      <option><![CDATA[Lorem ipsum dolor sit amet mauris. (c)]]></option>
+      <why><![CDATA[Elit venenatis mauris.]]></why>
+      <correct>1</correct>
+    </item>
+    <item>
+      <option><![CDATA[Aliquam tincidunt enim nullam odio est potenti cursus egestas]]></option>
+      <why><![CDATA[* Etiam lacinia id]]></why>
+      <correct>0</correct>
+    </item>
+    <item>
+      <option><![CDATA[Blandit ornare lectus in quia sapien sagittis tincidunt in. (c)]]></option>
+      <why><![CDATA[Leo accumsan risus]]></why>
+      <correct>1</correct>
+    </item>
+    <item>
+      <option><![CDATA[Turpis augue platea vehicula vel porttitor ante ac porta.]]></option>
+      <why><![CDATA[Ut sapien metus mauris duis in enim turpis dui.]]></why>
+      <correct/>
+    </item>
+  </responses>
+  <media>
+    <item>
+      <id>RP1</id>
+      <type>mp_resource_audio</type>
+      <title><![CDATA[Audio with Image]]></title>
+      <content><![CDATA[placeholder-audio.mp3]]></content>
+      <size>162742</size>
+      <ext>mp3</ext>
+      <streaming>0</streaming>
+      <image>
+        <content><![CDATA[9L-basic-landscape_0.jpg]]></content>
+        <alt_text></alt_text>
+        <size>133053</size>
+        <ext>jpg</ext>
+        <width>498</width>
+        <height>337</height>
+      </image>
+      <description><![CDATA[Description]]></description>
+    </item>
+  </media>
+  <feedback>
+    <item>
+      <text><![CDATA[That is correct! Select <strong>Next</strong> to continue.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Please <strong>try again</strong>.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is still incorrect. Please review the <strong>why feedback</strong> and then select <strong>Next</strong> to continue.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

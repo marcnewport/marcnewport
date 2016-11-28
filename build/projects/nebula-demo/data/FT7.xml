@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FT7</id>
+  <type>mp_free_text</type>
+  <title><![CDATA[Free text 3 questions]]></title>
+  <scenario><![CDATA[<p>Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. <br /> <br />Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. <br /> <br />Duis tincidunt lectus quis dui viverra vestibulum. <br /> <br /><br /></p>]]></scenario>
+  <questions>
+    <question>
+      <text><![CDATA[Nam cursus. Morbi ut m?]]></text>
+    </question>
+    <question>
+      <text><![CDATA[Duis tincidunt lectus quis dui viverra vestibulu?]]></text>
+    </question>
+    <question>
+      <text><![CDATA[Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh?]]></text>
+    </question>
+  </questions>
+  <feedback>
+    <item>
+      <text><![CDATA[Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. <br />
+<ul>
+<li>Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. </li>
+<li>Duis tincidunt lectus quis dui viverra vestibulum. </li>
+</ul>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. <br />
+<ul>
+<li>Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. </li>
+<li>Duis tincidunt lectus quis dui viverra vestibulum. </li>
+</ul>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. <br />
+<ul>
+<li>Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. </li>
+<li>Duis tincidunt lectus quis dui viverra vestibulum. </li>
+</ul>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

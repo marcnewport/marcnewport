@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>AS</id>
+  <type>mp_audio_stories</type>
+  <title><![CDATA[Audio Stories]]></title>
+  <scenario><![CDATA[<p><span><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span></p>]]></scenario>
+  <questions>
+    <question>
+      <text><![CDATA[<p>Ut enim ad minim veniam?</p>]]></text>
+    </question>
+  </questions>
+  <audio>
+    <item>
+      <label><![CDATA[Audio 1]]></label>
+      <item>
+        <id>RP1</id>
+        <type>mp_resource_audio</type>
+        <title><![CDATA[Audio with Image]]></title>
+        <content><![CDATA[placeholder-audio.mp3]]></content>
+        <size>162742</size>
+        <ext>mp3</ext>
+        <streaming>0</streaming>
+        <image>
+          <content><![CDATA[9L-basic-landscape_0.jpg]]></content>
+          <alt_text></alt_text>
+          <size>133053</size>
+          <ext>jpg</ext>
+          <width>498</width>
+          <height>337</height>
+        </image>
+        <description><![CDATA[Description]]></description>
+      </item>
+    </item>
+    <item>
+      <label><![CDATA[Audio 2]]></label>
+      <item>
+        <id>RP7</id>
+        <type>mp_resource_audio</type>
+        <title><![CDATA[Audio with no image]]></title>
+        <content><![CDATA[placeholder-audio_0.mp3]]></content>
+        <size>162742</size>
+        <ext>mp3</ext>
+        <streaming>0</streaming>
+      </item>
+    </item>
+  </audio>
+  <feedback>
+    <item>
+      <text><![CDATA[<p>An educator might say</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>An educator might say</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>An educator might say</p>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

@@ -303,6 +303,11 @@
   max-height: 323px;
   overflow: auto;
   color: #000000;
+
+  // removing margin for last element so it doesn't force a scroll bar
+  *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 #feedback #feedback-txt a {

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FV2</id>
+  <type>mp_fullscreen_video</type>
+  <title><![CDATA[Full-page Video (progressive download)]]></title>
+  <video>
+    <item>
+      <id>RP4</id>
+      <type>mp_resource_video</type>
+      <title><![CDATA[Attached Video with no Image]]></title>
+      <streaming>0</streaming>
+      <content><![CDATA[placeholder-video.mp4]]></content>
+      <size>3359589</size>
+      <ext>mp4</ext>
+      <description><![CDATA[<p>Etiam malesuada sollicitudin sem, ut semper lacus efficitur vitae. Nunc vestibulum lectus vitae volutpat pellentesque. Nullam in magna accumsan, facilisis ante ac, euismod tellus. Nunc bibendum sapien a mauris pulvinar hendrerit. Suspendisse sodales, mauris fermentum tincidunt consectetur, nulla erat aliquet metus, et dictum diam felis in nibh. Aliquam gravida pretium orci eget laoreet. Mauris dolor velit, congue quis facilisis eu, porttitor eget neque.</p>
+<p>Integer euismod consectetur ipsum vitae vehicula. Donec congue vitae lacus at fermentum. Nullam lobortis, ipsum quis elementum fermentum, lectus risus porta purus, at tincidunt diam nibh eu lectus. Nunc lobortis consectetur felis luctus porta. Sed placerat, augue ac ultrices finibus, eros augue elementum mauris, vitae tincidunt massa nunc eu quam. Suspendisse elit lorem, bibendum vel consequat ut, blandit nec ligula. Pellentesque ut facilisis nunc, non ultrices tellus. In feugiat sed risus vitae aliquam.</p>]]></description>
+    </item>
+  </video>
+  <autoplay>1</autoplay>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

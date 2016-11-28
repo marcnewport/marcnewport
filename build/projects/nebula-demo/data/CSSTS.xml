@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>CSSTS</id>
+  <type>mp_search_scene</type>
+  <title><![CDATA[Search The Scene]]></title>
+  <main><![CDATA[This is the second button of the second tab in the case study]]></main>
+  <asset>
+    <item>
+      <id>RP5</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Landscape Image]]></title>
+      <content><![CDATA[9L-basic-landscape.jpg]]></content>
+      <size>133053</size>
+      <ext>jpg</ext>
+      <width>498</width>
+      <height>337</height>
+      <alt_text></alt_text>
+    </item>
+  </asset>
+  <hotspots>
+    <item>
+      <title><![CDATA[Here is the first hotspot]]></title>
+      <label><![CDATA[<span>Etiam semper posuere enim quis lobortis. Mauris suscipit interdum lorem, id placerat enim suscipit non. Integer semper urna purus, sed egestas lorem convallis molestie. Proin ultricies semper justo, vitae ornare ipsum accumsan eu. Nulla facilisi.</span>]]></label>
+      <top>100</top>
+      <left>100</left>
+    </item>
+    <item>
+      <title><![CDATA[This is the second hotspot]]></title>
+      <label><![CDATA[<span>Vestibulum viverra libero nec ex pulvinar, eu eleifend augue dapibus. Cras commodo euismod nisi. Pellentesque neque nisl, imperdiet et ante ac, commodo bibendum sapien. Pellentesque a congue ligula. Ut id leo dui. Vestibulum at turpis ullamcorper, fringilla augue at, bibendum ligula. Proin sed suscipit dui. Duis a urna pretium, cursus diam nec, condimentum arcu. Pellentesque sollicitudin lorem id aliquam fermentum.</span>]]></label>
+      <top>200</top>
+      <left>250</left>
+    </item>
+  </hotspots>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

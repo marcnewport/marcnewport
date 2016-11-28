@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>MC5</id>
+  <type>mp_multiple_choice</type>
+  <title><![CDATA[Multiple choice with yes no responses]]></title>
+  <scenario><![CDATA[<a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum...]]></scenario>
+  <question><![CDATA[<a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum...]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <correct>1</correct>
+    <item>
+      <option><![CDATA[Yes]]></option>
+    </item>
+    <item>
+      <option><![CDATA[No]]></option>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[<p>That's right. </p>
+<p class="textblockquote"><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsem</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Not quite right.</p>
+<p class="textblockalert"><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsem</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>That still not right.</p>
+<p class="textblockkey"><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsem</p>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

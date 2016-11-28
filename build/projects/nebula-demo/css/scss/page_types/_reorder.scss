@@ -1,0 +1,53 @@
+/*
+ * Reorder activity
+ */
+#page.mp-reorder {
+
+  #activity {
+    position: relative;
+
+    ul {
+      margin: 0 40px 0 0;
+      padding: 0;
+    }
+
+    li {
+      position: relative;
+      background-color: #FFFFFF;
+      border: 1px solid $dark-grey-color;
+      list-style: none;
+      margin: 0 0 10px 0;
+      padding: 10px 30px;
+      cursor: pointer;
+      min-height: 1.2em;
+      border-radius: $button-radius;
+
+      .icon-tick {
+        position: absolute;
+        left: 10px;
+        top: 12px;
+        color: $secondary-color;
+      }
+    }
+
+    li:hover {
+      box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .ui-sortable-disabled li,
+    .ui-sortable-disabled li:hover {
+      cursor: default;
+      box-shadow: none;
+    }
+
+    .place-holder {
+      background-color: $grey-color;
+      border-color: $grey-color;
+
+      &:before {
+        //insert non breaking space so place holder dont collapse
+        content: '\0000A0';
+      }
+    }
+  }
+}

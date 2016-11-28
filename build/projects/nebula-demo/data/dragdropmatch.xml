@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>dragdropmatch</id>
+  <type>mp_drag_drop_match</type>
+  <title><![CDATA[Drag and Drop Matching]]></title>
+  <scenario><![CDATA[<p>Drag and Drop Matching scenario text.</p>]]></scenario>
+  <max_attempts>1</max_attempts>
+  <targets>
+    <item>
+      <title><![CDATA[Statement 1]]></title>
+    </item>
+    <item>
+      <title><![CDATA[Statement 2]]></title>
+    </item>
+    <item>
+      <title><![CDATA[Statement 3]]></title>
+    </item>
+    <item>
+      <title><![CDATA[Statement 4]]></title>
+    </item>
+    <item>
+      <title><![CDATA[Statement 5]]></title>
+    </item>
+  </targets>
+  <draggables>
+    <item>
+      <label><![CDATA[Match 2]]></label>
+      <target>2</target>
+    </item>
+    <item>
+      <label><![CDATA[Match 1]]></label>
+      <target>1</target>
+    </item>
+    <item>
+      <label><![CDATA[Match 4]]></label>
+      <target>4</target>
+    </item>
+    <item>
+      <label><![CDATA[Match 5]]></label>
+      <target>5</target>
+    </item>
+    <item>
+      <label><![CDATA[Match 3]]></label>
+      <target>3</target>
+    </item>
+  </draggables>
+  <feedback>
+    <item>
+      <text><![CDATA[<p>Feedback correct.</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Feedback Incorrect (1st Attempt).</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Feedback Incorrect (2nd Attempt).</p>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

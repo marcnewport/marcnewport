@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>MCA1</id>
+  <type>mp_multiple_choice</type>
+  <title><![CDATA[Multiple choice Assessed]]></title>
+  <scenario><![CDATA[<a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet, consectetur adipiscing elit. Quisque at ex in turpis auctor auctor ut volutpat tortor.]]></scenario>
+  <question><![CDATA[Donec placerat consequat diam sit amet commodo. Duis venenatis, massa eu pulvinar porta, diam turpis euismod dui, eget rhoncus enim diam at ligula.]]></question>
+  <max_attempts>1</max_attempts>
+  <responses>
+    <correct>1</correct>
+    <item>
+      <option><![CDATA[Option 1]]></option>
+      <why><![CDATA[Option 1 Why]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Option 2]]></option>
+      <why><![CDATA[Option 2 Why]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Option 3. Praesent maximus ac felis ac bibendum. Ut convallis magna in fermentum fermentum. Sed pulvinar in leo vitae luctus. Mauris at pretium turpis.]]></option>
+      <why><![CDATA[Option 3 Why. Praesent maximus ac felis ac bibendum. Ut convallis magna in fermentum fermentum. Sed pulvinar in leo vitae luctus. Mauris at pretium turpis.]]></why>
+    </item>
+    <item>
+      <option><![CDATA[Option 4]]></option>
+      <why><![CDATA[Option 4 Why]]></why>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[Feedback Correct]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Feedback Incorrect (1st Attempt)]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Feedback Incorrect (Final Attempt)]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

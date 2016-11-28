@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>MC6</id>
+  <type>mp_multiple_choice</type>
+  <title><![CDATA[Multiple choice with tips and key points in feedback]]></title>
+  <scenario><![CDATA[<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></scenario>
+  <question><![CDATA[Duis aute irure dolor in reprehenderit in voluptat?]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <correct>1</correct>
+    <item>
+      <option><![CDATA[Option 1]]></option>
+    </item>
+    <item>
+      <option><![CDATA[Option 2]]></option>
+    </item>
+    <item>
+      <option><![CDATA[Option 3]]></option>
+    </item>
+    <item>
+      <option><![CDATA[Option 4]]></option>
+    </item>
+  </responses>
+  <media>
+    <item>
+      <id>RP11</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[MC2 Image]]></title>
+      <content><![CDATA[9L-MCQ-image2.jpg]]></content>
+      <size>32997</size>
+      <ext>jpg</ext>
+      <width>119</width>
+      <height>119</height>
+      <alt_text></alt_text>
+    </item>
+  </media>
+  <feedback>
+    <item>
+      <text><![CDATA[<p>That's right. Keep these key points in mind:</p>
+<p class="textblockkey">Duis aute irure dolor in reprehenderit in voluptat</p>
+<p class="textblockkey"><span>Duis aute irure dolor in reprehenderit in voluptat</span></p>
+<p class="textblockkey"><span><span>Duis aute irure dolor in reprehenderit in voluptat</span></span></p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>That's not quite right - consider these ideas and try again:</p>
+<p class="textblockkey">Duis aute irure dolor in reprehenderit in voluptat</p>
+<p class="textblockkey">Duis aute irure dolor in reprehenderit in voluptat</p>
+<p class="textblockkey">Duis aute irure dolor in reprehenderit in voluptat</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>That's right. Keep these key points in mind:</p>
+<p class="textblockkey">Duis aute irure dolor in reprehenderit in voluptat</p>
+<p class="textblockkey">Duis aute irure dolor in reprehenderit in voluptat</p>
+<p class="textblockkey">Duis aute irure dolor in reprehenderit in voluptat</p>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

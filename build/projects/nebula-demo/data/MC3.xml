@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>MC3</id>
+  <type>mp_image_multiple_choice</type>
+  <title><![CDATA[Image Multiple Choice]]></title>
+  <scenario><![CDATA[<p>Lorum ipsum lorum ipsum floxxos moxom.  </p>
+<p> </p>]]></scenario>
+  <question><![CDATA[Quid tu, inquit, huc? (3=C)]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <item>
+      <asset>
+        <item>
+          <id>RP10</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[MC1 Image]]></title>
+          <content><![CDATA[9L-MCQ-image1_0.jpg]]></content>
+          <size>31925</size>
+          <ext>jpg</ext>
+          <width>119</width>
+          <height>119</height>
+          <alt_text></alt_text>
+        </item>
+      </asset>
+      <why><![CDATA[Portenta haec esse dicit, neque ea ratione ullo modo posse vivi.]]></why>
+      <correct>0</correct>
+    </item>
+    <item>
+      <asset>
+        <item>
+          <id>RP11</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[MC2 Image]]></title>
+          <content><![CDATA[9L-MCQ-image2.jpg]]></content>
+          <size>32997</size>
+          <ext>jpg</ext>
+          <width>119</width>
+          <height>119</height>
+          <alt_text></alt_text>
+        </item>
+      </asset>
+      <why><![CDATA[Sed haec omittamus]]></why>
+      <correct>0</correct>
+    </item>
+    <item>
+      <asset>
+        <item>
+          <id>RP12</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[MC3 Image]]></title>
+          <content><![CDATA[9L-MCQ-image3.jpg]]></content>
+          <size>27751</size>
+          <ext>jpg</ext>
+          <width>119</width>
+          <height>119</height>
+          <alt_text></alt_text>
+        </item>
+      </asset>
+      <why><![CDATA[Facit enim ille duo seiuncta ultima bonorum, quae ut essent vera, coniungi debuerunt]]></why>
+      <correct>1</correct>
+    </item>
+    <item>
+      <asset>
+        <item>
+          <id>RP13</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[MC4 Image]]></title>
+          <content><![CDATA[9L-MCQ-image4.jpg]]></content>
+          <size>33723</size>
+          <ext>jpg</ext>
+          <width>119</width>
+          <height>119</height>
+          <alt_text></alt_text>
+        </item>
+      </asset>
+      <why><![CDATA[Sed haec nihil sane ad rem]]></why>
+      <correct>0</correct>
+    </item>
+    <item>
+      <asset>
+        <item>
+          <id>RP10</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[MC1 Image]]></title>
+          <content><![CDATA[9L-MCQ-image1_0.jpg]]></content>
+          <size>31925</size>
+          <ext>jpg</ext>
+          <width>119</width>
+          <height>119</height>
+          <alt_text></alt_text>
+        </item>
+      </asset>
+      <why><![CDATA[Nam interdum, ligula et faucibus semper, diam purus scelerisque nisl, at placerat nulla felis ac odio.]]></why>
+      <correct>0</correct>
+    </item>
+    <item>
+      <asset>
+        <item>
+          <id>RP11</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[MC2 Image]]></title>
+          <content><![CDATA[9L-MCQ-image2.jpg]]></content>
+          <size>32997</size>
+          <ext>jpg</ext>
+          <width>119</width>
+          <height>119</height>
+          <alt_text></alt_text>
+        </item>
+      </asset>
+      <why><![CDATA[Aenean sed dignissim nisi, non porta eros.]]></why>
+      <correct>0</correct>
+    </item>
+  </responses>
+  <feedback>
+    <item>
+      <text><![CDATA[That is correct! Please select <strong>Next</strong> to continue.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect. Please <strong>try again</strong>.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is still incorrect. Please review the <strong>why feedback</strong> before selecting <strong>Next</strong> to continue.]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

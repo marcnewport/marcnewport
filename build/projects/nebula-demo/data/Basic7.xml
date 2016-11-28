@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic7</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic Page with Portrait Image Inline]]></title>
+  <main><![CDATA[<p>Nobis Heracleotes ille Dionysius flagitiose descivisse videtur a Stoicis propter oculorum do<a href="#" class="glossary-term" name="Lorem">lorem</a>. Itaque hic ipse iam pridem est reiectus.</p>
+<p><a href="#" class="glossary-term" name="Lorem">Lorem</a> ipsum dolor sit amet, sit at vero veritus, quo phaedrum repudiare no. Id per inimicus urbanitas, et quaestio patrioque evertitur eam. An sale iudicabit sit. In tamquam pertinacia eos, molestie lobortis nominati vim te, cu vocibus rationibus cum. Vidit adversarium et has, ei impedit veritus usu.</p>
+<p>Iuvaret hendrerit te pro. Alii veritus consequuntur pri eu, quo ei inermis vivendo appareat. Cu sit audire facilisis cotidieque, meliore consequuntur ea sit. Ei aperiam fastidii constituto pro. Quo melius discere alterum ne.</p>
+<p>Dolor sententiae sea ea. Per ne wisi appetere similique. Ex integre recteque reformidans usu. Pri propriae pertinacia ex, quo vidisse vulputate cu, ius persecuti reformidans at. Malis postulant dissentias eam in, quas doming aliquam ex pri, ei ius error dolorum deserunt.</p>
+<p>Errem everti nam te. Mel voluptua suavitate te. Sea affert delectus gloriatur in, euismod evertitur at his. Ad commodo expetendis eum, his simul referrentur ad. Ea graecis appetere interesset mea, illum admodum contentiones eu mei.</p>]]></main>
+  <assets>
+    <item>
+      <id>RP6</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Portrait Image]]></title>
+      <content><![CDATA[9L-basic-portrait.jpg]]></content>
+      <size>88044</size>
+      <ext>jpg</ext>
+      <width>250</width>
+      <height>336</height>
+      <alt_text></alt_text>
+      <description><![CDATA[Portrait image description.]]></description>
+    </item>
+  </assets>
+  <basic_type>image_inline</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

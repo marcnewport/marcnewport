@@ -14,6 +14,7 @@
     float: left;
     clear: both;
     cursor: pointer;
+    display: inline-block;
     margin-bottom: 2px;
     background-color: $panel-button-color;
     font-size: 13px;
@@ -248,17 +249,19 @@
 
 
 #panel-menu .panel-content .topic .btn-topic {
-  height: 43px;
   display: block;
   font-size: 1.13em;
-  line-height: 40px;
+  line-height: 1.4em;
   color: $accordion-button-text;
-  padding: 0 17px;
+  padding: 12px 12px 12px 38px;
   background-color: $accordion-button-color;
+  position: relative;
 
   &:before {
     @include button-icon('right');
-    left: -7px;
+    position: absolute;
+    left: 12px;
+    top: 16px;
   }
 }
 
@@ -282,7 +285,9 @@
 
   &:before {
     @include button-icon('down');
-    left: -7px;
+    position: absolute;
+    left: 12px;
+    top: 16px;
   }
 }
 
@@ -754,6 +759,11 @@
 
 #panel-notes .panel-content .inner .scenario {
   margin-bottom: 1em;
+}
+
+#panel-notes .panel-content .inner label {
+  margin-bottom: 1em;
+  display: block;
 }
 
 #panel-notes .panel-content .inner .notes-field {

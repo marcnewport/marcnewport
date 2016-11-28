@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-koala:before {
+  content: "\e905";
+}
 .icon-hamburger-menu:before {
   content: "\e904";
 }

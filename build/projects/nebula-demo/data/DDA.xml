@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>DDA</id>
+  <type>mp_topic</type>
+  <title><![CDATA[Drag and Drop Activities]]></title>
+  <roles/>
+  <enable_menu>1</enable_menu>
+  <enable_resources>1</enable_resources>
+  <enable_case_study>1</enable_case_study>
+  <enable_my_notes>1</enable_my_notes>
+  <force_order>false</force_order>
+  <assessed>false</assessed>
+  <knowledge_check/>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

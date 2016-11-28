@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>HSMC</id>
+  <type>mp_hotspot_multiple_choice</type>
+  <title><![CDATA[Hot Spot Multiple Choice]]></title>
+  <question><![CDATA[<p>Cur id non ita fit?Cur id non ita fit?Cur id non ita fit?Cur id non ita fit?Cur id non ita fit?Cur id non ita fit?</p>]]></question>
+  <max_attempts>2</max_attempts>
+  <responses>
+    <item>
+      <text><![CDATA[<p>Apud ceteros autem philosophos, qui quaesivit aliquidCur id non ita fit?</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Cur id non ita fit?Cur id non ita fit?</p>]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>Cur id non ita fit?Cur id non ita fit?Haec quo modo conveniant, non sane intellego (c)</p>]]></text>
+    </item>
+  </responses>
+  <correct>3</correct>
+  <feedback>
+    <item>
+      <text><![CDATA[That is correct.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[That is incorrect.]]></text>
+    </item>
+    <item>
+      <text><![CDATA[<p>That is still incorrect.</p>
+<p>Et quidem saepe quaerimus verbum Latinum par Graeco et quod idem valeat.</p>
+<p>Venit enim mihi Platonis in mentem, quem accepimus primum hic disputare solitum.</p>
+<p class="textblockquote">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

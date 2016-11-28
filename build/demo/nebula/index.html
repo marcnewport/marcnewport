@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Demo Course - Module Title Area</title>
+		<title>Demo Course | Module Title Area</title>
 
     <meta charset="utf-8" />
 		<meta name="author" content="Nine Lanterns http://www.ninelanterns.com.au" />
     <meta name="viewport" content="user-scalable=1.0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
 
-		<link rel="stylesheet" href="css/styles.css?uncache=1474796933" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/styles.css" type="text/css" media="all" />
 
     <!--[if lte IE 7]>
-      <link rel="stylesheet" href="css/ie7.css?uncache=1474796933" type="text/css" media="all" />
+      <link rel="stylesheet" href="css/ie7.css" type="text/css" media="all" />
     <![endif]-->
     <!--[if IE 8]>
-      <link rel="stylesheet" href="css/ie8.css?uncache=1474796933" type="text/css" media="all" />
+      <link rel="stylesheet" href="css/ie8.css" type="text/css" media="all" />
     <![endif]-->
 	</head>
 
@@ -27,10 +27,10 @@
         <div class="inner">
           <h1>Title</h1>
           <div id="header-buttons">
-            <a href="#" id="btn-size-minus" title="Decrease text size" role="button">A<span class="minus">-</span></a>
-            <a href="#" id="btn-size-plus" title="Increase text size"  role="button">A<span class="plus">+</span></a>
-            <a href="#" id="btn-help" title="Access help menu" role="button">?</a>
-            <a href="#" id="btn-exit" title="Exit module" role="button">x</a>
+            <button id="btn-size-minus" title="Decrease text size">A<span class="minus">-</span></button>
+            <button id="btn-size-plus" title="Increase text size">A<span class="plus">+</span></button>
+            <button id="btn-help" title="Access help menu">?</button>
+            <button id="btn-exit" title="Exit module">x</button>
           </div>
         </div>
         <div id="header-underline"></div>
@@ -107,34 +107,30 @@
         <div class="panel-content"></div>
       </div>
       <div  id="panel-notes" class="panel closed" role="tabpanel">
-        <div class="panel-tabs">
-          <a href="#" id="my-notes" class="tab">My notes</a>
-          <a href="#" id="action-notes" class="tab">Actions</a>
-          <a href="#" id="other-notes" class="tab">Other notes</a>
-        </div>
+        <div class="panel-tabs"></div>
         <div class="panel-content"></div>
       </div>
     </div>
 
     <!-- panel buttons - at end of page for better focus order -->
     <div id="panel-buttons" class="hidden" role="tablist">
-      <a href="#" id="btn-menu" class="btn-panel btn-closed" title="Show the menu panel" role="tab" aria-controls="panel-menu">
+      <div id="btn-menu" class="btn-panel btn-closed" title="Show the menu panel" role="tab" aria-controls="panel-menu">
         <span class="icon icon-menu"></span>
         <div class="label">Menu</div>
-      </a>
-      <a href="#" id="btn-resources" class="btn-panel btn-closed" title="Show the resources panel" role="tab" aria-controls="panel-resources">
+      </div>
+      <div id="btn-resources" class="btn-panel btn-closed" title="Show the resources panel" role="tab" aria-controls="panel-resources">
         <span class="icon icon-resources"></span>
         <img src="files/skin/icon-panel-essential-info.png" class="essential" alt="" />
         <div class="label">Resources</div>
-      </a>
-      <a href="#" id="btn-case-study" class="btn-panel btn-closed" title="Show the case study panel" role="tab" aria-controls="panel-case-study">
+      </div>
+      <div id="btn-case-study" class="btn-panel btn-closed" title="Show the case study panel" role="tab" aria-controls="panel-case-study">
         <span class="icon icon-case-study"></span>
         <div class="label">Case study</div>
-      </a>
-      <a href="#" id="btn-notes" class="btn-panel btn-closed" title="Show the notes panel" role="tab" aria-controls="panel-notes">
+      </div>
+      <div id="btn-notes" class="btn-panel btn-closed" title="Show the notes panel" role="tab" aria-controls="panel-notes">
         <span class="icon icon-notes"></span>
         <div class="label">My notes</div>
-      </a>
+      </div>
     </div>
 
     <!-- the loading animation overlay -->
@@ -151,30 +147,30 @@
     </noscript>
 
     <!-- utility scripts -->
-		<script src="js/utilities/jquery.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/utilities/jquery.plugins.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/utilities/inheritance.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/utilities/jwplayer.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/utilities/utilities.js?uncache=1474796933" type="text/javascript"></script>
+		<script src="js/utilities/jquery.js" type="text/javascript"></script>
+		<script src="js/utilities/jquery.plugins.js" type="text/javascript"></script>
+		<script src="js/utilities/inheritance.js" type="text/javascript"></script>
+		<script src="js/utilities/jwplayer.js" type="text/javascript"></script>
+		<script src="js/utilities/utilities.js" type="text/javascript"></script>
 		<script src="//www.youtube.com/iframe_api" type="text/javascript"></script>
     <!-- models -->
-		<script src="js/models/scorm.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/models/structure.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/models/session.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/models/sequence.js?uncache=1474796933" type="text/javascript"></script>
+		<script src="js/models/scorm.js" type="text/javascript"></script>
+		<script src="js/models/structure.js" type="text/javascript"></script>
+		<script src="js/models/session.js" type="text/javascript"></script>
+		<script src="js/models/sequence.js" type="text/javascript"></script>
     <!-- application controller -->
-		<script src="js/application.js?uncache=1474796933" type="text/javascript"></script>
+		<script src="js/application.js" type="text/javascript"></script>
     <!-- panel views -->
-		<script src="js/panels/panel.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/panels/panel_menu.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/panels/panel_resources.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/panels/panel_case_study.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/panels/panel_notes.js?uncache=1474796933" type="text/javascript"></script>
+		<script src="js/panels/panel.js" type="text/javascript"></script>
+		<script src="js/panels/panel_menu.js" type="text/javascript"></script>
+		<script src="js/panels/panel_resources.js" type="text/javascript"></script>
+		<script src="js/panels/panel_case_study.js" type="text/javascript"></script>
+		<script src="js/panels/panel_notes.js" type="text/javascript"></script>
     <!-- page type views -->
-		<script src="js/page_types/page_type.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/page_types/mp_basic.js?uncache=1474796933" type="text/javascript"></script>
-		<script src="js/page_types/mp_search_scene.js?uncache=1474796933" type="text/javascript"></script>
+		<script src="js/page_types/page_type.js" type="text/javascript"></script>
+		<script src="js/page_types/mp_basic.js" type="text/javascript"></script>
+		<script src="js/page_types/mp_search_scene.js" type="text/javascript"></script>
     <!-- init -->
-		<script src="js/init.js?uncache=1474796933" type="text/javascript"></script>
+		<script src="js/init.js" type="text/javascript"></script>
   </body>
 </html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>TFMM</id>
+  <type>mp_multiple_media</type>
+  <title><![CDATA[Multimedia pop up]]></title>
+  <button_label><![CDATA[Media]]></button_label>
+  <media>
+    <item>
+      <item>
+        <id>RP1</id>
+        <type>mp_resource_audio</type>
+        <title><![CDATA[Audio with Image]]></title>
+        <content><![CDATA[placeholder-audio.mp3]]></content>
+        <size>162742</size>
+        <ext>mp3</ext>
+        <streaming>0</streaming>
+        <image>
+          <content><![CDATA[9L-basic-landscape_0.jpg]]></content>
+          <alt_text></alt_text>
+          <size>133053</size>
+          <ext>jpg</ext>
+          <width>498</width>
+          <height>337</height>
+        </image>
+        <description><![CDATA[Description]]></description>
+      </item>
+      <description><![CDATA[Nunc magna turpis lacus nulla mauris. Purus non mattis duis eget sit nonummy lobortis metus. Elit odio neque at at diamlorem. Natoque condimentum sociosqu]]></description>
+      <thumb>9L-mm-popup-thumb3_1.jpg</thumb>
+      <thumb_alt></thumb_alt>
+    </item>
+  </media>
+</root>

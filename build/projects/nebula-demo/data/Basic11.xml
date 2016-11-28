@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic11</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic with multiple media]]></title>
+  <heading><![CDATA[Column Heading]]></heading>
+  <main><![CDATA[<p>Main Content</p>]]></main>
+  <assets/>
+  <basic_type>text_only</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

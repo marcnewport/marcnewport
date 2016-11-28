@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>FT8</id>
+  <type>mp_free_text</type>
+  <title><![CDATA[Free text with 1 question and image]]></title>
+  <scenario><![CDATA[<p>Nam cursus. Morbi ut mi.</p>
+<p class="textblockquote">Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+<p> </p>
+<p> </p>
+<p> </p>]]></scenario>
+  <questions>
+    <question>
+      <text><![CDATA[<p>Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>]]></text>
+    </question>
+  </questions>
+  <description><![CDATA[<p>Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>]]></description>
+  <media>
+    <item>
+      <id>RP6</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Portrait Image]]></title>
+      <content><![CDATA[9L-basic-portrait.jpg]]></content>
+      <size>88044</size>
+      <ext>jpg</ext>
+      <width>250</width>
+      <height>336</height>
+      <alt_text></alt_text>
+      <description><![CDATA[Portrait image description.]]></description>
+    </item>
+  </media>
+  <feedback>
+    <item>
+      <text></text>
+    </item>
+    <item>
+      <text></text>
+    </item>
+    <item>
+      <text></text>
+    </item>
+  </feedback>
+  <resources>
+    <group type="review">
+      <item>
+        <id>RP6</id>
+        <type>mp_resource_image</type>
+        <title><![CDATA[Portrait Image]]></title>
+        <content><![CDATA[9L-basic-portrait.jpg]]></content>
+        <size>88044</size>
+        <ext>jpg</ext>
+        <width>250</width>
+        <height>336</height>
+        <alt_text></alt_text>
+        <description><![CDATA[Portrait image description.]]></description>
+      </item>
+    </group>
+  </resources>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

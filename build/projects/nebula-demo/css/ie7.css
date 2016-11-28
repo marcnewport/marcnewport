@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*
+* Internet explorer 6 specific styles
+*/
+
+#page {
+  display: none;
+}
+
+#ie6-message {
+  display: block;
+  width: 400px;
+  margin: 300px auto;
+}

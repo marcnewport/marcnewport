@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>CSBasic2</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic Page]]></title>
+  <main><![CDATA[<p>Each tab in the case study can have multiple buttons - listed down the left side - which will display different content when clicked.</p>
+<p>In this tab there are two buttons.</p>]]></main>
+  <assets>
+    <item>
+      <id>RP6</id>
+      <type>mp_resource_image</type>
+      <title><![CDATA[Portrait Image]]></title>
+      <content><![CDATA[9L-basic-portrait.jpg]]></content>
+      <size>88044</size>
+      <ext>jpg</ext>
+      <width>250</width>
+      <height>336</height>
+      <alt_text></alt_text>
+      <description><![CDATA[Portrait image description.]]></description>
+    </item>
+  </assets>
+  <basic_type>image_full_width</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

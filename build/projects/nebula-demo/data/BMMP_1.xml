@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>BMMP_1</id>
+  <type>mp_multiple_media</type>
+  <title><![CDATA[Screen Title]]></title>
+  <button_label><![CDATA[Button label]]></button_label>
+  <media>
+    <item>
+      <item>
+        <id>MMPVID</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[MMP Video]]></title>
+        <streaming>1</streaming>
+        <address>//player.vimeo.com/video/94659157</address>
+        <description><![CDATA[MMP Resource VIdeo Description]]></description>
+      </item>
+      <description><![CDATA[<p>Media Description</p>]]></description>
+    </item>
+    <item>
+      <item>
+        <id>MMPVID</id>
+        <type>mp_resource_video</type>
+        <title><![CDATA[MMP Video]]></title>
+        <streaming>1</streaming>
+        <address>//player.vimeo.com/video/94659157</address>
+        <description><![CDATA[MMP Resource VIdeo Description]]></description>
+      </item>
+      <description><![CDATA[<p>Media Description 2</p>]]></description>
+      <thumb>9L-mm-popup-thumb2_2.jpg</thumb>
+      <thumb_alt></thumb_alt>
+    </item>
+  </media>
+</root>

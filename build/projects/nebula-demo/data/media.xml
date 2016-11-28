@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>media</id>
+  <type>mp_media_page</type>
+  <title><![CDATA[Media Page]]></title>
+  <main_content><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dolor aliquam, viverra mi a, facilisis dui. Nunc venenatis magna sed maximus malesuada. Duis maximus pretium velit, nec tristique urna feugiat at. Morbi fermentum tempus diam, nec blandit diam vehicula ac.</p>
+<p>.</p>]]></main_content>
+  <media>
+    <item>
+      <media>
+        <item>
+          <id>RP5</id>
+          <type>mp_resource_image</type>
+          <title><![CDATA[Landscape Image]]></title>
+          <content><![CDATA[9L-basic-landscape.jpg]]></content>
+          <size>133053</size>
+          <ext>jpg</ext>
+          <width>498</width>
+          <height>337</height>
+          <alt_text></alt_text>
+        </item>
+      </media>
+      <thumb>media-item-thumb-2_2.jpg</thumb>
+      <thumb_alt><![CDATA[This is some alt text]]></thumb_alt>
+      <title>Media Item 1 Title</title>
+      <content><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dolor aliquam, viverra mi a, facilisis dui.</p>]]></content>
+    </item>
+    <item>
+      <media>
+        <item>
+          <id>RP4</id>
+          <type>mp_resource_video</type>
+          <title><![CDATA[Attached Video with no Image]]></title>
+          <streaming>0</streaming>
+          <content><![CDATA[placeholder-video.mp4]]></content>
+          <size>3359589</size>
+          <ext>mp4</ext>
+          <description><![CDATA[<p>Etiam malesuada sollicitudin sem, ut semper lacus efficitur vitae. Nunc vestibulum lectus vitae volutpat pellentesque. Nullam in magna accumsan, facilisis ante ac, euismod tellus. Nunc bibendum sapien a mauris pulvinar hendrerit. Suspendisse sodales, mauris fermentum tincidunt consectetur, nulla erat aliquet metus, et dictum diam felis in nibh. Aliquam gravida pretium orci eget laoreet. Mauris dolor velit, congue quis facilisis eu, porttitor eget neque.</p>
+<p>Integer euismod consectetur ipsum vitae vehicula. Donec congue vitae lacus at fermentum. Nullam lobortis, ipsum quis elementum fermentum, lectus risus porta purus, at tincidunt diam nibh eu lectus. Nunc lobortis consectetur felis luctus porta. Sed placerat, augue ac ultrices finibus, eros augue elementum mauris, vitae tincidunt massa nunc eu quam. Suspendisse elit lorem, bibendum vel consequat ut, blandit nec ligula. Pellentesque ut facilisis nunc, non ultrices tellus. In feugiat sed risus vitae aliquam.</p>]]></description>
+        </item>
+      </media>
+      <thumb>media-item-thumb-1_1.jpg</thumb>
+      <thumb_alt><![CDATA[Logo for software which links to a screencast video]]></thumb_alt>
+      <title>Media Item 2 Title</title>
+      <content><![CDATA[Duis et arcu urna. Pellentesque ut imperdiet sem. Praesent lacinia mauris vel consequat egestas. Etiam non nibh tristique.]]></content>
+    </item>
+  </media>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

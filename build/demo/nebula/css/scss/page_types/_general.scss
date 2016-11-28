@@ -40,7 +40,7 @@
       top: 0;
       right: 0;
 
-      a {
+      button {
         width: 40px;
         height: 35px;
         float: left;
@@ -56,6 +56,8 @@
         position: relative;
         transition: margin-top 0.1s;
         border-radius: $button-radius;
+        border: none;
+        cursor: pointer;
 
         span {
           font-size: small;
@@ -77,6 +79,14 @@
         &#btn-exit {
           font-size: 26px;
           line-height: 30px;
+
+          &.has-text-label {
+            font-size: 10px;
+            line-height: 1.1em;
+            width: 30px;
+            padding: 0 5px;
+            word-spacing: 40px;
+          }
         }
 
         &:hover,
@@ -159,12 +169,30 @@
   border-bottom: none;
 }
 
+#content #scenario,
+#content #main-text {
+  // removing margin for last element so it doesn't force a scroll bar
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
 #content #question {
   overflow: hidden;
+
+  // removing margin for last element so it doesn't force a scroll bar
+  *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 #content #activity {
   margin-bottom: 15px;
+
+  // removing margin for last element so it doesn't force a scroll bar
+  div:last-child {
+    margin-bottom: 0 !important;
+  }
 }
 
 .loading .page-title,
@@ -411,7 +439,8 @@ body.navigation-top #content #multivideo-btn a {
 /*
  * buttons
  */
-#page a.button {
+#page a.button,
+#page button.button {
   height: 34px;
   background: $primary-color;
   font: bold 13px/33px $button-font-family;
@@ -421,6 +450,8 @@ body.navigation-top #content #multivideo-btn a {
   padding: 0 20px;
   float: left;
   border-radius: $button-radius;
+  border: none;
+  cursor: pointer;
 
   &:after {
     @include button-icon('right');
@@ -488,7 +519,8 @@ body.navigation-top #content #multivideo-btn a {
     overflow: auto;
     padding-right: 10px;
 
-    p:last {
+    // removing margin for last element so it doesn't force a scroll bar
+    *:last-child {
       margin-bottom: 0;
     }
   }
@@ -646,7 +678,7 @@ body.fullscreen .jwplayer-wrap {
     right: 25px;
     bottom: 15px;
 
-    a {
+    button {
       transition: transform 0.1s;
       background-color: $navigation-button-color;
       color: $navigation-button-label;

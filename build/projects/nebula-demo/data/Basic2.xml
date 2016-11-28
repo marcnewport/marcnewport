@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>Basic2</id>
+  <type>mp_basic</type>
+  <title><![CDATA[Basic Page with Two Columns]]></title>
+  <heading><![CDATA[Frater et T.]]></heading>
+  <main><![CDATA[<p class="textblockquote">Potius inflammat, ut coercendi magis quam dedocendi esse videantur.  </p>
+<p>Philosophi autem in suis lectulis plerumque moriuntur. Quamquam id quidem licebit iis existimare, qui legerint. At iste non dolendi status non vocatur voluptas.</p>
+<ul>
+<li>Duis cursus metus id quam facilisis, non consectetur lectus malesuada.</li>
+<li>Integer eu nisi feugiat, semper metus sed, eleifend felis.</li>
+<li>Nunc nec ante vel nunc pharetra lacinia.</li>
+</ul>]]></main>
+  <heading2><![CDATA[Memini vero, inquam;]]></heading2>
+  <main2><![CDATA[<p>Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Duo Reges: constructio interrete. Haec bene dicuntur, nec ego repugno, sed inter sese ipsa pugnant. Rapior illuc, revocat autem Antiochus, nec est praeterea, quem audiamus.</p>
+<p class="textblockkey">Utrum igitur tibi litteram videor an totas paginas commovere? Ut id aliis narrare gestiant?</p>]]></main2>
+  <assets/>
+  <basic_type>columns</basic_type>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>

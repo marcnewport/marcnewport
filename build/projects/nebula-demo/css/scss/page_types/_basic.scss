@@ -1,0 +1,58 @@
+/*
+ * Basic page
+ */
+#page.mp-basic {
+
+  #content h3 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .main-text {
+    overflow: auto;
+    overflow-x: none;
+
+    p:last-child {
+      margin: 0;
+    }
+  }
+
+  .columns .main-text {
+    height: 350px;
+    position: relative;
+  }
+
+  .video .main-text,
+  .audio .main-text,
+  .audio-image .main-text {
+    max-height: 100px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    overflow: auto;
+  }
+
+  .image-inline .page-media {
+    float: right;
+  }
+
+  .jwplayer-wrap {
+    display: inline-block;
+    float: left;
+    z-index: 5;
+  }
+
+  .transcript.down {
+    clear: left;
+  }
+
+  #content.image-inline .inner {
+
+    .main-text {
+      float: left;
+    }
+
+    img.page-media {
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+* {
+  outline: none !important;
+}
+
+body {
+  width: 1024px;
+  height: 672px;
+  overflow: hidden !important;
+}

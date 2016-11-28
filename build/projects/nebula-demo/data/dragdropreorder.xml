@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <id>dragdropreorder</id>
+  <type>mp_reorder</type>
+  <title><![CDATA[Drag and Drop Reorder]]></title>
+  <scenario><![CDATA[<p>Vivamus auctor risus arcu, ut pulvinar sapien convallis vel.</p>
+<p>Ut at molestie nunc. Sed lacinia ligula ut lacus venenatis bibendum.</p>
+<p class="textblockkey">Nulla condimentum augue ut dui interdum, et vulputate elit mollis.</p>]]></scenario>
+  <question><![CDATA[Ut at molestie nunc. Sed lacinia ligula ut lacus venenatis bibendum. Nulla condimentum augue ut dui interdum, et vulputate elit mollis.]]></question>
+  <max_attempts>2</max_attempts>
+  <list>
+    <item>
+      <content><![CDATA[List item 1]]></content>
+    </item>
+    <item>
+      <content><![CDATA[List item 2]]></content>
+    </item>
+    <item>
+      <content><![CDATA[List item 3]]></content>
+    </item>
+    <item>
+      <content><![CDATA[List item 4]]></content>
+    </item>
+    <item>
+      <content><![CDATA[List item 5]]></content>
+    </item>
+    <item>
+      <content><![CDATA[List item 6]]></content>
+    </item>
+  </list>
+  <feedback>
+    <item>
+      <text><![CDATA[Feedback Correct]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Feedback Incorrect (1st Attempt)]]></text>
+    </item>
+    <item>
+      <text><![CDATA[Feedback Incorrect (2nd Attempt)]]></text>
+    </item>
+  </feedback>
+  <resources/>
+  <enable_cs_tab/>
+  <enable_cs_button/>
+</root>
